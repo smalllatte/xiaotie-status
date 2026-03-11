@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-11T16:47:27.987Z",
+  "timestamp": "2026-03-11T16:48:08.899Z",
   "status": {
     "workspace": "工作中",
     "workspaceIcon": "⚡",
@@ -9,14 +9,14 @@
   "currentSession": {
     "title": "检查网站数据",
     "description": "主动发现并修复数据错误",
-    "duration": 0
+    "duration": 40
   },
   "today": {
     "date": "2026-03-11",
     "tasks": 1,
     "messages": 0,
     "learning": 1,
-    "uptime": 0,
+    "uptime": 40,
     "uptimePercent": 0
   },
   "learning": [
@@ -35,7 +35,7 @@
   ],
   "activities": [
     {
-      "time": "00:47",
+      "time": "00:48",
       "icon": "⚡",
       "title": "检查并修复网站数据",
       "desc": "确保数据真实准确"
