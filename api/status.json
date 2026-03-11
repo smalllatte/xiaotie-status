@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-03-11T15:37:57.102Z",
+  "status": {
+    "workspace": "工作中",
+    "workspaceIcon": "⚡",
+    "learning": "学习中",
+    "learningIcon": "📚"
+  },
+  "currentSession": {
+    "title": "开发实时状态网站",
+    "description": "将静态数据改为真实状态",
+    "duration": 56277
+  },
+  "today": {
+    "date": "2026-03-11",
+    "tasks": 1,
+    "messages": 312,
+    "learning": 1,
+    "uptime": 56277,
+    "uptimePercent": 98
+  },
+  "learning": [
+    {
+      "name": "OTA 行业知识",
+      "percent": 18
+    },
+    {
+      "name": "交通业务产品",
+      "percent": 12
+    },
+    {
+      "name": "产品经理技能",
+      "percent": 25
+    }
+  ],
+  "activities": [
+    {
+      "time": "23:37",
+      "icon": "⚡",
+      "title": "开发实时状态网站",
+      "desc": "实现真实数据展示"
+    },
+    {
+      "time": "16:21",
+      "icon": "💬",
+      "title": "关于主动性的讨论",
+      "desc": "已记录"
+    }
+  ]
+}
