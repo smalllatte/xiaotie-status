@@ -11,3 +11,19 @@ Uploading... (11/11)
 🌎 Deploying...
 ✨ Deployment complete! Take a peek over at https://6f69ecb8.xiaotie-status.pages.dev
 [Wed Mar 11 11:30:35 PM CST 2026] 部署完成
+[Thu Mar 12 12:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: -160
+[Thu Mar 12 12:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (11/13)
+Uploading... (12/13)
+Uploading... (13/13)
+✨ Success! Uploaded 2 files (11 already uploaded) (2.98 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://6b738dc2.xiaotie-status.pages.dev
+[Thu Mar 12 12:00:32 AM CST 2026] 部署完成

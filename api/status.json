@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-11T15:37:57.102Z",
+  "timestamp": "2026-03-11T16:00:01.892Z",
   "status": {
     "workspace": "工作中",
     "workspaceIcon": "⚡",
@@ -9,15 +9,15 @@
   "currentSession": {
     "title": "开发实时状态网站",
     "description": "将静态数据改为真实状态",
-    "duration": 56277
+    "duration": -28799
   },
   "today": {
     "date": "2026-03-11",
     "tasks": 1,
-    "messages": 312,
+    "messages": -160,
     "learning": 1,
-    "uptime": 56277,
-    "uptimePercent": 98
+    "uptime": -28799,
+    "uptimePercent": -50
   },
   "learning": [
     {
@@ -35,7 +35,7 @@
   ],
   "activities": [
     {
-      "time": "23:37",
+      "time": "00:00",
       "icon": "⚡",
       "title": "开发实时状态网站",
       "desc": "实现真实数据展示"
