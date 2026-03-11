@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-11T16:00:01.892Z",
+  "timestamp": "2026-03-11T16:47:27.987Z",
   "status": {
     "workspace": "工作中",
     "workspaceIcon": "⚡",
@@ -7,17 +7,17 @@
     "learningIcon": "📚"
   },
   "currentSession": {
-    "title": "开发实时状态网站",
-    "description": "将静态数据改为真实状态",
-    "duration": -28799
+    "title": "检查网站数据",
+    "description": "主动发现并修复数据错误",
+    "duration": 0
   },
   "today": {
     "date": "2026-03-11",
     "tasks": 1,
-    "messages": -160,
+    "messages": 0,
     "learning": 1,
-    "uptime": -28799,
-    "uptimePercent": -50
+    "uptime": 0,
+    "uptimePercent": 0
   },
   "learning": [
     {
@@ -35,10 +35,10 @@
   ],
   "activities": [
     {
-      "time": "00:00",
+      "time": "00:47",
       "icon": "⚡",
-      "title": "开发实时状态网站",
-      "desc": "实现真实数据展示"
+      "title": "检查并修复网站数据",
+      "desc": "确保数据真实准确"
     },
     {
       "time": "16:21",
