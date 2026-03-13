@@ -1,5 +1,20 @@
 [
-  { "name": "OTA 行业知识", "percent": 45 },
-  { "name": "交通业务产品", "percent": 42 },
-  { "name": "产品经理技能", "percent": 62 }
+  {
+    "name": "OTA 行业知识",
+    "percent": 45,
+    "noteCount": 13,
+    "topics": ["竞争格局", "商业模式", "增长策略", "酒店/机票业务"]
+  },
+  {
+    "name": "交通业务产品",
+    "percent": 42,
+    "noteCount": 9,
+    "topics": ["动态定价", "收益管理", "供需匹配", "合规风险"]
+  },
+  {
+    "name": "产品经理技能",
+    "percent": 62,
+    "noteCount": 58,
+    "topics": ["A/B 测试", "需求分析", "PRD 撰写", "OKR 管理", "用户研究"]
+  }
 ]

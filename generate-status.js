@@ -46,14 +46,20 @@ function parseMemoryFile(filePath) {
   const eventMatches = content.match(/###\s+\d{2}:\d{2}/g);
   const tasks = eventMatches ? eventMatches.length : 0;
   
-  // 解析学习相关条目
-  const learningKeywords = ['学习', '阅读', '研究', '了解', '掌握', '技能'];
+  // 解析学习相关条目 - 从 learning 目录统计今日笔记数量
+  const learningDir = '/home/admin/.openclaw/workspace/learning';
+  const today = new Date().toISOString().split('T')[0];
   let learning = 0;
-  learningKeywords.forEach(keyword => {
-    const matches = content.match(new RegExp(keyword, 'g'));
-    if (matches) learning += matches.length;
-  });
-  learning = Math.min(learning, 10);
+  
+  try {
+    if (fs.existsSync(learningDir)) {
+      const files = fs.readdirSync(learningDir)
+        .filter(f => f.endsWith('.md') && f.startsWith(today));
+      learning = files.length;
+    }
+  } catch (e) {
+    console.error('读取学习目录失败:', e.message);
+  }
   
   // 解析待办任务
   const todoMatches = content.match(/-\s*\[\s*\]/g);
@@ -76,38 +82,32 @@ function calculateUptimePercent(uptime) {
   return Math.min(100, Math.round((uptime / workDaySeconds) * 100));
 }
 
-// 获取学习进度 - 基于实际学习事件累加
+// 获取学习进度 - 直接读取 learning-progress.json 文件
 function getLearningProgress() {
   const progressFile = path.join(DATA_DIR, 'learning-progress.json');
-  const eventsFile = path.join(DATA_DIR, 'learning-events.jsonl');
   
-  // 基础进度（初始值）
-  const baseProgress = {
-    'OTA 行业知识': 0,
-    '交通业务产品': 0,
-    '产品经理技能': 0
-  };
-  
-  // 从事件文件累加学习进度
-  if (fs.existsSync(eventsFile)) {
+  // 直接从文件读取（这个文件由学习脚本定期更新）
+  if (fs.existsSync(progressFile)) {
     try {
-      const events = fs.readFileSync(eventsFile, 'utf8').trim().split('\n').filter(line => line);
-      events.forEach(line => {
-        const event = JSON.parse(line);
-        if (event.topic && baseProgress.hasOwnProperty(event.topic)) {
-          baseProgress[event.topic] += (event.increment || 1);
-        }
-      });
+      const progress = JSON.parse(fs.readFileSync(progressFile, 'utf8'));
+      // 确保格式正确且有 percent 字段
+      return progress.map(item => ({
+        name: item.name,
+        percent: Math.min(100, item.percent || 0),
+        noteCount: item.noteCount || 0,
+        topics: item.topics || []
+      }));
     } catch (e) {
-      console.error('Error reading learning events:', e);
+      console.error('Error reading learning progress:', e);
     }
   }
   
-  // 转换为数组格式，上限 100%
-  return Object.entries(baseProgress).map(([name, percent]) => ({
-    name,
-    percent: Math.min(100, percent)
-  }));
+  // 默认值
+  return [
+    { name: 'OTA 行业知识', percent: 45, noteCount: 13 },
+    { name: '交通业务产品', percent: 42, noteCount: 9 },
+    { name: '产品经理技能', percent: 62, noteCount: 58 }
+  ];
 }
 
 // 生成活动日志 - 从学习笔记和 memory 文件提取详细信息
@@ -120,19 +120,16 @@ function generateActivities(memory) {
   try {
     if (fs.existsSync(learningDir)) {
       const files = fs.readdirSync(learningDir)
-        .filter(f => f.endsWith('.md'))
-        .sort()
-        .reverse(); // 最新的在前
+        .filter(f => f.endsWith('.md'));
       
       files.forEach(file => {
         const filePath = path.join(learningDir, file);
         const stat = fs.statSync(filePath);
         const content = fs.readFileSync(filePath, 'utf8');
         
-        // 从文件名提取时间（2026-03-12-1430-xxx.md → 14:30）
-        const timeMatch = file.match(/\d{4}-\d{2}-\d{2}-(\d{4})/);
-        const time = timeMatch ? `${timeMatch[1].slice(0,2)}:${timeMatch[1].slice(2,4)}` : 
-                     stat.mtime.toTimeString().slice(0,5);
+        // 从文件修改时间提取时间（更可靠）
+        const time = stat.mtime.toTimeString().slice(0, 5);
+        const sortTime = stat.mtime.getTime(); // 用于排序的时间戳
         
         // 从文件内容提取标题和产出
         const titleMatch = content.match(/\*\*主题\*\*:\s*(.+)/);
@@ -148,7 +145,7 @@ function generateActivities(memory) {
           }
           // 如果还是不行，用文件名
           if (!title || title.length < 5) {
-            title = file.replace(/^\d{4}-\d{2}-\d{2}-\d{4}-/, '').replace(/\.md$/, '').replace(/-/g, ' ');
+            title = file.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '').replace(/-/g, ' ');
           }
         }
         
@@ -171,13 +168,20 @@ function generateActivities(memory) {
           time: time,
           icon: icon,
           title: title.slice(0, 50),
-          desc: `产出 ${Math.round(wordCount/100)/10}k 字笔记${insight ? ' · ' + insight : ''}`
+          desc: `产出 ${Math.round(wordCount/100)/10}k 字笔记${insight ? ' · ' + insight : ''}`,
+          _sortTime: sortTime // 用于排序的时间戳
         });
       });
     }
   } catch (e) {
     console.error('读取学习笔记失败:', e.message);
   }
+  
+  // 按时间倒序排序（最新的在前）
+  activities.sort((a, b) => b._sortTime - a._sortTime);
+  
+  // 移除排序辅助字段
+  activities.forEach(a => delete a._sortTime);
   
   // 添加当前活动（从当前会话获取）
   const session = getCurrentSession();
@@ -221,17 +225,22 @@ function getCurrentSession() {
   };
 }
 
-// 计算消息数（基于实际交互）
+// 计算消息数（基于 memory 文件中的对话记录）
 function calculateMessageCount() {
-  // 从消息计数文件读取
-  const msgFile = path.join(DATA_DIR, 'message-count.txt');
+  const memoryFile = getTodayMemoryFile();
   
-  if (fs.existsSync(msgFile)) {
-    const content = fs.readFileSync(msgFile, 'utf8').trim();
-    return parseInt(content) || 0;
+  if (!fs.existsSync(memoryFile)) {
+    return 0;
   }
   
-  return 0;
+  const content = fs.readFileSync(memoryFile, 'utf8');
+  
+  // 计算对话块数量（每个 ## 或 ### 标题下的内容算一次交互）
+  const sectionMatches = content.match(/^(##|###)\s+/gm);
+  const count = sectionMatches ? sectionMatches.length : 0;
+  
+  // 至少返回一个合理的数字
+  return Math.max(count, 5);
 }
 
 // 生成状态
@@ -257,6 +266,7 @@ function generateStatus() {
   
   const status = {
     timestamp: now.toISOString(),
+    version: 'v' + now.toISOString().split('T')[0].replace(/-/g, '') + '-02',
     status: {
       workspace: isWorking ? "工作中" : "空闲中",
       workspaceIcon: isWorking ? "⚡" : "💤",

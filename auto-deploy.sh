@@ -1,38 +1,50 @@
 #!/bin/bash
-# 自动部署脚本 - 检查文件变化并重新部署到 Cloudflare Pages
+# 小铁状态网站 - 自动部署脚本
+# 用法：./auto-deploy.sh "提交信息"
 
 set -e
 
-WORKSPACE_DIR="/home/admin/.openclaw/workspace/workspace-status"
-HASH_FILE="$WORKSPACE_DIR/.last-deploy-hash"
-API_TOKEN="TnMRrsi38EH9p0L8-Uoc6J6duuscrdBLqjx4Ymfj"
-PROJECT_NAME="xiaotie-status"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
-cd "$WORKSPACE_DIR"
+echo "🦾 小铁状态网站 - 自动部署脚本"
+echo "================================"
+echo ""
 
-# 先生成最新状态数据
-echo "[$(date)] 生成最新状态数据..."
-node generate-status.js
+# 1. 检查 Git 状态
+echo "📦 步骤 1: 检查 Git 状态..."
+git status --short
 
-# 计算当前文件哈希（排除 .git 和临时文件）
-CURRENT_HASH=$(find . -type f -not -path './.git/*' -not -path './node_modules/*' -not -name '.last-deploy-hash' -not -name 'auto-deploy.sh' -not -name '*.log' -exec md5sum {} \; | sort | md5sum | awk '{print $1}')
+# 2. 添加所有变更
+echo ""
+echo "📦 步骤 2: 添加所有变更..."
+git add -A
+echo "✅ 已添加所有变更"
 
-# 检查是否有变化
-if [ -f "$HASH_FILE" ]; then
-    LAST_HASH=$(cat "$HASH_FILE")
-    if [ "$CURRENT_HASH" == "$LAST_HASH" ]; then
-        echo "[$(date)] 文件无变化，跳过部署"
-        exit 0
-    fi
-fi
+# 3. 提交
+COMMIT_MSG="${1:-chore: 自动更新 $(date +%Y-%m-%d-%H%M)}"
+echo ""
+echo "📦 步骤 3: 提交变更..."
+echo "   提交信息：$COMMIT_MSG"
+git commit -m "$COMMIT_MSG" || {
+    echo "⚠️ 没有变更需要提交"
+    echo ""
+    echo "✅ 没有新变更，跳过部署"
+    exit 0
+}
 
-echo "[$(date)] 检测到文件变化，开始部署..."
+# 4. 推送（触发 Cloudflare Pages 自动部署）
+echo ""
+echo "🚀 步骤 4: 推送到 GitHub..."
+git push
 
-# 执行部署
-export CLOUDFLARE_API_TOKEN="$API_TOKEN"
-npx wrangler pages deploy . --project-name="$PROJECT_NAME" --commit-dirty=true --branch=main
-
-# 保存当前哈希
-echo "$CURRENT_HASH" > "$HASH_FILE"
-
-echo "[$(date)] 部署完成"
+# 5. 完成
+echo ""
+echo "================================"
+echo "✅ 部署完成！"
+echo ""
+echo "🌐 生产域名：https://xiaotie-status.pages.dev"
+echo "⏱️ 部署时间：通常 30-60 秒"
+echo ""
+echo "💡 提示：硬刷新查看最新版本 (Ctrl+Shift+R / Cmd+Shift+R)"
+echo "================================"
