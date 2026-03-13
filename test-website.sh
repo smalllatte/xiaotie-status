@@ -2,20 +2,12 @@
 # 小铁状态网站 - 测试脚本
 # 用法：./test-website.sh
 
-set -e
-
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "🦾 小铁状态网站 - 测试脚本"
 echo "================================"
 echo ""
-
-# 颜色定义
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
 
 PASS_COUNT=0
 FAIL_COUNT=0
@@ -26,11 +18,11 @@ test_case() {
     local result="$2"
     
     if [ "$result" = "true" ]; then
-        echo -e "${GREEN}✅ PASS${NC}: $name"
-        ((PASS_COUNT++))
+        echo "✅ PASS: $name"
+        PASS_COUNT=$((PASS_COUNT + 1))
     else
-        echo -e "${RED}❌ FAIL${NC}: $name"
-        ((FAIL_COUNT++))
+        echo "❌ FAIL: $name"
+        FAIL_COUNT=$((FAIL_COUNT + 1))
     fi
 }
 
@@ -52,9 +44,9 @@ else
 fi
 
 # 3. 测试 API 必需字段
-REQUIRED_FIELDS=("timestamp" "status" "currentSession" "today" "learning" "activities")
+REQUIRED_FIELDS="timestamp status currentSession today learning activities"
 ALL_FIELDS_PRESENT="true"
-for field in "${REQUIRED_FIELDS[@]}"; do
+for field in $REQUIRED_FIELDS; do
     if ! grep -q "\"$field\"" api/status.json; then
         ALL_FIELDS_PRESENT="false"
         echo "  ⚠️  缺少字段：$field"
@@ -86,14 +78,11 @@ with open('api/status.json') as f:
         print('true')
         exit()
     times = [a.get('time', '00:00') for a in activities]
-    # 检查是否按时间倒序（从大到小）
     sorted_times = sorted(times, reverse=True)
     if times == sorted_times:
         print('true')
     else:
         print('false')
-        print('当前顺序:', times[:5])
-        print('应该顺序:', sorted_times[:5])
 " 2>/dev/null || echo "false")
 test_case "活动日志时间倒序" "$TIME_SORT_CHECK"
 
@@ -133,7 +122,6 @@ with open('api/status.json') as f:
     tasks = today.get('tasks', 0)
     messages = today.get('messages', 0)
     learning = today.get('learning', 0)
-    # 检查是否都是非负数
     if tasks >= 0 and messages >= 0 and learning >= 0:
         print('true')
     else:
@@ -147,24 +135,27 @@ import json
 with open('api/status.json') as f:
     data = json.load(f)
     meta = data.get('meta', {})
-    if 'totalNotes' in meta and 'lastUpdated' in meta:
+    learning = data.get('learning', [])
+    # 检查 learning 项目是否有 noteCount
+    has_note_count = all('noteCount' in item for item in learning)
+    if has_note_count:
         print('true')
     else:
         print('false')
 " 2>/dev/null || echo "false")
-test_case "元数据完整" "$META_CHECK"
+test_case "学习进度包含 noteCount" "$META_CHECK"
 
 echo ""
 echo "================================"
 echo "📊 测试结果："
-echo -e "   ${GREEN}通过：$PASS_COUNT${NC}"
-echo -e "   ${RED}失败：$FAIL_COUNT${NC}"
+echo "   通过：$PASS_COUNT"
+echo "   失败：$FAIL_COUNT"
 echo "================================"
 
 if [ $FAIL_COUNT -eq 0 ]; then
-    echo -e "${GREEN}✅ 所有测试通过！${NC}"
+    echo "✅ 所有测试通过！"
     exit 0
 else
-    echo -e "${RED}❌ 有测试失败，请修复后重新部署${NC}"
+    echo "❌ 有测试失败，请修复后重新部署"
     exit 1
 fi

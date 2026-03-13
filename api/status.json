@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T11:59:01.975Z",
+  "timestamp": "2026-03-13T12:03:01.466Z",
   "version": "v20260313-02",
   "status": {
     "workspace": "空闲中",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "OTA 收益管理学习",
     "description": "学习动态定价与库存管理策略",
-    "duration": 155493,
-    "taskDuration": 103005
+    "duration": 155733,
+    "taskDuration": 103244
   },
   "today": {
     "date": "2026-03-13",
     "tasks": 4,
     "messages": 17,
     "learning": 66,
-    "uptime": 155493,
+    "uptime": 155733,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,7 +59,7 @@
   ],
   "activities": [
     {
-      "time": "19:59",
+      "time": "20:03",
       "icon": "⚡",
       "title": "OTA 收益管理学习",
       "desc": "学习动态定价与库存管理策略"
