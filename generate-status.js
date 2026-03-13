@@ -13,25 +13,50 @@ if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
+// 获取今日日期字符串
+function getTodayString() {
+  return new Date().toISOString().split('T')[0];
+}
+
+// 获取今日 00:00 时间戳（东八区）
+function getTodayStartMs() {
+  const today = getTodayString();
+  const todayDate = new Date(today + 'T00:00:00+08:00');
+  return todayDate.getTime();
+}
+
 // 获取今日 memory 文件
 function getTodayMemoryFile() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayString();
   return path.join(MEMORY_DIR, `${today}.md`);
 }
 
-// 获取今日开始时间（用于计算运行时长）
+// 获取今日开始时间（用于计算运行时长）- 按天重置
 function getTodayStartTime() {
   const startFile = path.join(DATA_DIR, 'today-start-time.txt');
+  const todayStartMs = getTodayStartMs();
   
   if (fs.existsSync(startFile)) {
     const content = fs.readFileSync(startFile, 'utf8').trim();
-    return parseInt(content);
+    const storedTime = parseInt(content);
+    
+    // 检查存储的时间是否是今天
+    const storedDate = new Date(storedTime);
+    const storedDay = storedDate.toISOString().split('T')[0];
+    
+    if (storedDay === getTodayString()) {
+      // 是今天，返回今日 00:00
+      return todayStartMs;
+    } else {
+      // 不是今天，更新为今日 00:00
+      fs.writeFileSync(startFile, todayStartMs.toString());
+      return todayStartMs;
+    }
   }
   
-  // 如果没有记录，使用当前时间作为开始时间
-  const now = Date.now();
-  fs.writeFileSync(startFile, now.toString());
-  return now;
+  // 文件不存在，创建并返回今日 00:00
+  fs.writeFileSync(startFile, todayStartMs.toString());
+  return todayStartMs;
 }
 
 // 解析 memory 文件
@@ -48,7 +73,7 @@ function parseMemoryFile(filePath) {
   
   // 解析学习相关条目 - 从 learning 目录统计今日笔记数量
   const learningDir = '/home/admin/.openclaw/workspace/learning';
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayString();
   let learning = 0;
   
   try {
@@ -68,16 +93,20 @@ function parseMemoryFile(filePath) {
   return { tasks, learning, pendingTasks, content };
 }
 
-// 计算运行时长
+// 计算运行时长（从今日 00:00 开始）
 function calculateUptime() {
   const startTime = getTodayStartTime();
   const now = Date.now();
-  return Math.max(0, Math.floor((now - startTime) / 1000));
+  const uptime = Math.max(0, Math.floor((now - startTime) / 1000));
+  
+  // 限制最大时长为 24 小时
+  const maxUptime = 24 * 3600;
+  return Math.min(uptime, maxUptime);
 }
 
 // 计算在线率
 function calculateUptimePercent(uptime) {
-  // 基于16小时工作日（57600秒）
+  // 基于 16 小时工作日（57600 秒）
   const workDaySeconds = 16 * 3600;
   return Math.min(100, Math.round((uptime / workDaySeconds) * 100));
 }
@@ -197,30 +226,53 @@ function generateActivities(memory) {
   return activities.slice(0, 10);
 }
 
-// 获取当前会话信息
+// 获取当前会话信息（新增按天重置逻辑）
 function getCurrentSession() {
-  // 从会话状态文件读取，如果没有则使用默认值
   const sessionFile = path.join(DATA_DIR, 'current-session.json');
+  const today = getTodayString();
+  const todayStartMs = getTodayStartMs();
   
   if (fs.existsSync(sessionFile)) {
     try {
       const session = JSON.parse(fs.readFileSync(sessionFile, 'utf8'));
-      // 计算当前任务已进行时长
+      
+      // 检查 session 日期是否是今天
+      const sessionDate = new Date(session.startTime);
+      const sessionDay = sessionDate.toISOString().split('T')[0];
+      
+      // 如果不是今天的 session，重置为今日默认任务
+      if (sessionDay !== today) {
+        console.log(`Session 过期 (${sessionDay})，重置为今日任务`);
+        return {
+          title: '等待指令',
+          description: '准备就绪',
+          startTime: todayStartMs,
+          taskDuration: 0
+        };
+      }
+      
+      // 计算当前任务已进行时长（从今日 00:00 开始或从任务开始，取较晚者）
+      const effectiveStart = Math.max(session.startTime, todayStartMs);
       const now = Date.now();
-      const taskDuration = Math.max(0, Math.floor((now - session.startTime) / 1000));
+      const taskDuration = Math.max(0, Math.floor((now - effectiveStart) / 1000));
+      
+      // 限制最大时长为 24 小时（防止异常）
+      const maxDuration = 24 * 3600;
+      
       return {
         ...session,
-        taskDuration: taskDuration
+        taskDuration: Math.min(taskDuration, maxDuration)
       };
     } catch (e) {
       console.error('Error reading session:', e);
     }
   }
   
+  // 默认值
   return {
-    title: '检查网站数据',
-    description: '主动发现并修复数据错误',
-    startTime: Date.now(),
+    title: '等待指令',
+    description: '准备就绪',
+    startTime: todayStartMs,
     taskDuration: 0
   };
 }
@@ -241,6 +293,74 @@ function calculateMessageCount() {
   
   // 至少返回一个合理的数字
   return Math.max(count, 5);
+}
+
+// 统计总笔记数
+function countTotalNotes() {
+  const learningDir = '/home/admin/.openclaw/workspace/learning';
+  
+  try {
+    if (fs.existsSync(learningDir)) {
+      const files = fs.readdirSync(learningDir)
+        .filter(f => f.endsWith('.md'));
+      return files.length;
+    }
+  } catch (e) {
+    console.error('统计笔记数失败:', e.message);
+  }
+  
+  return 0;
+}
+
+// 数据验证函数
+function validateStatusData(status) {
+  const errors = [];
+  
+  // 1. 验证学习进度百分比在 0-100 之间
+  const learning = status.learning || [];
+  learning.forEach(item => {
+    const percent = item.percent || 0;
+    if (percent < 0 || percent > 100) {
+      errors.push(`学习进度 ${item.name} 的百分比 ${percent} 超出范围 [0-100]`);
+    }
+  });
+  
+  // 2. 验证统计数据非负
+  const today = status.today || {};
+  if ((today.tasks || 0) < 0) errors.push('任务数不能为负数');
+  if ((today.messages || 0) < 0) errors.push('消息数不能为负数');
+  if ((today.learning || 0) < 0) errors.push('学习数不能为负数');
+  
+  // 3. 验证活动日志时间排序（倒序）
+  const activities = status.activities || [];
+  if (activities.length >= 2) {
+    const times = activities.map(a => a.time || '00:00');
+    const sortedTimes = [...times].sort((a, b) => b.localeCompare(a));
+    if (times.join(',') !== sortedTimes.join(',')) {
+      errors.push('活动日志时间排序不是倒序');
+    }
+  }
+  
+  // 4. 验证版本号格式（不包含 PM）
+  const version = status.version || '';
+  if (version.includes('PM')) {
+    errors.push('版本号包含内部标记 PM');
+  }
+  
+  // 5. 验证元数据完整性
+  const meta = status.meta || {};
+  if (meta.totalNotes === undefined) {
+    errors.push('元数据缺少 totalNotes');
+  }
+  
+  // 6. 验证任务时长合理性（不超过 24 小时）
+  const taskDuration = status.currentSession?.taskDuration || 0;
+  const maxTaskDuration = 24 * 3600;
+  if (taskDuration > maxTaskDuration) {
+    errors.push(`任务时长 ${taskDuration}s 超过 24 小时`);
+  }
+  
+  return errors;
 }
 
 // 生成状态
@@ -266,7 +386,7 @@ function generateStatus() {
   
   const status = {
     timestamp: now.toISOString(),
-    version: 'v' + now.toISOString().split('T')[0].replace(/-/g, '') + '-02',
+    version: 'v' + now.toISOString().split('T')[0].replace(/-/g, '') + '-03',
     status: {
       workspace: isWorking ? "工作中" : "空闲中",
       workspaceIcon: isWorking ? "⚡" : "💤",
@@ -298,7 +418,7 @@ function generateStatus() {
     }
   };
   
-  // 数据验证（新增）
+  // 数据验证
   const validationErrors = validateStatusData(status);
   if (validationErrors.length > 0) {
     console.error('❌ 数据验证失败:', validationErrors);
@@ -360,67 +480,6 @@ function recordLearningEvent(topic, increment = 1, description = '') {
 const args = process.argv.slice(2);
 const command = args[0];
 
-// 数据验证函数（新增）
-function validateStatusData(status) {
-  const errors = [];
-  
-  // 1. 验证学习进度百分比在 0-100 之间
-  const learning = status.learning || [];
-  learning.forEach(item => {
-    const percent = item.percent || 0;
-    if (percent < 0 || percent > 100) {
-      errors.push(`学习进度 ${item.name} 的百分比 ${percent} 超出范围 [0-100]`);
-    }
-  });
-  
-  // 2. 验证统计数据非负
-  const today = status.today || {};
-  if ((today.tasks || 0) < 0) errors.push('任务数不能为负数');
-  if ((today.messages || 0) < 0) errors.push('消息数不能为负数');
-  if ((today.learning || 0) < 0) errors.push('学习数不能为负数');
-  
-  // 3. 验证活动日志时间排序（倒序）
-  const activities = status.activities || [];
-  if (activities.length >= 2) {
-    const times = activities.map(a => a.time || '00:00');
-    const sortedTimes = [...times].sort((a, b) => b.localeCompare(a));
-    if (times.join(',') !== sortedTimes.join(',')) {
-      errors.push('活动日志时间排序不是倒序');
-    }
-  }
-  
-  // 4. 验证版本号格式（不包含 PM）
-  const version = status.version || '';
-  if (version.includes('PM')) {
-    errors.push('版本号包含内部标记 PM');
-  }
-  
-  // 5. 验证元数据完整性
-  const meta = status.meta || {};
-  if (!meta.totalNotes && meta.totalNotes !== 0) {
-    errors.push('元数据缺少 totalNotes');
-  }
-  
-  return errors;
-}
-
-// 统计总笔记数（新增）
-function countTotalNotes() {
-  const learningDir = '/home/admin/.openclaw/workspace/learning';
-  
-  try {
-    if (fs.existsSync(learningDir)) {
-      const files = fs.readdirSync(learningDir)
-        .filter(f => f.endsWith('.md'));
-      return files.length;
-    }
-  } catch (e) {
-    console.error('统计笔记数失败:', e.message);
-  }
-  
-  return 0;
-}
-
 if (command === 'message') {
   const count = incrementMessageCount();
   console.log(`Message count: ${count}`);
@@ -446,6 +505,14 @@ if (command === 'message') {
     fs.unlinkSync(eventsFile);
   }
   console.log('Learning progress reset');
+  generateStatus();
+} else if (command === 'reset-session') {
+  // 重置当前会话
+  const sessionFile = path.join(DATA_DIR, 'current-session.json');
+  if (fs.existsSync(sessionFile)) {
+    fs.unlinkSync(sessionFile);
+  }
+  console.log('Session reset');
   generateStatus();
 } else {
   // 默认生成状态
