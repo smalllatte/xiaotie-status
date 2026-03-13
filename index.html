@@ -17,10 +17,10 @@
             color: #fff;
             overflow-x: hidden;
         }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 15px; }
         
         /* Header */
-        header { text-align: center; padding: 30px 0; }
+        header { text-align: center; padding: 20px 0 15px; }
         header h1 {
             font-size: 2.5rem;
             background: linear-gradient(90deg, #00d4ff, #7b2cbf);
@@ -121,11 +121,11 @@
         
         /* 场景区域 */
         .scene-container {
-            display: flex; gap: 30px; justify-content: center;
-            margin: 40px 0; flex-wrap: wrap;
+            display: flex; gap: 20px; justify-content: center;
+            margin: 25px 0; flex-wrap: wrap;
         }
         .scene {
-            width: 400px; height: 300px; border-radius: 20px;
+            width: 340px; height: 240px; border-radius: 16px;
             position: relative; overflow: hidden; transition: all 0.5s ease;
         }
         .scene.office {
@@ -145,14 +145,14 @@
             box-shadow: 0 0 30px rgba(246, 224, 94, 0.3);
         }
         .scene-title {
-            position: absolute; top: 15px; left: 20px;
-            font-size: 0.9rem; color: rgba(255,255,255,0.6);
-            text-transform: uppercase; letter-spacing: 2px;
+            position: absolute; top: 12px; left: 15px;
+            font-size: 0.8rem; color: rgba(255,255,255,0.6);
+            text-transform: uppercase; letter-spacing: 1.5px;
         }
         .scene-status {
-            position: absolute; top: 15px; right: 20px;
-            padding: 5px 12px; border-radius: 20px;
-            font-size: 0.75rem; font-weight: bold;
+            position: absolute; top: 12px; right: 15px;
+            padding: 4px 10px; border-radius: 16px;
+            font-size: 0.7rem; font-weight: bold;
         }
         .scene.office .scene-status {
             background: rgba(0, 212, 255, 0.2); color: #00d4ff;
@@ -167,8 +167,8 @@
             background: #f6e05e; color: #553c0a;
         }
         .character {
-            position: absolute; bottom: 40px; left: 50%;
-            transform: translateX(-50%); font-size: 80px;
+            position: absolute; bottom: 35px; left: 50%;
+            transform: translateX(-50%); font-size: 64px;
             transition: all 0.5s ease;
         }
         .scene.office .character {
@@ -179,15 +179,15 @@
             transform: translateX(-50%) scale(0.9);
         }
         .desk {
-            position: absolute; bottom: 30px; left: 50%;
-            transform: translateX(-50%); width: 200px; height: 80px;
+            position: absolute; bottom: 25px; left: 50%;
+            transform: translateX(-50%); width: 160px; height: 65px;
             background: linear-gradient(180deg, #4a5568 0%, #2d3748 100%);
-            border-radius: 10px;
+            border-radius: 8px;
         }
         .monitor {
-            position: absolute; bottom: 110px; left: 50%;
-            transform: translateX(-50%); width: 100px; height: 70px;
-            background: #1a202c; border: 3px solid #4a5568; border-radius: 5px;
+            position: absolute; bottom: 90px; left: 50%;
+            transform: translateX(-50%); width: 80px; height: 55px;
+            background: #1a202c; border: 2px solid #4a5568; border-radius: 4px;
         }
         .monitor::after {
             content: ''; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px;
@@ -196,34 +196,34 @@
         }
         @keyframes screenGlow { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.6; } }
         .sofa {
-            position: absolute; bottom: 30px; left: 50%;
-            transform: translateX(-50%); width: 220px; height: 60px;
+            position: absolute; bottom: 25px; left: 50%;
+            transform: translateX(-50%); width: 180px; height: 50px;
             background: linear-gradient(180deg, #8b4513 0%, #654321 100%);
-            border-radius: 10px;
+            border-radius: 8px;
         }
         .sofa::before {
-            content: ''; position: absolute; top: -40px; left: 10px; right: 10px; height: 50px;
+            content: ''; position: absolute; top: -32px; left: 8px; right: 8px; height: 40px;
             background: linear-gradient(180deg, #8b4513 0%, #654321 100%);
-            border-radius: 10px 10px 0 0;
+            border-radius: 8px 8px 0 0;
         }
         
         /* 状态面板 */
         .status-panel {
-            background: rgba(255,255,255,0.05); border-radius: 20px;
-            padding: 30px; margin: 30px 0;
+            background: rgba(255,255,255,0.05); border-radius: 16px;
+            padding: 20px; margin: 20px 0;
         }
         .status-header {
             display: flex; justify-content: space-between; align-items: center;
-            margin-bottom: 25px; padding: 20px;
+            margin-bottom: 20px; padding: 15px;
             background: rgba(0,212,255,0.08);
-            border-radius: 15px;
+            border-radius: 12px;
             border: 1px solid rgba(0,212,255,0.2);
         }
         .current-status { display: flex; align-items: center; gap: 15px; }
         .status-indicator {
-            width: 60px; height: 60px; border-radius: 50%;
+            width: 50px; height: 50px; border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            font-size: 30px; animation: pulse 2s ease-in-out infinite;
+            font-size: 24px; animation: pulse 2s ease-in-out infinite;
         }
         .status-indicator.working {
             background: rgba(0, 212, 255, 0.2); border: 3px solid #00d4ff;

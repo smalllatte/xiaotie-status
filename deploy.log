@@ -2075,3 +2075,13 @@ Uploading... (34/34)
 🌎 Deploying...
 ✨ Deployment complete! Take a peek over at https://d3074b59.xiaotie-status.pages.dev
 [Fri Mar 13 07:30:23 PM CST 2026] 部署完成
+🦾 小铁状态网站 - 自动部署脚本
+================================
+
+📦 步骤 1: 检查 Git 状态...
+ M api/status.json
+ M deploy.log
+ M index.html
+?? BUGFIX-REPORT.md
+
+📦 步骤 2: 添加所有变更...

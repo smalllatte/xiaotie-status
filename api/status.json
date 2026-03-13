@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T11:56:01.453Z",
+  "timestamp": "2026-03-13T11:59:01.975Z",
   "version": "v20260313-02",
   "status": {
     "workspace": "空闲中",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "OTA 收益管理学习",
     "description": "学习动态定价与库存管理策略",
-    "duration": 155313,
-    "taskDuration": 102824
+    "duration": 155493,
+    "taskDuration": 103005
   },
   "today": {
     "date": "2026-03-13",
     "tasks": 4,
     "messages": 17,
-    "learning": 65,
-    "uptime": 155313,
+    "learning": 66,
+    "uptime": 155493,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "19:56",
+      "time": "19:59",
       "icon": "⚡",
       "title": "OTA 收益管理学习",
       "desc": "学习动态定价与库存管理策略"
+    },
+    {
+      "time": "19:56",
+      "icon": "📚",
+      "title": "学习笔记：产品上线与发布管理",
+      "desc": "产出 4.1k 字笔记 · |"
     },
     {
       "time": "19:51",
@@ -111,12 +117,6 @@
       "icon": "📚",
       "title": "学习笔记：A/B 测试与实验设计",
       "desc": "产出 4.1k 字笔记 · **数据驱动决策**: 用数据而非直觉做产品决策"
-    },
-    {
-      "time": "18:51",
-      "icon": "📚",
-      "title": "学习笔记：产品 Go-to-Market（GTM）策略",
-      "desc": "产出 4.9k 字笔记 · **卖给谁**: 目标客户是谁？"
     }
   ]
 }
