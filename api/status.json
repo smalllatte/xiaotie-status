@@ -1,50 +1,99 @@
 {
-  "timestamp": "2026-03-11T16:48:08.899Z",
+  "timestamp": "2026-03-13T11:46:01.694Z",
   "status": {
-    "workspace": "工作中",
-    "workspaceIcon": "⚡",
+    "workspace": "空闲中",
+    "workspaceIcon": "💤",
     "learning": "学习中",
     "learningIcon": "📚"
   },
   "currentSession": {
-    "title": "检查网站数据",
-    "description": "主动发现并修复数据错误",
-    "duration": 40
+    "title": "OTA 收益管理学习",
+    "description": "学习动态定价与库存管理策略",
+    "duration": 154713,
+    "taskDuration": 102224
   },
   "today": {
-    "date": "2026-03-11",
-    "tasks": 1,
-    "messages": 0,
-    "learning": 1,
-    "uptime": 40,
-    "uptimePercent": 0
+    "date": "2026-03-13",
+    "tasks": 4,
+    "messages": 1,
+    "learning": 10,
+    "uptime": 154713,
+    "uptimePercent": 100
   },
   "learning": [
     {
       "name": "OTA 行业知识",
-      "percent": 18
+      "percent": 27
     },
     {
       "name": "交通业务产品",
-      "percent": 12
+      "percent": 30
     },
     {
       "name": "产品经理技能",
-      "percent": 25
+      "percent": 32
     }
   ],
   "activities": [
     {
-      "time": "00:48",
+      "time": "19:46",
       "icon": "⚡",
-      "title": "检查并修复网站数据",
-      "desc": "确保数据真实准确"
+      "title": "OTA 收益管理学习",
+      "desc": "学习动态定价与库存管理策略"
     },
     {
       "time": "16:21",
-      "icon": "💬",
-      "title": "关于主动性的讨论",
-      "desc": "已记录"
+      "icon": "📚",
+      "title": "学习总结 - 2026-03-13",
+      "desc": "产出 3k 字笔记 · 2026-03-13"
+    },
+    {
+      "time": "23:38",
+      "icon": "📚",
+      "title": "产品原型图学习笔记",
+      "desc": "产出 1.6k 字笔记 · 专为产品经理设计"
+    },
+    {
+      "time": "19:36",
+      "icon": "📚",
+      "title": "学习笔记：用户增长与留存策略",
+      "desc": "产出 4.2k 字笔记 · 留存率是倍增器，低留存下获客是\"漏桶装水\""
+    },
+    {
+      "time": "13:56",
+      "icon": "📚",
+      "title": "学习笔记：用户增长与运营策略",
+      "desc": "产出 4.6k 字笔记 · ROI = (LTV - CAC) / CAC"
+    },
+    {
+      "time": "07:21",
+      "icon": "📚",
+      "title": "学习笔记：出行交通业务数据分析方法论",
+      "desc": "产出 4.8k 字笔记 · OTA 交通业务产品管理核心知识 (04:00)"
+    },
+    {
+      "time": "13:26",
+      "icon": "📚",
+      "title": "学习笔记：OTA 交通业务供应链管理与运力接入",
+      "desc": "产出 3.9k 字笔记 · 实时库存、价格准确"
+    },
+    {
+      "time": "13:36",
+      "icon": "📚",
+      "title": "学习笔记：OTA 平台补贴策略与营销产品设计",
+      "desc": "产出 4k 字笔记 · **拉新获客**: 吸引新用户首次下单"
+    },
+    {
+      "time": "04:15",
+      "icon": "📚",
+      "title": "学习笔记：网约车聚合平台产品模式深度分析",
+      "desc": "产出 3.5k 字笔记 · Capacity Provider），为用户提供统一的叫车入口和比价服务。"
+    },
+    {
+      "time": "11:07",
+      "icon": "📚",
+      "title": "学习笔记：收益管理与动态定价核心知识",
+      "desc": "产出 4.7k 字笔记 · **时间维度**: 提前多少天预订（Booking Curve）"
     }
   ]
 }

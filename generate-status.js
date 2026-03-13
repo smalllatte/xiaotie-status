@@ -76,65 +76,121 @@ function calculateUptimePercent(uptime) {
   return Math.min(100, Math.round((uptime / workDaySeconds) * 100));
 }
 
-// 获取学习进度
+// 获取学习进度 - 基于实际学习事件累加
 function getLearningProgress() {
-  // 从持久化存储读取，如果没有则使用默认值
   const progressFile = path.join(DATA_DIR, 'learning-progress.json');
+  const eventsFile = path.join(DATA_DIR, 'learning-events.jsonl');
   
-  if (fs.existsSync(progressFile)) {
+  // 基础进度（初始值）
+  const baseProgress = {
+    'OTA 行业知识': 0,
+    '交通业务产品': 0,
+    '产品经理技能': 0
+  };
+  
+  // 从事件文件累加学习进度
+  if (fs.existsSync(eventsFile)) {
     try {
-      return JSON.parse(fs.readFileSync(progressFile, 'utf8'));
+      const events = fs.readFileSync(eventsFile, 'utf8').trim().split('\n').filter(line => line);
+      events.forEach(line => {
+        const event = JSON.parse(line);
+        if (event.topic && baseProgress.hasOwnProperty(event.topic)) {
+          baseProgress[event.topic] += (event.increment || 1);
+        }
+      });
     } catch (e) {
-      console.error('Error reading learning progress:', e);
+      console.error('Error reading learning events:', e);
     }
   }
   
-  return [
-    { name: 'OTA 行业知识', percent: 18 },
-    { name: '交通业务产品', percent: 12 },
-    { name: '产品经理技能', percent: 25 }
-  ];
+  // 转换为数组格式，上限 100%
+  return Object.entries(baseProgress).map(([name, percent]) => ({
+    name,
+    percent: Math.min(100, percent)
+  }));
 }
 
-// 生成活动日志
+// 生成活动日志 - 从学习笔记和 memory 文件提取详细信息
 function generateActivities(memory) {
   const activities = [];
+  const now = new Date();
+  const learningDir = '/home/admin/.openclaw/workspace/learning';
   
-  if (memory && memory.content) {
-    // 从 ### 时间 格式的条目提取活动
-    const eventRegex = /###\s+(\d{2}:\d{2})\s*-\s*(.+)/g;
-    let match;
-    
-    while ((match = eventRegex.exec(memory.content)) !== null) {
-      const time = match[1];
-      const title = match[2].trim();
+  // 从学习笔记文件提取详细活动
+  try {
+    if (fs.existsSync(learningDir)) {
+      const files = fs.readdirSync(learningDir)
+        .filter(f => f.endsWith('.md'))
+        .sort()
+        .reverse(); // 最新的在前
       
-      // 根据内容判断图标
-      let icon = '💬';
-      if (title.includes('部署') || title.includes('上线')) icon = '🚀';
-      else if (title.includes('开发') || title.includes('编写')) icon = '💻';
-      else if (title.includes('学习') || title.includes('研究')) icon = '📚';
-      else if (title.includes('配置') || title.includes('设置')) icon = '⚙️';
-      
-      activities.push({
-        time: time,
-        icon: icon,
-        title: title.slice(0, 30),
-        desc: '已记录'
+      files.forEach(file => {
+        const filePath = path.join(learningDir, file);
+        const stat = fs.statSync(filePath);
+        const content = fs.readFileSync(filePath, 'utf8');
+        
+        // 从文件名提取时间（2026-03-12-1430-xxx.md → 14:30）
+        const timeMatch = file.match(/\d{4}-\d{2}-\d{2}-(\d{4})/);
+        const time = timeMatch ? `${timeMatch[1].slice(0,2)}:${timeMatch[1].slice(2,4)}` : 
+                     stat.mtime.toTimeString().slice(0,5);
+        
+        // 从文件内容提取标题和产出
+        const titleMatch = content.match(/\*\*主题\*\*:\s*(.+)/);
+        let title = '';
+        
+        if (titleMatch) {
+          title = titleMatch[1].trim();
+        } else {
+          // 尝试从第一行提取
+          const firstLine = content.split('\n').find(l => l.trim() && !l.includes('http'));
+          if (firstLine) {
+            title = firstLine.replace(/[#*`]/g, '').trim();
+          }
+          // 如果还是不行，用文件名
+          if (!title || title.length < 5) {
+            title = file.replace(/^\d{4}-\d{2}-\d{2}-\d{4}-/, '').replace(/\.md$/, '').replace(/-/g, ' ');
+          }
+        }
+        
+        // 清理标题（移除日期、特殊字符）
+        title = title.replace(/^\d{4}[-\s]\d{2}[-\s]\d{2}[\s-]*/, '').trim();
+        
+        // 计算字数
+        const wordCount = content.length;
+        
+        // 提取关键收获（第一个列表项）
+        const insightMatch = content.match(/- (.+?)(?:\n|$)/);
+        const insight = insightMatch ? insightMatch[1].slice(0, 60) : '';
+        
+        // 判断图标
+        let icon = '📚';
+        if (title.includes('部署') || title.includes('开发')) icon = '💻';
+        else if (title.includes('学习') || title.includes('产品')) icon = '📚';
+        
+        activities.push({
+          time: time,
+          icon: icon,
+          title: title.slice(0, 50),
+          desc: `产出 ${Math.round(wordCount/100)/10}k 字笔记${insight ? ' · ' + insight : ''}`
+        });
       });
     }
+  } catch (e) {
+    console.error('读取学习笔记失败:', e.message);
   }
   
   // 添加当前活动（从当前会话获取）
-  const now = new Date();
-  activities.unshift({
-    time: now.toTimeString().slice(0, 5),
-    icon: '⚡',
-    title: '检查并修复网站数据',
-    desc: '确保数据真实准确'
-  });
+  const session = getCurrentSession();
+  if (session && session.title) {
+    activities.unshift({
+      time: now.toTimeString().slice(0, 5),
+      icon: '⚡',
+      title: session.title.slice(0, 50),
+      desc: session.description || '进行中'
+    });
+  }
   
-  return activities.slice(0, 6);
+  return activities.slice(0, 10);
 }
 
 // 获取当前会话信息
@@ -144,7 +200,14 @@ function getCurrentSession() {
   
   if (fs.existsSync(sessionFile)) {
     try {
-      return JSON.parse(fs.readFileSync(sessionFile, 'utf8'));
+      const session = JSON.parse(fs.readFileSync(sessionFile, 'utf8'));
+      // 计算当前任务已进行时长
+      const now = Date.now();
+      const taskDuration = Math.max(0, Math.floor((now - session.startTime) / 1000));
+      return {
+        ...session,
+        taskDuration: taskDuration
+      };
     } catch (e) {
       console.error('Error reading session:', e);
     }
@@ -153,7 +216,8 @@ function getCurrentSession() {
   return {
     title: '检查网站数据',
     description: '主动发现并修复数据错误',
-    startTime: Date.now()
+    startTime: Date.now(),
+    taskDuration: 0
   };
 }
 
@@ -182,10 +246,14 @@ function generateStatus() {
   const messageCount = calculateMessageCount();
   
   // 确定工作状态
-  const isWorking = session.title.includes('工作') || 
-                    session.title.includes('开发') || 
-                    session.title.includes('检查');
-  const isLearning = memory.learning > 0;
+  const isWorking = session.title && (
+    session.title.includes('工作') || 
+    session.title.includes('开发') || 
+    session.title.includes('检查') ||
+    session.title.includes('修复') ||
+    session.title.includes('部署')
+  );
+  const isLearning = memory.learning > 0 || session.title?.includes('学习');
   
   const status = {
     timestamp: now.toISOString(),
@@ -196,9 +264,10 @@ function generateStatus() {
       learningIcon: isLearning ? "📚" : "🛋️"
     },
     currentSession: {
-      title: session.title,
-      description: session.description,
-      duration: uptime
+      title: session.title || '等待指令',
+      description: session.description || '准备就绪',
+      duration: uptime,
+      taskDuration: session.taskDuration || 0  // 当前任务已进行时长
     },
     today: {
       date: now.toISOString().split('T')[0],
@@ -245,6 +314,22 @@ function updateSession(title, description) {
   fs.writeFileSync(sessionFile, JSON.stringify(session, null, 2));
 }
 
+// 记录学习事件（供外部调用）
+function recordLearningEvent(topic, increment = 1, description = '') {
+  const eventsFile = path.join(DATA_DIR, 'learning-events.jsonl');
+  const event = {
+    timestamp: Date.now(),
+    topic: topic,
+    increment: increment,
+    description: description
+  };
+  
+  // 追加到 JSONL 文件
+  fs.appendFileSync(eventsFile, JSON.stringify(event) + '\n');
+  console.log(`Learning event recorded: ${topic} +${increment}%`);
+  return event;
+}
+
 // 命令行接口
 const args = process.argv.slice(2);
 const command = args[0];
@@ -255,11 +340,26 @@ if (command === 'message') {
 } else if (command === 'session') {
   updateSession(args[1] || '工作中', args[2] || '处理任务');
   console.log('Session updated');
+} else if (command === 'learn') {
+  // 记录学习事件：node generate-status.js learn "OTA 行业知识" 2 "学习了 OTA 市场分析报告"
+  const topic = args[1] || '产品经理技能';
+  const increment = parseInt(args[2]) || 1;
+  const description = args[3] || '';
+  recordLearningEvent(topic, increment, description);
+  generateStatus(); // 重新生成状态
 } else if (command === 'reset-day') {
   // 重置今日开始时间
   const startFile = path.join(DATA_DIR, 'today-start-time.txt');
   fs.writeFileSync(startFile, Date.now().toString());
   console.log('Day reset');
+} else if (command === 'reset-learning') {
+  // 重置学习进度
+  const eventsFile = path.join(DATA_DIR, 'learning-events.jsonl');
+  if (fs.existsSync(eventsFile)) {
+    fs.unlinkSync(eventsFile);
+  }
+  console.log('Learning progress reset');
+  generateStatus();
 } else {
   // 默认生成状态
   generateStatus();

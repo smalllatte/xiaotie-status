@@ -44,3 +44,2034 @@ Messages today: -150
 
 
 🪵  Logs were written to "/home/admin/.config/.wrangler/logs/wrangler-2026-03-11_16-30-04_572.log"
+[Thu Mar 12 01:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 753 seconds
+Uptime %: 1
+[Thu Mar 12 01:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (14/18)
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (18/18)
+✨ Success! Uploaded 4 files (14 already uploaded) (4.80 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://38029dbc.xiaotie-status.pages.dev
+[Thu Mar 12 01:00:28 AM CST 2026] 部署完成
+[Thu Mar 12 01:30:02 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 2554 seconds
+Uptime %: 4
+[Thu Mar 12 01:30:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.60 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e0104934.xiaotie-status.pages.dev
+[Thu Mar 12 01:30:28 AM CST 2026] 部署完成
+[Thu Mar 12 02:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 4353 seconds
+Uptime %: 8
+[Thu Mar 12 02:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (3.44 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://57de37b1.xiaotie-status.pages.dev
+[Thu Mar 12 02:00:35 AM CST 2026] 部署完成
+[Thu Mar 12 02:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 6153 seconds
+Uptime %: 11
+[Thu Mar 12 02:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.80 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://acc2d6cf.xiaotie-status.pages.dev
+[Thu Mar 12 02:30:29 AM CST 2026] 部署完成
+[Thu Mar 12 03:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 7953 seconds
+Uptime %: 14
+[Thu Mar 12 03:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (6.79 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e0ce70b3.xiaotie-status.pages.dev
+[Thu Mar 12 03:00:32 AM CST 2026] 部署完成
+[Thu Mar 12 03:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 9753 seconds
+Uptime %: 17
+[Thu Mar 12 03:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.66 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a45b5360.xiaotie-status.pages.dev
+[Thu Mar 12 03:30:22 AM CST 2026] 部署完成
+[Thu Mar 12 04:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 11553 seconds
+Uptime %: 20
+[Thu Mar 12 04:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.74 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://588da142.xiaotie-status.pages.dev
+[Thu Mar 12 04:00:28 AM CST 2026] 部署完成
+[Thu Mar 12 04:30:02 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 13354 seconds
+Uptime %: 23
+[Thu Mar 12 04:30:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mReceived a malformed response from the API[0m
+
+  upstream request timeout
+  GET /accounts/27ac896656bad772b291b012be326bc0/pages/projects/xiaotie-status -> 504 Gateway Timeout
+  
+  If you think this is a bug, please open an issue at: [4mhttps://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+
+
+🪵  Logs were written to "/home/admin/.config/.wrangler/logs/wrangler-2026-03-11_20-30-03_978.log"
+[Thu Mar 12 05:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 15153 seconds
+Uptime %: 26
+[Thu Mar 12 05:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.28 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a8534d23.xiaotie-status.pages.dev
+[Thu Mar 12 05:00:33 AM CST 2026] 部署完成
+[Thu Mar 12 05:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 16953 seconds
+Uptime %: 29
+[Thu Mar 12 05:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.37 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://b37e4fc2.xiaotie-status.pages.dev
+[Thu Mar 12 05:30:27 AM CST 2026] 部署完成
+[Thu Mar 12 06:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 18753 seconds
+Uptime %: 33
+[Thu Mar 12 06:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (6.36 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://93b3c942.xiaotie-status.pages.dev
+[Thu Mar 12 06:00:29 AM CST 2026] 部署完成
+[Thu Mar 12 06:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 20553 seconds
+Uptime %: 36
+[Thu Mar 12 06:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.62 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://323e3f97.xiaotie-status.pages.dev
+[Thu Mar 12 06:30:25 AM CST 2026] 部署完成
+[Thu Mar 12 07:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 22354 seconds
+Uptime %: 39
+[Thu Mar 12 07:00:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.57 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://0012d6a9.xiaotie-status.pages.dev
+[Thu Mar 12 07:00:27 AM CST 2026] 部署完成
+[Thu Mar 12 07:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 1
+Messages today: 0
+Uptime: 24153 seconds
+Uptime %: 42
+[Thu Mar 12 07:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.43 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://32c318f7.xiaotie-status.pages.dev
+[Thu Mar 12 07:30:26 AM CST 2026] 部署完成
+[Thu Mar 12 08:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 25954 seconds
+Uptime %: 45
+[Thu Mar 12 08:00:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.62 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://648e1cf6.xiaotie-status.pages.dev
+[Thu Mar 12 08:00:28 AM CST 2026] 部署完成
+[Thu Mar 12 08:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 27753 seconds
+Uptime %: 48
+[Thu Mar 12 08:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.20 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a1507087.xiaotie-status.pages.dev
+[Thu Mar 12 08:30:25 AM CST 2026] 部署完成
+[Thu Mar 12 09:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 29553 seconds
+Uptime %: 51
+[Thu Mar 12 09:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.74 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://ca0b1915.xiaotie-status.pages.dev
+[Thu Mar 12 09:00:29 AM CST 2026] 部署完成
+[Thu Mar 12 09:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 31353 seconds
+Uptime %: 54
+[Thu Mar 12 09:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (3.46 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://6f4c7e64.xiaotie-status.pages.dev
+[Thu Mar 12 09:30:21 AM CST 2026] 部署完成
+[Thu Mar 12 10:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 33153 seconds
+Uptime %: 58
+[Thu Mar 12 10:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.49 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c6190132.xiaotie-status.pages.dev
+[Thu Mar 12 10:00:36 AM CST 2026] 部署完成
+[Thu Mar 12 10:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 34953 seconds
+Uptime %: 61
+[Thu Mar 12 10:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.91 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://692896dc.xiaotie-status.pages.dev
+[Thu Mar 12 10:30:31 AM CST 2026] 部署完成
+[Thu Mar 12 11:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 36753 seconds
+Uptime %: 64
+[Thu Mar 12 11:00:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.81 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://64d7c25b.xiaotie-status.pages.dev
+[Thu Mar 12 11:00:30 AM CST 2026] 部署完成
+[Thu Mar 12 11:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 38553 seconds
+Uptime %: 67
+[Thu Mar 12 11:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (2.34 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://b690c209.xiaotie-status.pages.dev
+npm notice
+npm notice New minor version of npm available! 11.9.0 -> 11.11.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.1
+npm notice To update run: npm install -g npm@11.11.1
+npm notice
+[Thu Mar 12 11:30:25 AM CST 2026] 部署完成
+[Thu Mar 12 12:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 40353 seconds
+Uptime %: 70
+[Thu Mar 12 12:00:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.58 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c2a3963c.xiaotie-status.pages.dev
+[Thu Mar 12 12:00:25 PM CST 2026] 部署完成
+[Thu Mar 12 12:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 42153 seconds
+Uptime %: 73
+[Thu Mar 12 12:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.63 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://465dec62.xiaotie-status.pages.dev
+[Thu Mar 12 12:30:23 PM CST 2026] 部署完成
+[Thu Mar 12 01:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 43953 seconds
+Uptime %: 76
+[Thu Mar 12 01:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (1.96 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://06241b63.xiaotie-status.pages.dev
+[Thu Mar 12 01:00:31 PM CST 2026] 部署完成
+[Thu Mar 12 01:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 45753 seconds
+Uptime %: 79
+[Thu Mar 12 01:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.62 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://8de3e591.xiaotie-status.pages.dev
+[Thu Mar 12 01:30:25 PM CST 2026] 部署完成
+[Thu Mar 12 02:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 47553 seconds
+Uptime %: 83
+[Thu Mar 12 02:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.52 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://41471e5c.xiaotie-status.pages.dev
+[Thu Mar 12 02:00:34 PM CST 2026] 部署完成
+[Thu Mar 12 02:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 0
+Uptime: 49354 seconds
+Uptime %: 86
+[Thu Mar 12 02:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (6.78 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://825c4419.xiaotie-status.pages.dev
+[Thu Mar 12 02:30:35 PM CST 2026] 部署完成
+[Thu Mar 12 03:00:02 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 2
+Messages today: 0
+Uptime: 51154 seconds
+Uptime %: 89
+[Thu Mar 12 03:00:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (15/18)
+Uploading... (16/18)
+Uploading... (17/18)
+Uploading... (18/18)
+✨ Success! Uploaded 3 files (15 already uploaded) (5.43 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c8f0afbd.xiaotie-status.pages.dev
+[Thu Mar 12 03:00:29 PM CST 2026] 部署完成
+[Thu Mar 12 03:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 6
+Messages today: 0
+Uptime: 52953 seconds
+Uptime %: 92
+[Thu Mar 12 03:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (13/22)
+Uploading... (16/22)
+Uploading... (19/22)
+Uploading... (22/22)
+✨ Success! Uploaded 9 files (13 already uploaded) (2.42 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://4fc43681.xiaotie-status.pages.dev
+[Thu Mar 12 03:30:24 PM CST 2026] 部署完成
+[Thu Mar 12 04:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 11
+Messages today: 0
+Uptime: 54753 seconds
+Uptime %: 95
+[Thu Mar 12 04:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (19/22)
+Uploading... (20/22)
+Uploading... (21/22)
+Uploading... (22/22)
+✨ Success! Uploaded 3 files (19 already uploaded) (2.04 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://400f357d.xiaotie-status.pages.dev
+[Thu Mar 12 04:00:30 PM CST 2026] 部署完成
+[Thu Mar 12 04:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 15
+Messages today: 1
+Uptime: 56553 seconds
+Uptime %: 98
+[Thu Mar 12 04:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (18/24)
+Uploading... (20/24)
+Uploading... (22/24)
+Uploading... (24/24)
+✨ Success! Uploaded 6 files (18 already uploaded) (2.17 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://0eabbd23.xiaotie-status.pages.dev
+[Thu Mar 12 04:30:26 PM CST 2026] 部署完成
+[Thu Mar 12 05:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 21
+Messages today: 1
+Uptime: 58353 seconds
+Uptime %: 100
+[Thu Mar 12 05:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (20/24)
+Uploading... (21/24)
+Uploading... (22/24)
+Uploading... (24/24)
+✨ Success! Uploaded 4 files (20 already uploaded) (2.03 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://2d3cd878.xiaotie-status.pages.dev
+[Thu Mar 12 05:00:27 PM CST 2026] 部署完成
+[Thu Mar 12 05:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 60153 seconds
+Uptime %: 100
+[Thu Mar 12 05:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+Uploading... (20/24)
+Uploading... (21/24)
+Uploading... (22/24)
+Uploading... (24/24)
+✨ Success! Uploaded 4 files (20 already uploaded) (1.63 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://d74320ac.xiaotie-status.pages.dev
+[Thu Mar 12 05:30:29 PM CST 2026] 部署完成
+[Thu Mar 12 06:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 61953 seconds
+Uptime %: 100
+[Thu Mar 12 06:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (20/27)
+Uploading... (23/27)
+Uploading... (25/27)
+Uploading... (27/27)
+✨ Success! Uploaded 7 files (20 already uploaded) (1.81 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://9131f3b5.xiaotie-status.pages.dev
+[Thu Mar 12 06:00:23 PM CST 2026] 部署完成
+[Thu Mar 12 06:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 63753 seconds
+Uptime %: 100
+[Thu Mar 12 06:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (24/27)
+Uploading... (25/27)
+Uploading... (26/27)
+Uploading... (27/27)
+✨ Success! Uploaded 3 files (24 already uploaded) (6.53 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://037a9b87.xiaotie-status.pages.dev
+[Thu Mar 12 06:30:26 PM CST 2026] 部署完成
+[Thu Mar 12 07:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 65553 seconds
+Uptime %: 100
+[Thu Mar 12 07:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (24/27)
+Uploading... (25/27)
+Uploading... (26/27)
+Uploading... (27/27)
+✨ Success! Uploaded 3 files (24 already uploaded) (6.25 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c6f5af42.xiaotie-status.pages.dev
+[Thu Mar 12 07:00:28 PM CST 2026] 部署完成
+[Thu Mar 12 07:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 67353 seconds
+Uptime %: 100
+[Thu Mar 12 07:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (24/27)
+Uploading... (25/27)
+Uploading... (26/27)
+Uploading... (27/27)
+✨ Success! Uploaded 3 files (24 already uploaded) (1.76 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://da84627e.xiaotie-status.pages.dev
+[Thu Mar 12 07:30:23 PM CST 2026] 部署完成
+[Thu Mar 12 08:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 69153 seconds
+Uptime %: 100
+[Thu Mar 12 08:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (23/28)
+Uploading... (25/28)
+Uploading... (26/28)
+Uploading... (28/28)
+✨ Success! Uploaded 5 files (23 already uploaded) (5.25 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://2d183908.xiaotie-status.pages.dev
+[Thu Mar 12 08:00:28 PM CST 2026] 部署完成
+[Thu Mar 12 08:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 70953 seconds
+Uptime %: 100
+[Thu Mar 12 08:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (25/28)
+Uploading... (26/28)
+Uploading... (27/28)
+Uploading... (28/28)
+✨ Success! Uploaded 3 files (25 already uploaded) (5.01 sec)
+
+🌎 Deploying...
+✨ Deployment complete! However, we couldn't ascertain the final status of your deployment.
+
+⚡️ Visit your deployment at https://d966ca12.xiaotie-status.pages.dev
+⚡️ Check the deployment details on the Cloudflare dashboard: https://dash.cloudflare.com/27ac896656bad772b291b012be326bc0/pages/view/xiaotie-status/d966ca12-3ca4-4802-ab81-6138ff01f46c
+[Thu Mar 12 08:31:01 PM CST 2026] 部署完成
+[Thu Mar 12 09:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 72753 seconds
+Uptime %: 100
+[Thu Mar 12 09:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (23/32)
+Uploading... (26/32)
+Uploading... (29/32)
+Uploading... (32/32)
+✨ Success! Uploaded 9 files (23 already uploaded) (2.29 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://160fcfc8.xiaotie-status.pages.dev
+[Thu Mar 12 09:00:39 PM CST 2026] 部署完成
+[Thu Mar 12 09:30:02 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 74554 seconds
+Uptime %: 100
+[Thu Mar 12 09:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/home/admin/.config/.wrangler/logs/wrangler-2026-03-12_13-30-04_893.log"
+[Thu Mar 12 10:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 76353 seconds
+Uptime %: 100
+[Thu Mar 12 10:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/home/admin/.config/.wrangler/logs/wrangler-2026-03-12_14-00-04_316.log"
+[Thu Mar 12 10:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 78154 seconds
+Uptime %: 100
+[Thu Mar 12 10:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/home/admin/.config/.wrangler/logs/wrangler-2026-03-12_14-30-04_741.log"
+[Thu Mar 12 11:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 79953 seconds
+Uptime %: 100
+[Thu Mar 12 11:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (30/34)
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (34/34)
+✨ Success! Uploaded 4 files (30 already uploaded) (6.15 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://31fe807a.xiaotie-status.pages.dev
+[Thu Mar 12 11:00:36 PM CST 2026] 部署完成
+[Thu Mar 12 11:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 81753 seconds
+Uptime %: 100
+[Thu Mar 12 11:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.47 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://56369410.xiaotie-status.pages.dev
+[Thu Mar 12 11:30:38 PM CST 2026] 部署完成
+[Fri Mar 13 12:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 83553 seconds
+Uptime %: 100
+[Fri Mar 13 12:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (1.91 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://b5b3d755.xiaotie-status.pages.dev
+[Fri Mar 13 12:00:25 AM CST 2026] 部署完成
+[Fri Mar 13 12:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 85353 seconds
+Uptime %: 100
+[Fri Mar 13 12:30:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (8.82 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://65206b31.xiaotie-status.pages.dev
+[Fri Mar 13 12:30:35 AM CST 2026] 部署完成
+[Fri Mar 13 01:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 87153 seconds
+Uptime %: 100
+[Fri Mar 13 01:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (3.95 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c6892c6c.xiaotie-status.pages.dev
+[Fri Mar 13 01:00:35 AM CST 2026] 部署完成
+[Fri Mar 13 01:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 88953 seconds
+Uptime %: 100
+[Fri Mar 13 01:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.95 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c58d3d39.xiaotie-status.pages.dev
+[Fri Mar 13 01:30:25 AM CST 2026] 部署完成
+[Fri Mar 13 02:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 90753 seconds
+Uptime %: 100
+[Fri Mar 13 02:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.90 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://f1664c57.xiaotie-status.pages.dev
+[Fri Mar 13 02:00:39 AM CST 2026] 部署完成
+[Fri Mar 13 02:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 92553 seconds
+Uptime %: 100
+[Fri Mar 13 02:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.27 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://d6dcf73c.xiaotie-status.pages.dev
+[Fri Mar 13 02:30:26 AM CST 2026] 部署完成
+[Fri Mar 13 03:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 94353 seconds
+Uptime %: 100
+[Fri Mar 13 03:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.69 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e90ac665.xiaotie-status.pages.dev
+[Fri Mar 13 03:00:24 AM CST 2026] 部署完成
+[Fri Mar 13 03:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 96153 seconds
+Uptime %: 100
+[Fri Mar 13 03:30:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.79 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://b8507126.xiaotie-status.pages.dev
+[Fri Mar 13 03:30:32 AM CST 2026] 部署完成
+[Fri Mar 13 04:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 97953 seconds
+Uptime %: 100
+[Fri Mar 13 04:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.23 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://0e43294d.xiaotie-status.pages.dev
+[Fri Mar 13 04:00:35 AM CST 2026] 部署完成
+[Fri Mar 13 04:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 99753 seconds
+Uptime %: 100
+[Fri Mar 13 04:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.58 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://f9cafcac.xiaotie-status.pages.dev
+[Fri Mar 13 04:30:36 AM CST 2026] 部署完成
+[Fri Mar 13 05:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 101553 seconds
+Uptime %: 100
+[Fri Mar 13 05:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (8.54 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://28f45ee7.xiaotie-status.pages.dev
+[Fri Mar 13 05:00:40 AM CST 2026] 部署完成
+[Fri Mar 13 05:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 103353 seconds
+Uptime %: 100
+[Fri Mar 13 05:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.52 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://00469cd6.xiaotie-status.pages.dev
+[Fri Mar 13 05:30:27 AM CST 2026] 部署完成
+[Fri Mar 13 06:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 105153 seconds
+Uptime %: 100
+[Fri Mar 13 06:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.48 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://91799a50.xiaotie-status.pages.dev
+[Fri Mar 13 06:00:25 AM CST 2026] 部署完成
+[Fri Mar 13 06:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 106953 seconds
+Uptime %: 100
+[Fri Mar 13 06:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (7.72 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a583753d.xiaotie-status.pages.dev
+[Fri Mar 13 06:30:36 AM CST 2026] 部署完成
+[Fri Mar 13 07:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 108753 seconds
+Uptime %: 100
+[Fri Mar 13 07:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (4.77 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://2490ae11.xiaotie-status.pages.dev
+[Fri Mar 13 07:00:25 AM CST 2026] 部署完成
+[Fri Mar 13 07:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 25
+Messages today: 1
+Uptime: 110553 seconds
+Uptime %: 100
+[Fri Mar 13 07:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (10.25 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://04b70567.xiaotie-status.pages.dev
+[Fri Mar 13 07:30:29 AM CST 2026] 部署完成
+[Fri Mar 13 08:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 112353 seconds
+Uptime %: 100
+[Fri Mar 13 08:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.63 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://cf8efae4.xiaotie-status.pages.dev
+[Fri Mar 13 08:00:22 AM CST 2026] 部署完成
+[Fri Mar 13 08:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 114153 seconds
+Uptime %: 100
+[Fri Mar 13 08:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.75 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://8e4e5a3f.xiaotie-status.pages.dev
+[Fri Mar 13 08:30:25 AM CST 2026] 部署完成
+[Fri Mar 13 09:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 115953 seconds
+Uptime %: 100
+[Fri Mar 13 09:00:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.15 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c45ce983.xiaotie-status.pages.dev
+[Fri Mar 13 09:00:30 AM CST 2026] 部署完成
+[Fri Mar 13 09:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 117753 seconds
+Uptime %: 100
+[Fri Mar 13 09:30:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (10.52 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://fa2c4a41.xiaotie-status.pages.dev
+[Fri Mar 13 09:30:29 AM CST 2026] 部署完成
+[Fri Mar 13 10:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 119554 seconds
+Uptime %: 100
+[Fri Mar 13 10:00:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.01 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://21d7031c.xiaotie-status.pages.dev
+[Fri Mar 13 10:00:22 AM CST 2026] 部署完成
+[Fri Mar 13 10:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 121353 seconds
+Uptime %: 100
+[Fri Mar 13 10:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (1.55 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://d3769337.xiaotie-status.pages.dev
+[Fri Mar 13 10:30:20 AM CST 2026] 部署完成
+[Fri Mar 13 11:00:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 123154 seconds
+Uptime %: 100
+[Fri Mar 13 11:00:02 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.80 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://fd688950.xiaotie-status.pages.dev
+[Fri Mar 13 11:00:27 AM CST 2026] 部署完成
+[Fri Mar 13 11:30:01 AM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 124953 seconds
+Uptime %: 100
+[Fri Mar 13 11:30:01 AM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.08 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://0d247773.xiaotie-status.pages.dev
+[Fri Mar 13 11:30:25 AM CST 2026] 部署完成
+[Fri Mar 13 12:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 126753 seconds
+Uptime %: 100
+[Fri Mar 13 12:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.19 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://b91675d1.xiaotie-status.pages.dev
+[Fri Mar 13 12:00:22 PM CST 2026] 部署完成
+[Fri Mar 13 12:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 128553 seconds
+Uptime %: 100
+[Fri Mar 13 12:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (3.91 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://372ae851.xiaotie-status.pages.dev
+[Fri Mar 13 12:30:43 PM CST 2026] 部署完成
+[Fri Mar 13 01:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 130353 seconds
+Uptime %: 100
+[Fri Mar 13 01:00:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.19 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://ebacfe5b.xiaotie-status.pages.dev
+[Fri Mar 13 01:00:31 PM CST 2026] 部署完成
+[Fri Mar 13 01:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 132153 seconds
+Uptime %: 100
+[Fri Mar 13 01:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.26 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c4b9fe73.xiaotie-status.pages.dev
+[Fri Mar 13 01:30:23 PM CST 2026] 部署完成
+[Fri Mar 13 02:00:02 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 133954 seconds
+Uptime %: 100
+[Fri Mar 13 02:00:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.21 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://c69d85b1.xiaotie-status.pages.dev
+[Fri Mar 13 02:00:35 PM CST 2026] 部署完成
+[Fri Mar 13 02:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 135753 seconds
+Uptime %: 100
+[Fri Mar 13 02:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (6.09 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://3f5ad979.xiaotie-status.pages.dev
+[Fri Mar 13 02:30:32 PM CST 2026] 部署完成
+[Fri Mar 13 03:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 137553 seconds
+Uptime %: 100
+[Fri Mar 13 03:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (1.72 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://aa66ab56.xiaotie-status.pages.dev
+[Fri Mar 13 03:00:28 PM CST 2026] 部署完成
+[Fri Mar 13 03:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 139353 seconds
+Uptime %: 100
+[Fri Mar 13 03:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.20 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://035c597d.xiaotie-status.pages.dev
+[Fri Mar 13 03:30:26 PM CST 2026] 部署完成
+[Fri Mar 13 04:00:02 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 141154 seconds
+Uptime %: 100
+[Fri Mar 13 04:00:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.98 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a14b1421.xiaotie-status.pages.dev
+[Fri Mar 13 04:00:26 PM CST 2026] 部署完成
+[Fri Mar 13 04:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 142953 seconds
+Uptime %: 100
+[Fri Mar 13 04:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.05 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://97a04652.xiaotie-status.pages.dev
+[Fri Mar 13 04:30:22 PM CST 2026] 部署完成
+[Fri Mar 13 05:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 144753 seconds
+Uptime %: 100
+[Fri Mar 13 05:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (7.35 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e97230ee.xiaotie-status.pages.dev
+[Fri Mar 13 05:00:28 PM CST 2026] 部署完成
+[Fri Mar 13 05:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 146553 seconds
+Uptime %: 100
+[Fri Mar 13 05:30:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0
+───────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (5.59 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://9b961de4.xiaotie-status.pages.dev
+[Fri Mar 13 05:30:25 PM CST 2026] 部署完成
+[Fri Mar 13 06:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 0
+Messages today: 1
+Uptime: 148353 seconds
+Uptime %: 100
+[Fri Mar 13 06:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0 (update available 4.73.0)
+─────────────────────────────────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (3.65 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://557701a0.xiaotie-status.pages.dev
+[Fri Mar 13 06:00:30 PM CST 2026] 部署完成
+[Fri Mar 13 06:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 3
+Messages today: 1
+Uptime: 150154 seconds
+Uptime %: 100
+[Fri Mar 13 06:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0 (update available 4.73.0)
+─────────────────────────────────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (1.92 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e687b617.xiaotie-status.pages.dev
+[Fri Mar 13 06:30:24 PM CST 2026] 部署完成
+[Fri Mar 13 07:00:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 3
+Messages today: 1
+Uptime: 151953 seconds
+Uptime %: 100
+[Fri Mar 13 07:00:01 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0 (update available 4.73.0)
+─────────────────────────────────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.36 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://9a5d46a6.xiaotie-status.pages.dev
+[Fri Mar 13 07:00:47 PM CST 2026] 部署完成
+[Fri Mar 13 07:30:01 PM CST 2026] 生成最新状态数据...
+Status updated: /home/admin/.openclaw/workspace/workspace-status/api/status.json
+Tasks today: 3
+Messages today: 1
+Uptime: 153753 seconds
+Uptime %: 100
+[Fri Mar 13 07:30:02 PM CST 2026] 检测到文件变化，开始部署...
+
+ ⛅️ wrangler 4.72.0 (update available 4.73.0)
+─────────────────────────────────────────────
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mPages now has wrangler.toml support.[0m
+
+  We detected a configuration file at /home/admin/.openclaw/workspace/workspace-status/wrangler.toml but it is missing the "pages_build_output_dir" field, required by Pages.
+  If you would like to use this configuration file to deploy your project, please use "pages_build_output_dir" to specify the directory of static files to upload.
+  Ignoring configuration file for now, and proceeding with project deploy.
+
+
+Uploading... (31/34)
+Uploading... (32/34)
+Uploading... (33/34)
+Uploading... (34/34)
+✨ Success! Uploaded 3 files (31 already uploaded) (2.59 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://d3074b59.xiaotie-status.pages.dev
+[Fri Mar 13 07:30:23 PM CST 2026] 部署完成
