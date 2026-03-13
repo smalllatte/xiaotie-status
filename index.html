@@ -469,14 +469,14 @@
                 <span class="scene-status" id="officeStatus">工作中</span>
                 <div class="desk"></div>
                 <div class="monitor"></div>
-                <div class="character" id="officeChar">⚡</div>
+                <div class="character" id="officeChar">🦞</div>
             </div>
             
             <div class="scene lounge" id="loungeScene">
                 <span class="scene-title">🛋️ 学习区</span>
                 <span class="scene-status" id="loungeStatus">空闲中</span>
                 <div class="sofa"></div>
-                <div class="character" id="loungeChar">📚</div>
+                <div class="character" id="loungeChar">☕</div>
             </div>
         </div>
         
@@ -484,7 +484,7 @@
         <div class="status-panel">
             <div class="status-header">
                 <div class="current-status">
-                    <div class="status-indicator working" id="statusIndicator">⚡</div>
+                    <div class="status-indicator working" id="statusIndicator">🦞</div>
                     <div class="status-text">
                         <h2 id="currentStatus">工作中</h2>
                         <p id="statusDetail">实时数据处理中</p>
@@ -727,12 +727,12 @@
                 
                 const isWorking = status?.workspace === '工作中';
                 officeScene.classList.toggle('active', isWorking);
-                officeChar.textContent = status?.workspaceIcon || '💤';
+                officeChar.textContent = '🦞'; // 小龙虾
                 officeStatus.textContent = status?.workspace || '空闲中';
                 
                 const isLearning = status?.learning === '学习中';
                 loungeScene.classList.toggle('active', isLearning);
-                loungeChar.textContent = status?.learningIcon || '🛋️';
+                loungeChar.textContent = '☕'; // 拿铁
                 loungeStatus.textContent = status?.learning || '空闲中';
             },
             
@@ -744,10 +744,10 @@
                 indicator.className = 'status-indicator';
                 if (isWorking) {
                     indicator.classList.add('working');
-                    indicator.textContent = status?.workspaceIcon || '⚡';
+                    indicator.textContent = '🦞'; // 小龙虾工作中
                 } else if (isLearning) {
                     indicator.classList.add('learning');
-                    indicator.textContent = status?.learningIcon || '📚';
+                    indicator.textContent = '☕'; // 拿铁学习中
                 } else {
                     indicator.classList.add('idle');
                     indicator.textContent = '💤';
