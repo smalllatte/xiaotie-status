@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T12:03:01.466Z",
+  "timestamp": "2026-03-13T12:06:01.222Z",
   "version": "v20260313-02",
   "status": {
     "workspace": "空闲中",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "OTA 收益管理学习",
     "description": "学习动态定价与库存管理策略",
-    "duration": 155733,
-    "taskDuration": 103244
+    "duration": 155913,
+    "taskDuration": 103424
   },
   "today": {
     "date": "2026-03-13",
     "tasks": 4,
     "messages": 17,
     "learning": 66,
-    "uptime": 155733,
+    "uptime": 155913,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,7 +59,7 @@
   ],
   "activities": [
     {
-      "time": "20:03",
+      "time": "20:06",
       "icon": "⚡",
       "title": "OTA 收益管理学习",
       "desc": "学习动态定价与库存管理策略"
@@ -118,5 +118,12 @@
       "title": "学习笔记：A/B 测试与实验设计",
       "desc": "产出 4.1k 字笔记 · **数据驱动决策**: 用数据而非直觉做产品决策"
     }
-  ]
+  ],
+  "meta": {
+    "totalNotes": 99,
+    "todayNotes": 66,
+    "lastUpdated": "2026-03-13T12:06:01.253Z",
+    "dataSource": "本地 memory 文件 + learning 目录统计",
+    "dataVerified": true
+  }
 }

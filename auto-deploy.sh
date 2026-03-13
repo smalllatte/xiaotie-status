@@ -11,6 +11,20 @@ echo "🦾 小铁状态网站 - 自动部署脚本"
 echo "================================"
 echo ""
 
+# 步骤 0: 运行测试（新增）
+echo "🧪 步骤 0: 运行自动化测试..."
+if [ -f "test-website.sh" ]; then
+    if ! ./test-website.sh; then
+        echo ""
+        echo "❌ 测试失败！终止部署，请修复后重试"
+        exit 1
+    fi
+    echo ""
+else
+    echo "⚠️  未找到测试脚本，跳过测试"
+    echo ""
+fi
+
 # 1. 检查 Git 状态
 echo "📦 步骤 1: 检查 Git 状态..."
 git status --short

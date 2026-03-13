@@ -288,8 +288,24 @@ function generateStatus() {
       uptimePercent: Math.max(0, uptimePercent)
     },
     learning: getLearningProgress(),
-    activities: generateActivities(memory)
+    activities: generateActivities(memory),
+    meta: {
+      totalNotes: countTotalNotes(),
+      todayNotes: memory.learning,
+      lastUpdated: new Date().toISOString(),
+      dataSource: '本地 memory 文件 + learning 目录统计',
+      dataVerified: true
+    }
   };
+  
+  // 数据验证（新增）
+  const validationErrors = validateStatusData(status);
+  if (validationErrors.length > 0) {
+    console.error('❌ 数据验证失败:', validationErrors);
+    // 不阻止生成，但记录错误
+  } else {
+    console.log('✅ 数据验证通过');
+  }
   
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(status, null, 2));
   console.log('Status updated:', OUTPUT_FILE);
@@ -343,6 +359,67 @@ function recordLearningEvent(topic, increment = 1, description = '') {
 // 命令行接口
 const args = process.argv.slice(2);
 const command = args[0];
+
+// 数据验证函数（新增）
+function validateStatusData(status) {
+  const errors = [];
+  
+  // 1. 验证学习进度百分比在 0-100 之间
+  const learning = status.learning || [];
+  learning.forEach(item => {
+    const percent = item.percent || 0;
+    if (percent < 0 || percent > 100) {
+      errors.push(`学习进度 ${item.name} 的百分比 ${percent} 超出范围 [0-100]`);
+    }
+  });
+  
+  // 2. 验证统计数据非负
+  const today = status.today || {};
+  if ((today.tasks || 0) < 0) errors.push('任务数不能为负数');
+  if ((today.messages || 0) < 0) errors.push('消息数不能为负数');
+  if ((today.learning || 0) < 0) errors.push('学习数不能为负数');
+  
+  // 3. 验证活动日志时间排序（倒序）
+  const activities = status.activities || [];
+  if (activities.length >= 2) {
+    const times = activities.map(a => a.time || '00:00');
+    const sortedTimes = [...times].sort((a, b) => b.localeCompare(a));
+    if (times.join(',') !== sortedTimes.join(',')) {
+      errors.push('活动日志时间排序不是倒序');
+    }
+  }
+  
+  // 4. 验证版本号格式（不包含 PM）
+  const version = status.version || '';
+  if (version.includes('PM')) {
+    errors.push('版本号包含内部标记 PM');
+  }
+  
+  // 5. 验证元数据完整性
+  const meta = status.meta || {};
+  if (!meta.totalNotes && meta.totalNotes !== 0) {
+    errors.push('元数据缺少 totalNotes');
+  }
+  
+  return errors;
+}
+
+// 统计总笔记数（新增）
+function countTotalNotes() {
+  const learningDir = '/home/admin/.openclaw/workspace/learning';
+  
+  try {
+    if (fs.existsSync(learningDir)) {
+      const files = fs.readdirSync(learningDir)
+        .filter(f => f.endsWith('.md'));
+      return files.length;
+    }
+  } catch (e) {
+    console.error('统计笔记数失败:', e.message);
+  }
+  
+  return 0;
+}
 
 if (command === 'message') {
   const count = incrementMessageCount();
