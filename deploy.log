@@ -4395,3 +4395,23 @@ To github.com:smalllatte/xiaotie-status.git
 ?? data/version-revision.txt
 
 📦 步骤 2: 添加所有变更...
+✅ 已添加所有变更
+
+📦 步骤 3: 提交变更...
+   提交信息：chore: 自动更新 2026-03-14-2230
+[main bd10429] chore: 自动更新 2026-03-14-2230
+ 4 files changed, 104 insertions(+), 14 deletions(-)
+ create mode 100644 data/version-revision.txt
+
+🚀 步骤 4: 推送到 GitHub...
+To github.com:smalllatte/xiaotie-status.git
+   6dec369..bd10429  main -> main
+
+================================
+✅ 部署完成！
+
+🌐 生产域名：https://xiaotie-status.pages.dev
+⏱️ 部署时间：通常 30-60 秒
+
+💡 提示：硬刷新查看最新版本 (Ctrl+Shift+R / Cmd+Shift+R)
+================================

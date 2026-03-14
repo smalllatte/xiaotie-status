@@ -7,7 +7,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta name="version" content="2026-03-13-PM-v1">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -636,7 +636,23 @@
             updateInterval: null,
             
             init() {
-                console.log('🦾 小铁状态看板启动 - PM 优化版 v1');
+                console.log('🦾 小铁状态看板启动 - 修复版 v2');
+                
+                // 清除可能过期的本地缓存（修复版本号显示问题）
+                const oldCache = localStorage.getItem('xiaotie_status_cache');
+                if (oldCache) {
+                    try {
+                        const parsed = JSON.parse(oldCache);
+                        // 如果是旧版本格式（没有 version 字段或版本号格式不对），清除缓存
+                        if (!parsed.version || !parsed.version.startsWith('v')) {
+                            console.log('清除旧缓存:', parsed.version);
+                            localStorage.removeItem('xiaotie_status_cache');
+                        }
+                    } catch (e) {
+                        localStorage.removeItem('xiaotie_status_cache');
+                    }
+                }
+                
                 this.updateUI();
                 // 降低刷新频率：10 秒一次（原来是 1 秒）
                 this.updateInterval = setInterval(() => this.updateUI(), 10000);
@@ -678,6 +694,12 @@
                 } catch (error) {
                     console.error('❌ 数据更新失败:', error);
                     data = DataManager.getDefaultData();
+                }
+                
+                // 更新版本号
+                const versionEl = document.getElementById('versionBadge');
+                if (versionEl && data.version) {
+                    versionEl.textContent = '📌 ' + data.version;
                 }
                 
                 // 更新最后更新时间
