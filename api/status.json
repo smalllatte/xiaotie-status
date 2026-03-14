@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-14T14:00:01.945Z",
-  "version": "v20260314-03",
+  "timestamp": "2026-03-14T14:30:01.672Z",
+  "version": "v20260314-06",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 79201,
+    "duration": 81001,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 11,
     "learning": 29,
-    "uptime": 79201,
+    "uptime": 81001,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "22:00",
+      "time": "22:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "22:16",
+      "icon": "📚",
+      "title": "📖 毛选学习经验总结",
+      "desc": "产出 3.5k 字笔记 · 用户访谈至少 10 人再写 PRD"
     },
     {
       "time": "21:42",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "产品经理的数据驱动决策与市场竞争分析方法",
       "desc": "产出 9.8k 字笔记 · 🎯 **验证假设**: 用数据验证产品改进是否有效"
-    },
-    {
-      "time": "14:36",
-      "icon": "📚",
-      "title": "OTA 与交通出行产品经理的核心研究方法",
-      "desc": "产出 9.1k 字笔记 · 📊 **市场定位**: 了解自己在市场中的位置"
     }
   ],
   "meta": {
-    "totalNotes": 128,
+    "totalNotes": 129,
     "todayNotes": 29,
-    "lastUpdated": "2026-03-14T14:00:02.041Z",
+    "lastUpdated": "2026-03-14T14:30:01.812Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }

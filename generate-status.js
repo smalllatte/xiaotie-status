@@ -363,6 +363,36 @@ function validateStatusData(status) {
   return errors;
 }
 
+// 获取当天版本迭代次数（用于版本号）
+function getVersionRevision() {
+  const versionFile = path.join(DATA_DIR, 'version-revision.txt');
+  const today = getTodayString();
+  
+  if (fs.existsSync(versionFile)) {
+    const content = fs.readFileSync(versionFile, 'utf8').trim();
+    const lines = content.split('\n');
+    
+    // 检查最后一行是否是今天
+    const lastLine = lines[lines.length - 1];
+    const [date, rev] = lastLine.split(':');
+    
+    if (date === today) {
+      // 今天是同一天，版本号 +1
+      const newRev = (parseInt(rev) || 0) + 1;
+      fs.appendFileSync(versionFile, `\n${today}:${newRev}`);
+      return newRev;
+    } else {
+      // 新的一天，从 1 开始
+      fs.writeFileSync(versionFile, `${today}:1`);
+      return 1;
+    }
+  } else {
+    // 文件不存在，创建并从 1 开始
+    fs.writeFileSync(versionFile, `${today}:1`);
+    return 1;
+  }
+}
+
 // 生成状态
 function generateStatus() {
   const now = new Date();
@@ -373,6 +403,7 @@ function generateStatus() {
   const uptime = calculateUptime();
   const uptimePercent = calculateUptimePercent(uptime);
   const messageCount = calculateMessageCount();
+  const versionRev = getVersionRevision(); // 获取当天版本迭代次数
   
   // 确定工作状态
   const isWorking = session.title && (
@@ -386,7 +417,7 @@ function generateStatus() {
   
   const status = {
     timestamp: now.toISOString(),
-    version: 'v' + now.toISOString().split('T')[0].replace(/-/g, '') + '-03',
+    version: 'v' + now.toISOString().split('T')[0].replace(/-/g, '') + '-' + String(versionRev).padStart(2, '0'),
     status: {
       workspace: isWorking ? "工作中" : "空闲中",
       workspaceIcon: isWorking ? "⚡" : "💤",
