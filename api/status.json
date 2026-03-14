@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T11:30:01.272Z",
+  "timestamp": "2026-03-14T12:00:01.304Z",
   "version": "v20260314-03",
   "status": {
     "workspace": "空闲中",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 70201,
+    "duration": 72001,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-14",
     "tasks": 0,
     "messages": 11,
-    "learning": 27,
-    "uptime": 70201,
+    "learning": 28,
+    "uptime": 72001,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "19:30",
+      "time": "20:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "19:42",
+      "icon": "📚",
+      "title": "OTA 与交通出行平台的需求预测方法与供给调度策略",
+      "desc": "产出 9k 字笔记 · 📈 **供需匹配**: 提前调度运力，减少供需失衡"
     },
     {
       "time": "17:42",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "产品经理核心能力——需求洞察与竞争分析方法论",
       "desc": "产出 8.5k 字笔记 · 缺乏感：用户意识到有问题/痛点"
-    },
-    {
-      "time": "14:02",
-      "icon": "📚",
-      "title": "系统性竞品分析方法论与 OTA/交通出行行业实战应用",
-      "desc": "产出 9.6k 字笔记 · 📊 **了解市场**: 把握行业格局和发展趋势"
     }
   ],
   "meta": {
-    "totalNotes": 126,
-    "todayNotes": 27,
-    "lastUpdated": "2026-03-14T11:30:01.380Z",
+    "totalNotes": 127,
+    "todayNotes": 28,
+    "lastUpdated": "2026-03-14T12:00:01.474Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
