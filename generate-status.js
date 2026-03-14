@@ -363,23 +363,31 @@ function validateStatusData(status) {
   return errors;
 }
 
-// 获取当天版本号 - 从 git 获取最新提交的简短哈希
+// 获取当天版本号 - 从 git tag 或 commit 消息中获取当天更新次数
 function getVersionRevision() {
   const { execSync } = require('child_process');
+  const today = getTodayString(); // YYYY-MM-DD
+  const todayCompact = today.replace(/-/g, ''); // YYYYMMDD
   
   try {
-    // 尝试从 git 获取最新提交的简短哈希（8 位）
-    const gitHash = execSync('git rev-parse --short HEAD', { 
-      cwd: __dirname,
-      encoding: 'utf8',
-      stdio: ['pipe', 'pipe', 'pipe']
-    }).trim();
+    // 获取今天的 commit 数量作为版本号
+    const commitCount = execSync(
+      `git rev-list --count --since="${today} 00:00:00" --until="${today} 23:59:59" HEAD`,
+      { 
+        cwd: __dirname,
+        encoding: 'utf8',
+        stdio: ['pipe', 'pipe', 'pipe']
+      }
+    ).trim();
     
-    return gitHash;
+    const count = parseInt(commitCount) || 1;
+    return `${todayCompact}-${String(count).padStart(2, '0')}`;
   } catch (e) {
-    // git 不可用，回退到日期格式
-    const today = getTodayString();
-    return today.replace(/-/g, '');
+    // git 不可用，回退到日期 + 时间
+    const now = new Date();
+    const hour = String(now.getHours()).padStart(2, '0');
+    const min = String(now.getMinutes()).padStart(2, '0');
+    return `${todayCompact}-${hour}${min}`;
   }
 }
 
@@ -407,7 +415,7 @@ function generateStatus() {
   
   const status = {
     timestamp: now.toISOString(),
-    version: 'v' + getVersionRevision(), // 使用 git hash 作为版本号
+    version: 'v' + getVersionRevision(), // 使用日期 + 更新次数格式
     status: {
       workspace: isWorking ? "工作中" : "空闲中",
       workspaceIcon: isWorking ? "⚡" : "💤",
