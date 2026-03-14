@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T13:30:02.115Z",
+  "timestamp": "2026-03-14T14:00:01.945Z",
   "version": "v20260314-03",
   "status": {
     "workspace": "空闲中",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 77402,
+    "duration": 79201,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-14",
     "tasks": 0,
     "messages": 11,
-    "learning": 28,
-    "uptime": 77402,
+    "learning": 29,
+    "uptime": 79201,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "21:30",
+      "time": "22:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "21:42",
+      "icon": "📚",
+      "title": "产品经理的 OKR 制定、追踪与绩效考核方法",
+      "desc": "产出 7.9k 字笔记 · **O (Objective)**: 目标 —— 我们要去哪里？（定性、鼓舞人心）"
     },
     {
       "time": "19:42",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "OTA 与交通出行产品经理的核心研究方法",
       "desc": "产出 9.1k 字笔记 · 📊 **市场定位**: 了解自己在市场中的位置"
-    },
-    {
-      "time": "14:11",
-      "icon": "📚",
-      "title": "产品经理核心能力——需求洞察与竞争分析方法论",
-      "desc": "产出 8.5k 字笔记 · 缺乏感：用户意识到有问题/痛点"
     }
   ],
   "meta": {
-    "totalNotes": 127,
-    "todayNotes": 28,
-    "lastUpdated": "2026-03-14T13:30:02.210Z",
+    "totalNotes": 128,
+    "todayNotes": 29,
+    "lastUpdated": "2026-03-14T14:00:02.041Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
