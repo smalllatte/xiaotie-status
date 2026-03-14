@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T05:00:01.732Z",
+  "timestamp": "2026-03-14T05:30:02.306Z",
   "version": "v20260314-03",
   "status": {
     "workspace": "空闲中",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 46801,
+    "duration": 48602,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 46801,
-    "uptimePercent": 81
+    "uptime": 48602,
+    "uptimePercent": 84
   },
   "learning": [
     {
@@ -59,10 +59,22 @@
   ],
   "activities": [
     {
-      "time": "13:00",
+      "time": "13:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "13:27",
+      "icon": "📚",
+      "title": "OTA 与交通出行产品经理的核心能力——竞品分析与用户调研",
+      "desc": "产出 13k 字笔记 · 📊 **市场洞察**: 了解行业格局和竞争态势"
+    },
+    {
+      "time": "13:22",
+      "icon": "📚",
+      "title": "产品经理的 A/B 测试方法论与实验设计实战",
+      "desc": "产出 9k 字笔记 · 👤 老板说：\"我觉得红色按钮更好看\""
     },
     {
       "time": "11:21",
@@ -105,24 +117,12 @@
       "icon": "📚",
       "title": "MaaS 商业模式、产品设计与发展趋势",
       "desc": "产出 5.4k 字笔记 · 出行即服务，是一种通过数字化平台整合多种交通方式，为用户提供一站式出行解决方案的服务模式。"
-    },
-    {
-      "time": "08:46",
-      "icon": "📚",
-      "title": "用户旅程地图绘制与痛点识别方法",
-      "desc": "产出 5.9k 字笔记 · **时间线**: 从产生需求到完成目标的全流程"
-    },
-    {
-      "time": "08:36",
-      "icon": "📚",
-      "title": "交通出行产品经理必备的数据分析能力与方法论",
-      "desc": "产出 7.7k 字笔记 · 数据上报是否正常？"
     }
   ],
   "meta": {
-    "totalNotes": 114,
+    "totalNotes": 116,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-14T05:00:01.811Z",
+    "lastUpdated": "2026-03-14T05:30:02.630Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
