@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-15T04:30:01.910Z",
+  "timestamp": "2026-03-15T05:00:01.941Z",
   "version": "v20260315-01",
   "status": {
     "workspace": "空闲中",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 45001,
+    "duration": 46801,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 1,
-    "messages": 5,
-    "learning": 11,
-    "uptime": 45001,
-    "uptimePercent": 78
+    "tasks": 7,
+    "messages": 8,
+    "learning": 16,
+    "uptime": 46801,
+    "uptimePercent": 81
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "12:30",
+      "time": "13:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "12:55",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升策略",
+      "desc": "产出 4.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "12:50",
+      "icon": "📚",
+      "title": "人工智能技术在 OTA 交通业务场景的落地应用",
+      "desc": "产出 4.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "12:46",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与服务满意度提升策略",
+      "desc": "产出 3.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "12:40",
+      "icon": "📚",
+      "title": "产品指标体系搭建与分析方法",
+      "desc": "产出 5.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "12:30",
+      "icon": "📚",
+      "title": "网约车/交通业务 UX 指标设计与优化",
+      "desc": "产出 4.6k 字笔记 · 学习笔记"
     },
     {
       "time": "12:25",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "OTA 交通业务 / 聚合平台模式",
       "desc": "产出 2.7k 字笔记 · 高德打车（阿里系）"
-    },
-    {
-      "time": "12:05",
-      "icon": "📚",
-      "title": "交通业务线 - 合规与风控",
-      "desc": "产出 3.9k 字笔记 · 合规与风控  "
-    },
-    {
-      "time": "12:01",
-      "icon": "📚",
-      "title": "网约车高峰期供需失衡与调度优化",
-      "desc": "产出 2.7k 字笔记 · **早高峰** (7:00-9:00): 居住区→商务区/园区，需求集中爆发"
-    },
-    {
-      "time": "11:55",
-      "icon": "📚",
-      "title": "OTA 交通业务 / 用户体验 / 转化优化",
-      "desc": "产出 3.9k 字笔记 · 搜索比价体验"
-    },
-    {
-      "time": "11:50",
-      "icon": "📚",
-      "title": "自动学习笔记 - 2026-03-15 11:50",
-      "desc": "产出 1.6k 字笔记 · 2026-03-15 11:50"
-    },
-    {
-      "time": "11:45",
-      "icon": "📚",
-      "title": "AI 在交通调度优化中的应用 - 2026-03-15",
-      "desc": "产出 1.1k 字笔记 · 2026-03-15"
     }
   ],
   "meta": {
-    "totalNotes": 142,
-    "todayNotes": 11,
-    "lastUpdated": "2026-03-15T04:30:02.041Z",
+    "totalNotes": 147,
+    "todayNotes": 16,
+    "lastUpdated": "2026-03-15T05:00:02.076Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
