@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T09:00:01.600Z",
-  "version": "v20260315-09",
+  "timestamp": "2026-03-15T09:30:01.953Z",
+  "version": "v20260315-10",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 61201,
+    "duration": 63001,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 56,
-    "messages": 57,
-    "learning": 54,
-    "uptime": 61201,
+    "tasks": 62,
+    "messages": 63,
+    "learning": 60,
+    "uptime": 63001,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "17:00",
+      "time": "17:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "17:25",
+      "icon": "📚",
+      "title": "网约车平台安全管理体系与风险控制策略",
+      "desc": "产出 4.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:20",
+      "icon": "📚",
+      "title": "OTA 平台跨城出行产品设计与业务协同",
+      "desc": "产出 6.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:15",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)模式与智能出行发展趋势",
+      "desc": "产出 4.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:11",
+      "icon": "📚",
+      "title": "网约车/交通业务产品经理必备技术知识体系",
+      "desc": "产出 6.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:05",
+      "icon": "📚",
+      "title": "网约车乘客需求预测方法与运力调度优化",
+      "desc": "产出 3.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:02",
+      "icon": "📚",
+      "title": "网约车/交通业务收益管理 (Revenue Management) 与动态定价策略深度研究",
+      "desc": "产出 7.2k 字笔记 · 高价 → 收益↑ 但 需求↓ 体验↓"
     },
     {
       "time": "16:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "交通与机票/酒店业务的协同效应与打包策略",
       "desc": "产出 5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:40",
-      "icon": "📚",
-      "title": "网约车用户出行场景与行为模式分析",
-      "desc": "产出 3.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:35",
-      "icon": "📚",
-      "title": "网约车聚合平台商业模式与运营策略",
-      "desc": "产出 4.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:30",
-      "icon": "📚",
-      "title": "MaaS(Mobility as a Service)模式与多模态交通整合策略",
-      "desc": "产出 5.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:27",
-      "icon": "📚",
-      "title": "MaaS(Mobility as a Service)一体化出行服务平台与发展趋势",
-      "desc": "产出 4.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:21",
-      "icon": "📚",
-      "title": "网约车合规政策框架与 OTA 交通业务政府关系策略",
-      "desc": "产出 4.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:15",
-      "icon": "📚",
-      "title": "出行行业聚合平台商业模式与竞争策略",
-      "desc": "产出 4.5k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 185,
-    "todayNotes": 54,
-    "lastUpdated": "2026-03-15T09:00:01.761Z",
+    "totalNotes": 191,
+    "todayNotes": 60,
+    "lastUpdated": "2026-03-15T09:30:02.087Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
