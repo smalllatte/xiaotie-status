@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T05:30:01.684Z",
-  "version": "v20260315-02",
+  "timestamp": "2026-03-15T06:00:01.546Z",
+  "version": "v20260315-03",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 48601,
+    "duration": 50401,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 13,
-    "messages": 14,
-    "learning": 21,
-    "uptime": 48601,
-    "uptimePercent": 84
+    "tasks": 20,
+    "messages": 21,
+    "learning": 25,
+    "uptime": 50401,
+    "uptimePercent": 88
   },
   "learning": [
     {
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "13:30",
+      "time": "14:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "13:55",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升策略",
+      "desc": "产出 4k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:50",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升策略",
+      "desc": "产出 3.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:45",
+      "icon": "📚",
+      "title": "聚合打车平台的用户体验设计与差异化策略",
+      "desc": "产出 4.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:40",
+      "icon": "📚",
+      "title": "网约车乘客体验全流程优化策略",
+      "desc": "产出 5.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:36",
+      "icon": "📚",
+      "title": "OTA 交通业务竞争分析方法论与实战框架",
+      "desc": "产出 7.7k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:30",
+      "icon": "📚",
+      "title": "数据驱动方法在网约车产品决策中的应用",
+      "desc": "产出 3.9k 字笔记 · 学习笔记"
     },
     {
       "time": "13:25",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "全球交通出行产品创新案例分析",
       "desc": "产出 3.4k 字笔记 · 全球首个 MaaS 平台"
-    },
-    {
-      "time": "13:10",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升策略",
-      "desc": "产出 4.2k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "13:05",
-      "icon": "📚",
-      "title": "OTA 平台多业务线协同与打包产品设计",
-      "desc": "产出 4.8k 字笔记 · 机票 + 酒店 + 交通联动模式"
-    },
-    {
-      "time": "13:00",
-      "icon": "📚",
-      "title": "OTA 交通业务用户留存与复购提升策略",
-      "desc": "产出 3.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:55",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升策略",
-      "desc": "产出 4.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:50",
-      "icon": "📚",
-      "title": "人工智能技术在 OTA 交通业务场景的落地应用",
-      "desc": "产出 4.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:46",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与服务满意度提升策略",
-      "desc": "产出 3.5k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 152,
-    "todayNotes": 21,
-    "lastUpdated": "2026-03-15T05:30:01.780Z",
+    "totalNotes": 156,
+    "todayNotes": 25,
+    "lastUpdated": "2026-03-15T06:00:01.688Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
