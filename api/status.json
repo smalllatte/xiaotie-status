@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T05:00:01.941Z",
-  "version": "v20260315-01",
+  "timestamp": "2026-03-15T05:30:01.684Z",
+  "version": "v20260315-02",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 46801,
+    "duration": 48601,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 7,
-    "messages": 8,
-    "learning": 16,
-    "uptime": 46801,
-    "uptimePercent": 81
+    "tasks": 13,
+    "messages": 14,
+    "learning": 21,
+    "uptime": 48601,
+    "uptimePercent": 84
   },
   "learning": [
     {
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "13:00",
+      "time": "13:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "13:25",
+      "icon": "📚",
+      "title": "网约车乘客端用户体验与转化率提升策略",
+      "desc": "产出 4.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:20",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)多模式交通整合策略",
+      "desc": "产出 4.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:15",
+      "icon": "📚",
+      "title": "全球交通出行产品创新案例分析",
+      "desc": "产出 3.4k 字笔记 · 全球首个 MaaS 平台"
+    },
+    {
+      "time": "13:10",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升策略",
+      "desc": "产出 4.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "13:05",
+      "icon": "📚",
+      "title": "OTA 平台多业务线协同与打包产品设计",
+      "desc": "产出 4.8k 字笔记 · 机票 + 酒店 + 交通联动模式"
+    },
+    {
+      "time": "13:00",
+      "icon": "📚",
+      "title": "OTA 交通业务用户留存与复购提升策略",
+      "desc": "产出 3.7k 字笔记 · 学习笔记"
     },
     {
       "time": "12:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "网约车乘客体验优化与服务满意度提升策略",
       "desc": "产出 3.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:40",
-      "icon": "📚",
-      "title": "产品指标体系搭建与分析方法",
-      "desc": "产出 5.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:30",
-      "icon": "📚",
-      "title": "网约车/交通业务 UX 指标设计与优化",
-      "desc": "产出 4.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:25",
-      "icon": "📚",
-      "title": "网约车司机生态体系建设与平台治理策略",
-      "desc": "产出 2.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "12:21",
-      "icon": "📚",
-      "title": "乘客体验管理 / 满意度提升 / NPS 优化",
-      "desc": "产出 8.6k 字笔记 · 网约车产品经理学习"
-    },
-    {
-      "time": "12:16",
-      "icon": "📚",
-      "title": "司机激励体系与留存策略",
-      "desc": "产出 3.5k 字笔记 · 早晚高峰：7:00-9:00, 17:00-19:00"
-    },
-    {
-      "time": "12:11",
-      "icon": "📚",
-      "title": "OTA 交通业务 / 聚合平台模式",
-      "desc": "产出 2.7k 字笔记 · 高德打车（阿里系）"
     }
   ],
   "meta": {
-    "totalNotes": 147,
-    "todayNotes": 16,
-    "lastUpdated": "2026-03-15T05:00:02.076Z",
+    "totalNotes": 152,
+    "todayNotes": 21,
+    "lastUpdated": "2026-03-15T05:30:01.780Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
