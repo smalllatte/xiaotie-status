@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T08:00:01.338Z",
-  "version": "v20260315-07",
+  "timestamp": "2026-03-15T08:30:01.679Z",
+  "version": "v20260315-08",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 57601,
+    "duration": 59401,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 44,
-    "messages": 45,
-    "learning": 44,
-    "uptime": 57601,
+    "tasks": 50,
+    "messages": 51,
+    "learning": 50,
+    "uptime": 59401,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "16:00",
+      "time": "16:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "16:27",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)一体化出行服务平台与发展趋势",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:21",
+      "icon": "📚",
+      "title": "网约车合规政策框架与 OTA 交通业务政府关系策略",
+      "desc": "产出 4.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:15",
+      "icon": "📚",
+      "title": "出行行业聚合平台商业模式与竞争策略",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:10",
+      "icon": "📚",
+      "title": "以乘客为中心的出行产品体验设计方法论",
+      "desc": "产出 4.5k 字笔记 · 出行体验设计学习笔记"
+    },
+    {
+      "time": "16:06",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与服务设计体系",
+      "desc": "产出 3.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:00",
+      "icon": "📚",
+      "title": "网约车/出行行业商业模式对比研究",
+      "desc": "产出 4.9k 字笔记 · 深度对比分析"
     },
     {
       "time": "15:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "新能源汽车网约车运营趋势与 OTA 交通业务切入点",
       "desc": "产出 4.1k 字笔记 · 运营成本优势 (电费 vs 油费)"
-    },
-    {
-      "time": "15:40",
-      "icon": "📚",
-      "title": "网约车/交通业务用户体验设计与转化率优化",
-      "desc": "产出 4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:35",
-      "icon": "📚",
-      "title": "网约车智能调度算法原理与运力优化策略",
-      "desc": "产出 5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:30",
-      "icon": "📚",
-      "title": "OTA 平台多业务线协同与流量复用策略",
-      "desc": "产出 4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:27",
-      "icon": "📚",
-      "title": "竞品分析框架与方法论在交通业务中的应用",
-      "desc": "产出 5.2k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:21",
-      "icon": "📚",
-      "title": "网约车/交通业务需求预测算法与实践",
-      "desc": "产出 5.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:15",
-      "icon": "📚",
-      "title": "网约车/出行产品用户体验设计优化策略",
-      "desc": "产出 5.3k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 175,
-    "todayNotes": 44,
-    "lastUpdated": "2026-03-15T08:00:01.473Z",
+    "totalNotes": 181,
+    "todayNotes": 50,
+    "lastUpdated": "2026-03-15T08:30:01.835Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
