@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T15:00:02.062Z",
-  "version": "v20260315-21",
+  "timestamp": "2026-03-15T15:30:01.236Z",
+  "version": "v20260315-22",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 82802,
+    "duration": 84601,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 125,
-    "messages": 126,
-    "learning": 110,
-    "uptime": 82802,
+    "tasks": 129,
+    "messages": 130,
+    "learning": 113,
+    "uptime": 84601,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,34 @@
   ],
   "activities": [
     {
-      "time": "23:00",
+      "time": "23:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "23:27",
+      "icon": "📚",
+      "title": "网约车/交通业务客服体系设计、投诉处理与用户体验修复策略",
+      "desc": "产出 11.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "23:22",
+      "icon": "📚",
+      "title": "网约车/交通业务客户服务体系设计与售后问题处理机制",
+      "desc": "产出 11.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "23:17",
+      "icon": "📚",
+      "title": "网约车/交通业务危机事件识别、响应机制与声誉管理",
+      "desc": "产出 12.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "23:13",
+      "icon": "📚",
+      "title": "网约车/交通业务客服体系设计与用户体验修复策略",
+      "desc": "产出 12.5k 字笔记 · 学习笔记"
     },
     {
       "time": "22:59",
@@ -75,12 +99,6 @@
       "icon": "📚",
       "title": "交通业务产品路线图规划方法与需求优先级决策框架",
       "desc": "产出 16.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "22:46",
-      "icon": "📚",
-      "title": "网约车/交通业务客户服务体系设计与投诉处理机制",
-      "desc": "产出 11.9k 字笔记 · 学习笔记"
     },
     {
       "time": "22:37",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "OTA 交通业务产品需求分析框架与实战方法",
       "desc": "产出 21.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "22:22",
-      "icon": "📚",
-      "title": "OTA 平台交通业务的合作伙伴生态建设与合作策略",
-      "desc": "产出 12.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "22:16",
-      "icon": "📚",
-      "title": "OTA 交通业务运力合作伙伴选择与生态体系建设",
-      "desc": "产出 8.4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "22:04",
-      "icon": "📚",
-      "title": "OTA 平台企业差旅交通服务设计与 B2B 商业模式",
-      "desc": "产出 8.7k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 241,
-    "todayNotes": 110,
-    "lastUpdated": "2026-03-15T15:00:02.333Z",
+    "totalNotes": 244,
+    "todayNotes": 113,
+    "lastUpdated": "2026-03-15T15:30:01.494Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
