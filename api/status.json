@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T11:00:01.309Z",
-  "version": "v20260315-13",
+  "timestamp": "2026-03-15T11:30:01.553Z",
+  "version": "v20260315-14",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 68401,
+    "duration": 70201,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 80,
-    "messages": 81,
-    "learning": 74,
-    "uptime": 68401,
+    "tasks": 85,
+    "messages": 86,
+    "learning": 79,
+    "uptime": 70201,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "19:00",
+      "time": "19:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "19:25",
+      "icon": "📚",
+      "title": "网约车平台补贴策略设计、效果评估与 ROI 分析方法",
+      "desc": "产出 4.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "19:21",
+      "icon": "📚",
+      "title": "周日学习总结 - 网约车/交通业务全景知识体系",
+      "desc": "产出 4.2k 字笔记 · 网约车/交通业务全景知识体系"
+    },
+    {
+      "time": "19:15",
+      "icon": "📚",
+      "title": "网约车/OTA 交通业务的增长营销方法论与实战策略",
+      "desc": "产出 4.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "19:11",
+      "icon": "📚",
+      "title": "网约车/交通业务 A/B 测试方法论与实战指南",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "19:06",
+      "icon": "📚",
+      "title": "网约车平台核心技术架构与系统设计",
+      "desc": "产出 11.6k 字笔记 · 学习笔记"
     },
     {
       "time": "18:57",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "OTA 交通业务产品的项目管理方法与跨部门协作机制",
       "desc": "产出 5.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "18:35",
-      "icon": "📚",
-      "title": "交通业务与机票/酒店业务的场景化协同与交叉销售",
-      "desc": "产出 3.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "18:30",
-      "icon": "📚",
-      "title": "OTA 交通业务的商业化模式与变现策略",
-      "desc": "产出 4.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "18:25",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升策略",
-      "desc": "产出 3.2k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "18:20",
-      "icon": "📚",
-      "title": "AI 技术在大出行领域的落地场景与商业价值",
-      "desc": "产出 4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "18:15",
-      "icon": "📚",
-      "title": "OTA 平台出海战略与本地化运营",
-      "desc": "产出 3.7k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 205,
-    "todayNotes": 74,
-    "lastUpdated": "2026-03-15T11:00:01.484Z",
+    "totalNotes": 210,
+    "todayNotes": 79,
+    "lastUpdated": "2026-03-15T11:30:01.692Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
