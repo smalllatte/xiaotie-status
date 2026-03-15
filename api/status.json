@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T14:30:02.188Z",
-  "version": "v20260315-20",
+  "timestamp": "2026-03-15T15:00:02.062Z",
+  "version": "v20260315-21",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 81002,
+    "duration": 82802,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 120,
-    "messages": 121,
-    "learning": 106,
-    "uptime": 81002,
+    "tasks": 125,
+    "messages": 126,
+    "learning": 110,
+    "uptime": 82802,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "22:30",
+      "time": "23:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "22:59",
+      "icon": "💻",
+      "title": "OTA 交通业务的产品迭代方法论与敏捷开发实践",
+      "desc": "产出 11.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "22:53",
+      "icon": "📚",
+      "title": "交通业务产品路线图规划方法与需求优先级决策框架",
+      "desc": "产出 16.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "22:46",
+      "icon": "📚",
+      "title": "网约车/交通业务客户服务体系设计与投诉处理机制",
+      "desc": "产出 11.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "22:37",
+      "icon": "📚",
+      "title": "网约车/交通业务客户服务体系与运营能力建设",
+      "desc": "产出 13k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "22:32",
+      "icon": "📚",
+      "title": "网约车/交通业务用户获取、激活、留存与复购策略体系",
+      "desc": "产出 12.5k 字笔记 · 学习笔记"
     },
     {
       "time": "22:27",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "OTA 平台企业差旅交通服务设计与 B2B 商业模式",
       "desc": "产出 8.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "21:56",
-      "icon": "📚",
-      "title": "OTA 平台跨境出行产品设计与国际市场拓展策略",
-      "desc": "产出 5.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "21:51",
-      "icon": "📚",
-      "title": "网约车补贴策略设计、营销 ROI 评估与效率优化",
-      "desc": "产出 4.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "21:47",
-      "icon": "📚",
-      "title": "OTA 交通业务产品路线图规划与需求优先级排序方法论",
-      "desc": "产出 7.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "21:42",
-      "icon": "📚",
-      "title": "OTA 交通业务产品路线图规划方法与优先级决策框架",
-      "desc": "产出 7.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "21:37",
-      "icon": "📚",
-      "title": "网约车司机激励机制的系统设计与效果评估",
-      "desc": "产出 6.2k 字笔记 · 深度学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 237,
-    "todayNotes": 106,
-    "lastUpdated": "2026-03-15T14:30:02.329Z",
+    "totalNotes": 241,
+    "todayNotes": 110,
+    "lastUpdated": "2026-03-15T15:00:02.333Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
