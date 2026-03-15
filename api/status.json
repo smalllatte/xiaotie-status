@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T06:30:01.980Z",
-  "version": "v20260315-04",
+  "timestamp": "2026-03-15T07:00:01.960Z",
+  "version": "v20260315-05",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 52201,
+    "duration": 54001,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 26,
-    "messages": 27,
-    "learning": 31,
-    "uptime": 52201,
-    "uptimePercent": 91
+    "tasks": 32,
+    "messages": 33,
+    "learning": 34,
+    "uptime": 54001,
+    "uptimePercent": 94
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "14:30",
+      "time": "15:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "14:55",
+      "icon": "📚",
+      "title": "网约车聚合平台的商业模式、竞争策略与 OTA 机会点",
+      "desc": "产出 4.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "14:50",
+      "icon": "📚",
+      "title": "OTA 平台多业务线协同与流量复用策略",
+      "desc": "产出 4.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "14:45",
+      "icon": "📚",
+      "title": "多模式交通整合与一体化出行服务",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "14:40",
+      "icon": "📚",
+      "title": "网约车智能派单与调度算法原理",
+      "desc": "产出 3.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "14:31",
+      "icon": "📚",
+      "title": "OTA 平台交通业务如何构建差异化竞争优势",
+      "desc": "产出 3.4k 字笔记 · 学习笔记"
     },
     {
       "time": "14:25",
@@ -77,12 +107,6 @@
       "desc": "产出 4.9k 字笔记 · 学习笔记"
     },
     {
-      "time": "14:15",
-      "icon": "📚",
-      "title": "网约车智能调度算法原理与优化策略",
-      "desc": "产出 4.8k 字笔记 · 学习笔记"
-    },
-    {
       "time": "14:11",
       "icon": "📚",
       "title": "网约车/交通业务安全管理体系与风险防控策略",
@@ -93,36 +117,12 @@
       "icon": "📚",
       "title": "网约车智能调度系统核心算法与优化策略",
       "desc": "产出 5.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:01",
-      "icon": "📚",
-      "title": "OTA 平台会员体系设计与用户忠诚度运营策略",
-      "desc": "产出 5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "13:55",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升策略",
-      "desc": "产出 4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "13:50",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升策略",
-      "desc": "产出 3.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "13:45",
-      "icon": "📚",
-      "title": "聚合打车平台的用户体验设计与差异化策略",
-      "desc": "产出 4.3k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 162,
-    "todayNotes": 31,
-    "lastUpdated": "2026-03-15T06:30:02.104Z",
+    "totalNotes": 165,
+    "todayNotes": 34,
+    "lastUpdated": "2026-03-15T07:00:02.070Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
