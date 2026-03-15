@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T10:00:01.217Z",
-  "version": "v20260315-11",
+  "timestamp": "2026-03-15T10:30:01.861Z",
+  "version": "v20260315-12",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 64801,
+    "duration": 66601,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 68,
-    "messages": 69,
-    "learning": 64,
-    "uptime": 64801,
+    "tasks": 74,
+    "messages": 75,
+    "learning": 69,
+    "uptime": 66601,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "18:00",
+      "time": "18:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "18:25",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升策略",
+      "desc": "产出 3.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "18:20",
+      "icon": "📚",
+      "title": "AI 技术在大出行领域的落地场景与商业价值",
+      "desc": "产出 4k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "18:15",
+      "icon": "📚",
+      "title": "OTA 平台出海战略与本地化运营",
+      "desc": "产出 3.7k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "18:10",
+      "icon": "📚",
+      "title": "MaaS 模式解析与 OTA 交通业务的机会点",
+      "desc": "产出 4k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "18:05",
+      "icon": "📚",
+      "title": "网约车聚合平台商业模式与竞争策略",
+      "desc": "产出 4.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "18:00",
+      "icon": "📚",
+      "title": "人工智能在 OTA 交通业务中的落地场景与价值",
+      "desc": "产出 4.4k 字笔记 · 学习笔记"
     },
     {
       "time": "17:55",
@@ -77,52 +113,16 @@
       "desc": "产出 4.5k 字笔记 · 学习笔记"
     },
     {
-      "time": "17:45",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与满意度提升",
-      "desc": "产出 4k 字笔记 · 学习笔记"
-    },
-    {
       "time": "17:40",
       "icon": "📚",
       "title": "智能交通系统 (ITS)、车路协同 (V2X) 与未来出行趋势",
       "desc": "产出 4.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:36",
-      "icon": "📚",
-      "title": "OTA 交通业务用户体验优化方法论与实战策略",
-      "desc": "产出 6.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:30",
-      "icon": "📚",
-      "title": "网约车/OTA 交通业务的用户研究方法论",
-      "desc": "产出 4.6k 字笔记 · 探索用户深层动机"
-    },
-    {
-      "time": "17:25",
-      "icon": "📚",
-      "title": "网约车平台安全管理体系与风险控制策略",
-      "desc": "产出 4.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:20",
-      "icon": "📚",
-      "title": "OTA 平台跨城出行产品设计与业务协同",
-      "desc": "产出 6.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:15",
-      "icon": "📚",
-      "title": "MaaS(Mobility as a Service)模式与智能出行发展趋势",
-      "desc": "产出 4.1k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 195,
-    "todayNotes": 64,
-    "lastUpdated": "2026-03-15T10:00:01.377Z",
+    "totalNotes": 200,
+    "todayNotes": 69,
+    "lastUpdated": "2026-03-15T10:30:01.992Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
