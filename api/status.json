@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T07:00:01.960Z",
-  "version": "v20260315-05",
+  "timestamp": "2026-03-15T07:30:01.415Z",
+  "version": "v20260315-06",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 54001,
+    "duration": 55801,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 32,
-    "messages": 33,
-    "learning": 34,
-    "uptime": 54001,
-    "uptimePercent": 94
+    "tasks": 38,
+    "messages": 39,
+    "learning": 39,
+    "uptime": 55801,
+    "uptimePercent": 97
   },
   "learning": [
     {
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "15:00",
+      "time": "15:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "15:27",
+      "icon": "📚",
+      "title": "竞品分析框架与方法论在交通业务中的应用",
+      "desc": "产出 5.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "15:21",
+      "icon": "📚",
+      "title": "网约车/交通业务需求预测算法与实践",
+      "desc": "产出 5.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "15:15",
+      "icon": "📚",
+      "title": "网约车/出行产品用户体验设计优化策略",
+      "desc": "产出 5.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "15:10",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)模式与智能出行发展趋势",
+      "desc": "产出 4.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "15:07",
+      "icon": "📚",
+      "title": "网约车智能调度算法与需求预测技术",
+      "desc": "产出 4.8k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "15:01",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)模式与多模式交通整合策略",
+      "desc": "产出 3.9k 字笔记 · 学习笔记"
     },
     {
       "time": "14:55",
@@ -77,52 +113,16 @@
       "desc": "产出 4.3k 字笔记 · 学习笔记"
     },
     {
-      "time": "14:45",
-      "icon": "📚",
-      "title": "多模式交通整合与一体化出行服务",
-      "desc": "产出 4.5k 字笔记 · 学习笔记"
-    },
-    {
       "time": "14:40",
       "icon": "📚",
       "title": "网约车智能派单与调度算法原理",
       "desc": "产出 3.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:31",
-      "icon": "📚",
-      "title": "OTA 平台交通业务如何构建差异化竞争优势",
-      "desc": "产出 3.4k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:25",
-      "icon": "📚",
-      "title": "网约车智能派单与调度算法核心原理",
-      "desc": "产出 4.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:21",
-      "icon": "📚",
-      "title": "自动驾驶技术发展趋势及其对 OTA 出行平台的战略影响",
-      "desc": "产出 4.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:11",
-      "icon": "📚",
-      "title": "网约车/交通业务安全管理体系与风险防控策略",
-      "desc": "产出 5.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "14:05",
-      "icon": "📚",
-      "title": "网约车智能调度系统核心算法与优化策略",
-      "desc": "产出 5.6k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 165,
-    "todayNotes": 34,
-    "lastUpdated": "2026-03-15T07:00:02.070Z",
+    "totalNotes": 170,
+    "todayNotes": 39,
+    "lastUpdated": "2026-03-15T07:30:01.600Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
