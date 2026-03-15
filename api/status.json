@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T12:30:01.704Z",
-  "version": "v20260315-16",
+  "timestamp": "2026-03-15T13:00:01.437Z",
+  "version": "v20260315-17",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 73801,
+    "duration": 75601,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 96,
-    "messages": 97,
-    "learning": 88,
-    "uptime": 73801,
+    "tasks": 102,
+    "messages": 103,
+    "learning": 93,
+    "uptime": 75601,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "20:30",
+      "time": "21:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "20:56",
+      "icon": "📚",
+      "title": "OTA 交通业务的合作伙伴选择、谈判策略与供应链管理体系",
+      "desc": "产出 5.2k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:51",
+      "icon": "📚",
+      "title": "网约车平台补贴策略设计、效果评估与 ROI 优化",
+      "desc": "产出 4.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:46",
+      "icon": "📚",
+      "title": "网约车/交通业务合作伙伴生态建设与供应链整合策略",
+      "desc": "产出 5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:41",
+      "icon": "📚",
+      "title": "网约车/OTA 交通业务的需求分析与转化方法",
+      "desc": "产出 6.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:36",
+      "icon": "📚",
+      "title": "产品经理需求文档 (PRD) 撰写规范与需求管理方法论",
+      "desc": "产出 5.1k 字笔记 · **业务背景**: 为什么要做这个功能？"
     },
     {
       "time": "20:26",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "企业差旅交通管理与 B 端客户服务策略",
       "desc": "产出 6.6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "20:06",
-      "icon": "📚",
-      "title": "网约车平台技术架构核心模块解析",
-      "desc": "产出 6.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:56",
-      "icon": "📚",
-      "title": "网约车/交通业务的财务模型、单位经济学与盈利路径分析",
-      "desc": "产出 6k 字笔记 · 深度学习"
-    },
-    {
-      "time": "19:51",
-      "icon": "📚",
-      "title": "网约车/交通业务的市场营销策略与用户获取方法",
-      "desc": "产出 5.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:47",
-      "icon": "📚",
-      "title": "网约车/交通业务 A/B 测试方法论与实战案例",
-      "desc": "产出 7.2k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:41",
-      "icon": "📚",
-      "title": "OTA 交通产品经理学习路线图 - 阶段性总结",
-      "desc": "产出 3.9k 字笔记 · 阶段性总结"
     }
   ],
   "meta": {
-    "totalNotes": 219,
-    "todayNotes": 88,
-    "lastUpdated": "2026-03-15T12:30:01.838Z",
+    "totalNotes": 224,
+    "todayNotes": 93,
+    "lastUpdated": "2026-03-15T13:00:01.658Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
