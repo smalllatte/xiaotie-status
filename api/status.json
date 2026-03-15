@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T12:00:02.126Z",
-  "version": "v20260315-15",
+  "timestamp": "2026-03-15T12:30:01.704Z",
+  "version": "v20260315-16",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 72002,
+    "duration": 73801,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 91,
-    "messages": 92,
-    "learning": 83,
-    "uptime": 72002,
+    "tasks": 96,
+    "messages": 97,
+    "learning": 88,
+    "uptime": 73801,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "20:00",
+      "time": "20:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "20:26",
+      "icon": "📚",
+      "title": "网约车平台核心技术架构与系统设计要点",
+      "desc": "产出 5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:20",
+      "icon": "📚",
+      "title": "中国网约车行业合规政策体系与地方政府监管框架",
+      "desc": "产出 4.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:16",
+      "icon": "📚",
+      "title": "OTA 平台交通业务的合作伙伴选择、生态建设与竞合策略",
+      "desc": "产出 5.4k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:11",
+      "icon": "📚",
+      "title": "企业差旅交通管理与 B 端客户服务策略",
+      "desc": "产出 6.6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "20:06",
+      "icon": "📚",
+      "title": "网约车平台技术架构核心模块解析",
+      "desc": "产出 6.1k 字笔记 · 学习笔记"
     },
     {
       "time": "19:56",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "OTA 交通产品经理学习路线图 - 阶段性总结",
       "desc": "产出 3.9k 字笔记 · 阶段性总结"
-    },
-    {
-      "time": "19:36",
-      "icon": "📚",
-      "title": "OTA 交通业务产品路线图规划与需求优先级管理方法论",
-      "desc": "产出 5.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:32",
-      "icon": "📚",
-      "title": "OTA 交通业务产品经理的优先级判断框架与行动计划制定",
-      "desc": "产出 5.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:25",
-      "icon": "📚",
-      "title": "网约车平台补贴策略设计、效果评估与 ROI 分析方法",
-      "desc": "产出 4.8k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "19:21",
-      "icon": "📚",
-      "title": "周日学习总结 - 网约车/交通业务全景知识体系",
-      "desc": "产出 4.2k 字笔记 · 网约车/交通业务全景知识体系"
-    },
-    {
-      "time": "19:15",
-      "icon": "📚",
-      "title": "网约车/OTA 交通业务的增长营销方法论与实战策略",
-      "desc": "产出 4.2k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 214,
-    "todayNotes": 83,
-    "lastUpdated": "2026-03-15T12:00:02.273Z",
+    "totalNotes": 219,
+    "todayNotes": 88,
+    "lastUpdated": "2026-03-15T12:30:01.838Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
