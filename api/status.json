@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T08:30:01.679Z",
-  "version": "v20260315-08",
+  "timestamp": "2026-03-15T09:00:01.600Z",
+  "version": "v20260315-09",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 59401,
+    "duration": 61201,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 50,
-    "messages": 51,
-    "learning": 50,
-    "uptime": 59401,
+    "tasks": 56,
+    "messages": 57,
+    "learning": 54,
+    "uptime": 61201,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "16:30",
+      "time": "17:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "16:55",
+      "icon": "📚",
+      "title": "OTA 平台交通业务如何与滴滴等垂直平台差异化竞争",
+      "desc": "产出 4.3k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:50",
+      "icon": "📚",
+      "title": "多模态交通出行服务整合与一体化体验设计",
+      "desc": "产出 6k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:46",
+      "icon": "📚",
+      "title": "交通与机票/酒店业务的协同效应与打包策略",
+      "desc": "产出 5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:40",
+      "icon": "📚",
+      "title": "网约车用户出行场景与行为模式分析",
+      "desc": "产出 3.9k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:35",
+      "icon": "📚",
+      "title": "网约车聚合平台商业模式与运营策略",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "16:30",
+      "icon": "📚",
+      "title": "MaaS(Mobility as a Service)模式与多模态交通整合策略",
+      "desc": "产出 5.5k 字笔记 · 学习笔记"
     },
     {
       "time": "16:27",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "出行行业聚合平台商业模式与竞争策略",
       "desc": "产出 4.5k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:10",
-      "icon": "📚",
-      "title": "以乘客为中心的出行产品体验设计方法论",
-      "desc": "产出 4.5k 字笔记 · 出行体验设计学习笔记"
-    },
-    {
-      "time": "16:06",
-      "icon": "📚",
-      "title": "网约车乘客体验优化与服务设计体系",
-      "desc": "产出 3.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:00",
-      "icon": "📚",
-      "title": "网约车/出行行业商业模式对比研究",
-      "desc": "产出 4.9k 字笔记 · 深度对比分析"
-    },
-    {
-      "time": "15:55",
-      "icon": "📚",
-      "title": "网约车/出行场景下用户决策全流程分析",
-      "desc": "产出 3.7k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:50",
-      "icon": "📚",
-      "title": "智能出行 (MaaS) 模式分析与 OTA 业务整合机会",
-      "desc": "产出 4.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "15:46",
-      "icon": "📚",
-      "title": "新能源汽车网约车运营趋势与 OTA 交通业务切入点",
-      "desc": "产出 4.1k 字笔记 · 运营成本优势 (电费 vs 油费)"
     }
   ],
   "meta": {
-    "totalNotes": 181,
-    "todayNotes": 50,
-    "lastUpdated": "2026-03-15T08:30:01.835Z",
+    "totalNotes": 185,
+    "todayNotes": 54,
+    "lastUpdated": "2026-03-15T09:00:01.761Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
