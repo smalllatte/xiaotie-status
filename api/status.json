@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-15T09:30:01.953Z",
-  "version": "v20260315-10",
+  "timestamp": "2026-03-15T10:00:01.217Z",
+  "version": "v20260315-11",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 63001,
+    "duration": 64801,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-15",
-    "tasks": 62,
-    "messages": 63,
-    "learning": 60,
-    "uptime": 63001,
+    "tasks": 68,
+    "messages": 69,
+    "learning": 64,
+    "uptime": 64801,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "17:30",
+      "time": "18:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "17:55",
+      "icon": "📚",
+      "title": "网约车智能调度算法原理与优化策略",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:50",
+      "icon": "📚",
+      "title": "OTA 交通业务用户生命周期管理与精细化运营",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:45",
+      "icon": "📚",
+      "title": "网约车乘客体验优化与满意度提升",
+      "desc": "产出 4k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:40",
+      "icon": "📚",
+      "title": "智能交通系统 (ITS)、车路协同 (V2X) 与未来出行趋势",
+      "desc": "产出 4.5k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:36",
+      "icon": "📚",
+      "title": "OTA 交通业务用户体验优化方法论与实战策略",
+      "desc": "产出 6.1k 字笔记 · 学习笔记"
+    },
+    {
+      "time": "17:30",
+      "icon": "📚",
+      "title": "网约车/OTA 交通业务的用户研究方法论",
+      "desc": "产出 4.6k 字笔记 · 探索用户深层动机"
     },
     {
       "time": "17:25",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "MaaS(Mobility as a Service)模式与智能出行发展趋势",
       "desc": "产出 4.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:11",
-      "icon": "📚",
-      "title": "网约车/交通业务产品经理必备技术知识体系",
-      "desc": "产出 6.1k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:05",
-      "icon": "📚",
-      "title": "网约车乘客需求预测方法与运力调度优化",
-      "desc": "产出 3.9k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "17:02",
-      "icon": "📚",
-      "title": "网约车/交通业务收益管理 (Revenue Management) 与动态定价策略深度研究",
-      "desc": "产出 7.2k 字笔记 · 高价 → 收益↑ 但 需求↓ 体验↓"
-    },
-    {
-      "time": "16:55",
-      "icon": "📚",
-      "title": "OTA 平台交通业务如何与滴滴等垂直平台差异化竞争",
-      "desc": "产出 4.3k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:50",
-      "icon": "📚",
-      "title": "多模态交通出行服务整合与一体化体验设计",
-      "desc": "产出 6k 字笔记 · 学习笔记"
-    },
-    {
-      "time": "16:46",
-      "icon": "📚",
-      "title": "交通与机票/酒店业务的协同效应与打包策略",
-      "desc": "产出 5k 字笔记 · 学习笔记"
     }
   ],
   "meta": {
-    "totalNotes": 191,
-    "todayNotes": 60,
-    "lastUpdated": "2026-03-15T09:30:02.087Z",
+    "totalNotes": 195,
+    "todayNotes": 64,
+    "lastUpdated": "2026-03-15T10:00:01.377Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
