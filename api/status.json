@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-16T21:00:01.807Z",
+  "timestamp": "2026-03-16T21:30:02.133Z",
   "version": "v20260316-46",
   "status": {
     "workspace": "空闲中",
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "05:00",
+      "time": "05:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "05:00",
+      "icon": "📚",
+      "title": "自动学习状态检查 - 待机中",
+      "desc": "产出 0.1k 字笔记 · 待机中"
     },
     {
       "time": "04:55",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "产品经理核心能力 / 需求分析 / OTA 交通业务",
       "desc": "产出 11.8k 字笔记 · 中 |"
-    },
-    {
-      "time": "04:16",
-      "icon": "📚",
-      "title": "产品经理核心能力 / 竞品分析 / OTA 交通业务",
-      "desc": "产出 10.3k 字笔记 · 多账号对比（新客 vs 老客、不同城市）"
     }
   ],
   "meta": {
-    "totalNotes": 586,
+    "totalNotes": 587,
     "todayNotes": 274,
-    "lastUpdated": "2026-03-16T21:00:02.117Z",
+    "lastUpdated": "2026-03-16T21:30:02.451Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
