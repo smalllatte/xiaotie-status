@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-03-17T11:00:01.587Z",
-  "version": "v20260317-36",
+  "timestamp": "2026-03-17T11:30:01.366Z",
+  "version": "v20260317-37",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
-    "learning": "空闲中",
-    "learningIcon": "🛋️"
+    "learning": "学习中",
+    "learningIcon": "📚"
   },
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 68401,
+    "duration": 70201,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-17",
     "tasks": 0,
-    "messages": 0,
-    "learning": 0,
-    "uptime": 68401,
+    "messages": 11,
+    "learning": 61,
+    "uptime": 70201,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,7 +59,7 @@
   ],
   "activities": [
     {
-      "time": "19:00",
+      "time": "19:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
@@ -121,8 +121,8 @@
   ],
   "meta": {
     "totalNotes": 587,
-    "todayNotes": 0,
-    "lastUpdated": "2026-03-17T11:00:01.828Z",
+    "todayNotes": 61,
+    "lastUpdated": "2026-03-17T11:30:01.725Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
