@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-18T15:00:02.032Z",
-  "version": "v20260318-36",
+  "timestamp": "2026-03-18T15:30:02.080Z",
+  "version": "v20260318-37",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 82802,
+    "duration": 84602,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-18",
     "tasks": 7,
-    "messages": 15,
-    "learning": 253,
-    "uptime": 82802,
+    "messages": 10,
+    "learning": 259,
+    "uptime": 84602,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "23:00",
+      "time": "23:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "23:25",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:25",
+      "desc": "产出 0.6k 字笔记 · 23:25"
+    },
+    {
+      "time": "23:20",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:20",
+      "desc": "产出 0.6k 字笔记 · 23:20"
+    },
+    {
+      "time": "23:15",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:15",
+      "desc": "产出 0.8k 字笔记 · 23:15"
+    },
+    {
+      "time": "23:10",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:10",
+      "desc": "产出 0.7k 字笔记 · 23:10"
+    },
+    {
+      "time": "23:05",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:05",
+      "desc": "产出 0.5k 字笔记 · 23:05"
+    },
+    {
+      "time": "23:00",
+      "icon": "📚",
+      "title": "自动学习检查点 - 23:00",
+      "desc": "产出 0.8k 字笔记 · 23:00"
     },
     {
       "time": "22:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "自动学习检查点 - 22:45",
       "desc": "产出 0.5k 字笔记 · 22:45"
-    },
-    {
-      "time": "22:40",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:40",
-      "desc": "产出 0.7k 字笔记 · 22:40"
-    },
-    {
-      "time": "22:35",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:35",
-      "desc": "产出 0.8k 字笔记 · 22:35"
-    },
-    {
-      "time": "22:30",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:30",
-      "desc": "产出 0.6k 字笔记 · 22:30"
-    },
-    {
-      "time": "22:25",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:25",
-      "desc": "产出 0.8k 字笔记 · 22:25"
-    },
-    {
-      "time": "22:20",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:20",
-      "desc": "产出 0.7k 字笔记 · 22:20"
-    },
-    {
-      "time": "22:15",
-      "icon": "📚",
-      "title": "自动学习检查点 - 22:15",
-      "desc": "产出 0.6k 字笔记 · 22:15"
     }
   ],
   "meta": {
-    "totalNotes": 840,
-    "todayNotes": 253,
-    "lastUpdated": "2026-03-18T15:00:02.348Z",
+    "totalNotes": 846,
+    "todayNotes": 259,
+    "lastUpdated": "2026-03-18T15:30:02.495Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
