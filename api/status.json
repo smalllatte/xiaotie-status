@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-18T12:00:01.434Z",
-  "version": "v20260318-30",
+  "timestamp": "2026-03-18T12:30:02.123Z",
+  "version": "v20260318-31",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,15 +10,15 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 72001,
+    "duration": 73802,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-18",
-    "tasks": 5,
-    "messages": 8,
-    "learning": 217,
-    "uptime": 72001,
+    "tasks": 6,
+    "messages": 9,
+    "learning": 223,
+    "uptime": 73802,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "20:00",
+      "time": "20:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "20:25",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:25",
+      "desc": "产出 0.5k 字笔记 · 20:25"
+    },
+    {
+      "time": "20:20",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:20",
+      "desc": "产出 0.5k 字笔记 · 20:20"
+    },
+    {
+      "time": "20:15",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:15",
+      "desc": "产出 0.4k 字笔记 · 20:15"
+    },
+    {
+      "time": "20:10",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:10",
+      "desc": "产出 0.5k 字笔记 · 20:10"
+    },
+    {
+      "time": "20:05",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:05",
+      "desc": "产出 0.3k 字笔记 · 20:05"
+    },
+    {
+      "time": "20:03",
+      "icon": "📚",
+      "title": "自动学习检查点 - 20:02",
+      "desc": "产出 0.5k 字笔记 · 20:02"
     },
     {
       "time": "19:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "如何系统化分析竞品接送机产品",
       "desc": "产出 3.1k 字笔记 · 接送机竞品分析框架"
-    },
-    {
-      "time": "19:40",
-      "icon": "📚",
-      "title": "自动学习检查点 - 19:40",
-      "desc": "产出 0.4k 字笔记 · 19:40"
-    },
-    {
-      "time": "19:35",
-      "icon": "📚",
-      "title": "自动学习检查点 - 19:35",
-      "desc": "产出 0.4k 字笔记 · 19:35"
-    },
-    {
-      "time": "19:31",
-      "icon": "📚",
-      "title": "滴滴/高德/携程接送机功能对比",
-      "desc": "产出 2.7k 字笔记 · 接送机竞品功能对比分析"
-    },
-    {
-      "time": "19:25",
-      "icon": "📚",
-      "title": "自动学习检查点 - 19:25",
-      "desc": "产出 0.4k 字笔记 · 19:25"
-    },
-    {
-      "time": "19:20",
-      "icon": "📚",
-      "title": "自动学习检查点 - 19:20",
-      "desc": "产出 0.4k 字笔记 · 19:20"
-    },
-    {
-      "time": "19:15",
-      "icon": "📚",
-      "title": "滴滴、高德、携程接送机功能对比",
-      "desc": "产出 2.7k 字笔记 · 接送机竞品功能对比分析"
     }
   ],
   "meta": {
-    "totalNotes": 804,
-    "todayNotes": 217,
-    "lastUpdated": "2026-03-18T12:00:01.892Z",
+    "totalNotes": 810,
+    "todayNotes": 223,
+    "lastUpdated": "2026-03-18T12:30:02.379Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
