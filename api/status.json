@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-03-18T00:00:01.310Z",
-  "version": "v20260318-06",
+  "timestamp": "2026-03-18T00:30:02.136Z",
+  "version": "v20260318-07",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
-    "learning": "空闲中",
-    "learningIcon": "🛋️"
+    "learning": "学习中",
+    "learningIcon": "📚"
   },
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 28801,
+    "duration": 30602,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-18",
-    "tasks": 0,
-    "messages": 0,
-    "learning": 0,
-    "uptime": 28801,
-    "uptimePercent": 50
+    "tasks": 4,
+    "messages": 6,
+    "learning": 74,
+    "uptime": 30602,
+    "uptimePercent": 53
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "08:00",
+      "time": "08:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "08:25",
+      "icon": "📚",
+      "title": "自动学习检查点 - 08:25",
+      "desc": "产出 0.5k 字笔记 · 08:25"
+    },
+    {
+      "time": "08:20",
+      "icon": "📚",
+      "title": "网约车业务 UE 模型拆解与盈利路径",
+      "desc": "产出 2.3k 字笔记 · 网约车平台单位经济模型 (Unit Economics)"
+    },
+    {
+      "time": "08:15",
+      "icon": "📚",
+      "title": "聚合平台 vs 自营模式的竞争策略与产品差异化",
+      "desc": "产出 2.4k 字笔记 · OTA 交通平台竞争策略分析"
+    },
+    {
+      "time": "08:10",
+      "icon": "📚",
+      "title": "自动学习检查点 - 08:10",
+      "desc": "产出 0.3k 字笔记 · 08:10"
+    },
+    {
+      "time": "08:08",
+      "icon": "📚",
+      "title": "自动学习检查点 - 08:07",
+      "desc": "产出 0.4k 字笔记 · 08:07"
     },
     {
       "time": "07:56",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "网约车业务单位经济模型 (Unit Economics)",
       "desc": "产出 2.8k 字笔记 · 网约车单位经济模型深度分析"
-    },
-    {
-      "time": "07:41",
-      "icon": "📚",
-      "title": "产品经理优先级决策框架",
-      "desc": "产出 0.4k 字笔记 · 07:40"
-    },
-    {
-      "time": "07:41",
-      "icon": "📚",
-      "title": "需求优先级排序方法论与实践",
-      "desc": "产出 4k 字笔记 · 产品经理优先级决策框架"
-    },
-    {
-      "time": "07:35",
-      "icon": "📚",
-      "title": "自动学习检查点 - 07:35",
-      "desc": "产出 0.5k 字笔记 · 07:35"
-    },
-    {
-      "time": "07:31",
-      "icon": "📚",
-      "title": "动态定价机制与收益管理",
-      "desc": "产出 2.6k 字笔记 · 网约车动态定价策略深度解析"
-    },
-    {
-      "time": "07:25",
-      "icon": "📚",
-      "title": "网约车产品核心指标体系与监控 Dashboard 设计",
-      "desc": "产出 3.9k 字笔记 · 交通业务核心指标体系设计"
     }
   ],
   "meta": {
-    "totalNotes": 656,
-    "todayNotes": 0,
-    "lastUpdated": "2026-03-18T00:00:01.833Z",
+    "totalNotes": 661,
+    "todayNotes": 74,
+    "lastUpdated": "2026-03-18T00:30:02.383Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
