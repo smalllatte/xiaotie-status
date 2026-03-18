@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-18T00:30:02.136Z",
-  "version": "v20260318-07",
+  "timestamp": "2026-03-18T01:00:02.157Z",
+  "version": "v20260318-08",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 30602,
+    "duration": 32402,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-18",
     "tasks": 4,
     "messages": 6,
-    "learning": 74,
-    "uptime": 30602,
-    "uptimePercent": 53
+    "learning": 82,
+    "uptime": 32402,
+    "uptimePercent": 56
   },
   "learning": [
     {
@@ -59,70 +59,70 @@
   ],
   "activities": [
     {
-      "time": "08:30",
+      "time": "09:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "08:55",
+      "icon": "📚",
+      "title": "接送机业务指标设计与监控",
+      "desc": "产出 1.9k 字笔记 · 接送机产品核心指标体系"
+    },
+    {
+      "time": "08:50",
+      "icon": "📚",
+      "title": "自动学习检查点 - 08:50",
+      "desc": "产出 0.4k 字笔记 · 08:50"
+    },
+    {
+      "time": "08:50",
+      "icon": "📚",
+      "title": "接送机场景用户体验优化策略",
+      "desc": "产出 2.4k 字笔记 · 接送机产品 UX 优化深度分析"
+    },
+    {
+      "time": "08:45",
+      "icon": "📚",
+      "title": "产品经理如何用数据做决策",
+      "desc": "产出 3.7k 字笔记 · 数据驱动的产品决策"
+    },
+    {
+      "time": "08:40",
+      "icon": "📚",
+      "title": "OTA 交通业务趋势洞察",
+      "desc": "产出 0.6k 字笔记 · 08:40"
+    },
+    {
+      "time": "08:35",
+      "icon": "📚",
+      "title": "网约车产品核心指标体系与监控 Dashboard",
+      "desc": "产出 4k 字笔记 · 交通业务产品指标体系设计"
+    },
+    {
+      "time": "08:30",
+      "icon": "📚",
+      "title": "交通业务产品经理的数据指标体系",
+      "desc": "产出 0.4k 字笔记 · 08:30"
+    },
+    {
+      "time": "08:30",
+      "icon": "📚",
+      "title": "网约车产品核心指标体系与 Dashboard 设计",
+      "desc": "产出 3.1k 字笔记 · 交通业务产品经理的数据指标体系"
     },
     {
       "time": "08:25",
       "icon": "📚",
       "title": "自动学习检查点 - 08:25",
       "desc": "产出 0.5k 字笔记 · 08:25"
-    },
-    {
-      "time": "08:20",
-      "icon": "📚",
-      "title": "网约车业务 UE 模型拆解与盈利路径",
-      "desc": "产出 2.3k 字笔记 · 网约车平台单位经济模型 (Unit Economics)"
-    },
-    {
-      "time": "08:15",
-      "icon": "📚",
-      "title": "聚合平台 vs 自营模式的竞争策略与产品差异化",
-      "desc": "产出 2.4k 字笔记 · OTA 交通平台竞争策略分析"
-    },
-    {
-      "time": "08:10",
-      "icon": "📚",
-      "title": "自动学习检查点 - 08:10",
-      "desc": "产出 0.3k 字笔记 · 08:10"
-    },
-    {
-      "time": "08:08",
-      "icon": "📚",
-      "title": "自动学习检查点 - 08:07",
-      "desc": "产出 0.4k 字笔记 · 08:07"
-    },
-    {
-      "time": "07:56",
-      "icon": "📚",
-      "title": "自动学习检查点 - 07:55",
-      "desc": "产出 0.4k 字笔记 · 07:55"
-    },
-    {
-      "time": "07:56",
-      "icon": "📚",
-      "title": "数据驱动决策框架与实战应用",
-      "desc": "产出 2.8k 字笔记 · 产品经理的数据驱动决策方法"
-    },
-    {
-      "time": "07:50",
-      "icon": "📚",
-      "title": "OTA 交通产品经理核心能力体系",
-      "desc": "产出 2.7k 字笔记 · 产品经理核心能力模型"
-    },
-    {
-      "time": "07:45",
-      "icon": "📚",
-      "title": "网约车业务单位经济模型 (Unit Economics)",
-      "desc": "产出 2.8k 字笔记 · 网约车单位经济模型深度分析"
     }
   ],
   "meta": {
-    "totalNotes": 661,
-    "todayNotes": 74,
-    "lastUpdated": "2026-03-18T00:30:02.383Z",
+    "totalNotes": 669,
+    "todayNotes": 82,
+    "lastUpdated": "2026-03-18T01:00:02.672Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
