@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-18T01:00:02.157Z",
-  "version": "v20260318-08",
+  "timestamp": "2026-03-18T01:30:01.510Z",
+  "version": "v20260318-09",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,16 +10,16 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 32402,
+    "duration": 34201,
     "taskDuration": 0
   },
   "today": {
     "date": "2026-03-18",
     "tasks": 4,
     "messages": 6,
-    "learning": 82,
-    "uptime": 32402,
-    "uptimePercent": 56
+    "learning": 88,
+    "uptime": 34201,
+    "uptimePercent": 59
   },
   "learning": [
     {
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "09:00",
+      "time": "09:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "09:25",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:25",
+      "desc": "产出 0.5k 字笔记 · 09:25"
+    },
+    {
+      "time": "09:20",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:20",
+      "desc": "产出 0.5k 字笔记 · 09:20"
+    },
+    {
+      "time": "09:15",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:15",
+      "desc": "产出 0.4k 字笔记 · 09:15"
+    },
+    {
+      "time": "09:10",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:10",
+      "desc": "产出 0.4k 字笔记 · 09:10"
+    },
+    {
+      "time": "09:05",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:05",
+      "desc": "产出 0.3k 字笔记 · 09:05"
+    },
+    {
+      "time": "09:00",
+      "icon": "📚",
+      "title": "自动学习检查点 - 09:00",
+      "desc": "产出 0.4k 字笔记 · 09:00"
     },
     {
       "time": "08:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "接送机场景用户体验优化策略",
       "desc": "产出 2.4k 字笔记 · 接送机产品 UX 优化深度分析"
-    },
-    {
-      "time": "08:45",
-      "icon": "📚",
-      "title": "产品经理如何用数据做决策",
-      "desc": "产出 3.7k 字笔记 · 数据驱动的产品决策"
-    },
-    {
-      "time": "08:40",
-      "icon": "📚",
-      "title": "OTA 交通业务趋势洞察",
-      "desc": "产出 0.6k 字笔记 · 08:40"
-    },
-    {
-      "time": "08:35",
-      "icon": "📚",
-      "title": "网约车产品核心指标体系与监控 Dashboard",
-      "desc": "产出 4k 字笔记 · 交通业务产品指标体系设计"
-    },
-    {
-      "time": "08:30",
-      "icon": "📚",
-      "title": "交通业务产品经理的数据指标体系",
-      "desc": "产出 0.4k 字笔记 · 08:30"
-    },
-    {
-      "time": "08:30",
-      "icon": "📚",
-      "title": "网约车产品核心指标体系与 Dashboard 设计",
-      "desc": "产出 3.1k 字笔记 · 交通业务产品经理的数据指标体系"
-    },
-    {
-      "time": "08:25",
-      "icon": "📚",
-      "title": "自动学习检查点 - 08:25",
-      "desc": "产出 0.5k 字笔记 · 08:25"
     }
   ],
   "meta": {
-    "totalNotes": 669,
-    "todayNotes": 82,
-    "lastUpdated": "2026-03-18T01:00:02.672Z",
+    "totalNotes": 675,
+    "todayNotes": 88,
+    "lastUpdated": "2026-03-18T01:30:01.964Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
