@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T08:00:01.714Z",
-  "version": "v20260320-22",
+  "timestamp": "2026-03-20T08:30:01.217Z",
+  "version": "v20260320-23",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 57601,
+    "duration": 59401,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 57601,
+    "uptime": 59401,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,16 +59,22 @@
   ],
   "activities": [
     {
-      "time": "16:00",
+      "time": "16:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "15:56",
+      "time": "16:26",
       "icon": "📚",
-      "title": "OTA 行业分析 + 出行生态融合",
-      "desc": "产出 3.7k 字笔记 · 市场份额 ~60%"
+      "title": "OTA 行业分析 + 交通业务线定位",
+      "desc": "产出 4.4k 字笔记 · 自建运力或签约供应商                         │"
+    },
+    {
+      "time": "16:16",
+      "icon": "📚",
+      "title": "OTA 行业分析 - 在线旅游与出行融合趋势",
+      "desc": "产出 3.7k 字笔记 · 在线旅游与出行融合趋势  "
     },
     {
       "time": "15:51",
@@ -101,12 +107,6 @@
       "desc": "产出 3.6k 字笔记 · **场景闭环**：完成\"门到门\"出行服务"
     },
     {
-      "time": "15:26",
-      "icon": "📚",
-      "title": "OTA 行业分析 - 在线旅游与出行服务",
-      "desc": "产出 3.9k 字笔记 · 在线旅游与出行服务  "
-    },
-    {
       "time": "15:02",
       "icon": "📚",
       "title": "交通业务线知识体系复盘",
@@ -122,7 +122,7 @@
   "meta": {
     "totalNotes": 975,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T08:00:02.095Z",
+    "lastUpdated": "2026-03-20T08:30:01.563Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
