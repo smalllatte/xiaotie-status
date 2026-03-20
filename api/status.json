@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T11:59:01.182Z",
-  "version": "v20260320-30",
+  "timestamp": "2026-03-20T12:30:01.409Z",
+  "version": "v20260320-31",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 71941,
+    "duration": 73801,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 71941,
+    "uptime": 73801,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "19:59",
+      "time": "20:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "20:26",
+      "icon": "📚",
+      "title": "🗺️ 交通业务线知识图谱 - 2026-03-20 学习总结",
+      "desc": "产出 4.2k 字笔记 · 2026-03-20 学习总结"
     },
     {
       "time": "19:41",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 产品架构与功能模块",
       "desc": "产出 5.9k 字笔记 · 产品架构与功能模块  "
-    },
-    {
-      "time": "18:06",
-      "icon": "📚",
-      "title": "产品经理核心能力 - 竞品分析",
-      "desc": "产出 4.5k 字笔记 · 竞品分析  "
     }
   ],
   "meta": {
-    "totalNotes": 984,
+    "totalNotes": 985,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T11:59:01.458Z",
+    "lastUpdated": "2026-03-20T12:30:01.706Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
