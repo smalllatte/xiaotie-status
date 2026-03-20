@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T08:30:01.217Z",
-  "version": "v20260320-23",
+  "timestamp": "2026-03-20T09:00:02.170Z",
+  "version": "v20260320-24",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 59401,
+    "duration": 61202,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 59401,
+    "uptime": 61202,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,22 +59,34 @@
   ],
   "activities": [
     {
-      "time": "16:30",
+      "time": "17:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "16:26",
+      "time": "16:56",
       "icon": "📚",
       "title": "OTA 行业分析 + 交通业务线定位",
-      "desc": "产出 4.4k 字笔记 · 自建运力或签约供应商                         │"
+      "desc": "产出 4.4k 字笔记 · 出行数据 → 预测旅游需求"
     },
     {
-      "time": "16:16",
+      "time": "16:51",
       "icon": "📚",
-      "title": "OTA 行业分析 - 在线旅游与出行融合趋势",
-      "desc": "产出 3.7k 字笔记 · 在线旅游与出行融合趋势  "
+      "title": "交通业务线 - OTA 行业分析与出行生态",
+      "desc": "产出 3.4k 字笔记 · OTA 行业分析与出行生态  "
+    },
+    {
+      "time": "16:41",
+      "icon": "📚",
+      "title": "交通业务线 - 乘客体验与服务质量管理",
+      "desc": "产出 4k 字笔记 · 乘客体验与服务质量管理  "
+    },
+    {
+      "time": "16:36",
+      "icon": "📚",
+      "title": "OTA 行业分析 - 交通出行业务线",
+      "desc": "产出 3.3k 字笔记 · 交通出行业务线  "
     },
     {
       "time": "15:51",
@@ -101,28 +113,16 @@
       "desc": "产出 4.5k 字笔记 · 商业模式与盈利模式  "
     },
     {
-      "time": "15:31",
-      "icon": "📚",
-      "title": "OTA 行业分析 + 网约车业务融合",
-      "desc": "产出 3.6k 字笔记 · **场景闭环**：完成\"门到门\"出行服务"
-    },
-    {
       "time": "15:02",
       "icon": "📚",
       "title": "交通业务线知识体系复盘",
       "desc": "产出 4.3k 字笔记 · **拉新**: 新人补贴、邀请裂变、渠道合作"
-    },
-    {
-      "time": "14:42",
-      "icon": "📚",
-      "title": "OTA 行业格局 + 网约车业务融合",
-      "desc": "产出 5.8k 字笔记 · 酒店预订"
     }
   ],
   "meta": {
-    "totalNotes": 975,
+    "totalNotes": 976,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T08:30:01.563Z",
+    "lastUpdated": "2026-03-20T09:00:02.535Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
