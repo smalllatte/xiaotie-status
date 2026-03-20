@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T01:30:01.326Z",
-  "version": "v20260320-09",
+  "timestamp": "2026-03-20T02:00:02.088Z",
+  "version": "v20260320-10",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 34201,
+    "duration": 36002,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 34201,
-    "uptimePercent": 59
+    "uptime": 36002,
+    "uptimePercent": 63
   },
   "learning": [
     {
@@ -59,10 +59,34 @@
   ],
   "activities": [
     {
-      "time": "09:30",
+      "time": "10:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "09:56",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 5.2k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "09:52",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.5k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "09:41",
+      "icon": "📚",
+      "title": "交通业务线 - 平台运营指标体系",
+      "desc": "产出 5k 字笔记 · 平台运营指标体系  "
+    },
+    {
+      "time": "09:37",
+      "icon": "📚",
+      "title": "交通业务线 - 聚合平台商业模式",
+      "desc": "产出 4.2k 字笔记 · 聚合平台商业模式  "
     },
     {
       "time": "09:26",
@@ -71,22 +95,10 @@
       "desc": "产出 4.4k 字笔记 · 路径规划与 ETA 预估  "
     },
     {
-      "time": "09:21",
-      "icon": "📚",
-      "title": "交通业务线 - 聚合平台模式",
-      "desc": "产出 4.3k 字笔记 · 聚合平台模式  "
-    },
-    {
       "time": "09:17",
       "icon": "📚",
       "title": "交通业务线 - 安全保护体系",
       "desc": "产出 4.8k 字笔记 · 安全保护体系  "
-    },
-    {
-      "time": "09:12",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与运营",
-      "desc": "产出 4.3k 字笔记 · 用户增长与运营  "
     },
     {
       "time": "09:08",
@@ -105,24 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 核心指标与 KPI 体系",
       "desc": "产出 5.3k 字笔记 · 核心指标与 KPI 体系  "
-    },
-    {
-      "time": "08:31",
-      "icon": "📚",
-      "title": "OTA 行业 - 市场竞争格局分析",
-      "desc": "产出 3.8k 字笔记 · 市场竞争格局分析  "
-    },
-    {
-      "time": "08:21",
-      "icon": "📚",
-      "title": "产品经理核心能力 - 竞品分析框架",
-      "desc": "产出 4.6k 字笔记 · 竞品分析框架  "
     }
   ],
   "meta": {
-    "totalNotes": 939,
+    "totalNotes": 941,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T01:30:01.778Z",
+    "lastUpdated": "2026-03-20T02:00:02.402Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
