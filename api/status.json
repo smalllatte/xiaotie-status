@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T01:00:01.656Z",
-  "version": "v20260320-08",
+  "timestamp": "2026-03-20T01:30:01.326Z",
+  "version": "v20260320-09",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 32401,
+    "duration": 34201,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 32401,
-    "uptimePercent": 56
+    "uptime": 34201,
+    "uptimePercent": 59
   },
   "learning": [
     {
@@ -59,22 +59,46 @@
   ],
   "activities": [
     {
-      "time": "09:00",
+      "time": "09:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "09:26",
+      "icon": "📚",
+      "title": "交通业务线 - 路径规划与 ETA 预估",
+      "desc": "产出 4.4k 字笔记 · 路径规划与 ETA 预估  "
+    },
+    {
+      "time": "09:21",
+      "icon": "📚",
+      "title": "交通业务线 - 聚合平台模式",
+      "desc": "产出 4.3k 字笔记 · 聚合平台模式  "
+    },
+    {
+      "time": "09:17",
+      "icon": "📚",
+      "title": "交通业务线 - 安全保护体系",
+      "desc": "产出 4.8k 字笔记 · 安全保护体系  "
+    },
+    {
+      "time": "09:12",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与运营",
+      "desc": "产出 4.3k 字笔记 · 用户增长与运营  "
+    },
+    {
+      "time": "09:08",
+      "icon": "📚",
+      "title": "交通业务线 - PM 核心指标与考核体系",
+      "desc": "产出 4.8k 字笔记 · PM 核心指标与考核体系  "
     },
     {
       "time": "08:50",
       "icon": "📚",
       "title": "交通业务线 - OTA 行业分析",
       "desc": "产出 4.3k 字笔记 · OTA 行业分析  "
-    },
-    {
-      "time": "08:45",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.3k 字笔记 · 用户增长与留存  "
     },
     {
       "time": "08:40",
@@ -93,36 +117,12 @@
       "icon": "📚",
       "title": "产品经理核心能力 - 竞品分析框架",
       "desc": "产出 4.6k 字笔记 · 竞品分析框架  "
-    },
-    {
-      "time": "08:14",
-      "icon": "📚",
-      "title": "OTA 行业 - 交通出行业务线",
-      "desc": "产出 4k 字笔记 · 交通出行业务线  "
-    },
-    {
-      "time": "07:56",
-      "icon": "📚",
-      "title": "交通业务线 - 司机侧运营与激励",
-      "desc": "产出 4.7k 字笔记 · 司机侧运营与激励  "
-    },
-    {
-      "time": "07:51",
-      "icon": "📚",
-      "title": "交通业务线 - 司机侧运营与激励机制",
-      "desc": "产出 4.7k 字笔记 · 司机侧运营与激励机制  "
-    },
-    {
-      "time": "07:47",
-      "icon": "📚",
-      "title": "交通业务线 - 安全机制与风控体系",
-      "desc": "产出 5.7k 字笔记 · 安全机制与风控体系  "
     }
   ],
   "meta": {
-    "totalNotes": 938,
+    "totalNotes": 939,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T01:00:01.950Z",
+    "lastUpdated": "2026-03-20T01:30:01.778Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
