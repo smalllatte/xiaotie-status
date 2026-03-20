@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T04:30:01.758Z",
-  "version": "v20260320-15",
+  "timestamp": "2026-03-20T05:00:01.504Z",
+  "version": "v20260320-16",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 45001,
+    "duration": 46801,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 45001,
-    "uptimePercent": 78
+    "uptime": 46801,
+    "uptimePercent": 81
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "12:30",
+      "time": "13:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "12:56",
+      "icon": "📚",
+      "title": "OTA 行业 - 市场竞争格局分析",
+      "desc": "产出 3.8k 字笔记 · 市场竞争格局分析  "
+    },
+    {
+      "time": "12:51",
+      "icon": "📚",
+      "title": "交通业务线 - ETA 预估技术",
+      "desc": "产出 6.4k 字笔记 · ETA 预估技术  "
+    },
+    {
+      "time": "12:41",
+      "icon": "📚",
+      "title": "产品能力 - A/B 测试与实验设计",
+      "desc": "产出 4.8k 字笔记 · A/B 测试与实验设计  "
+    },
+    {
+      "time": "12:36",
+      "icon": "📚",
+      "title": "地图导航产品对比 - 高德地图 vs 百度地图",
+      "desc": "产出 4.3k 字笔记 · 高德地图 vs 百度地图  "
+    },
+    {
+      "time": "12:31",
+      "icon": "📚",
+      "title": "交通业务线 - 商业模式与盈利模式",
+      "desc": "产出 5.1k 字笔记 · 商业模式与盈利模式  "
     },
     {
       "time": "12:26",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 合规与监管",
       "desc": "产出 3.8k 字笔记 · 合规与监管  "
-    },
-    {
-      "time": "12:06",
-      "icon": "📚",
-      "title": "交通业务线 - 路径规划与到达时间预估",
-      "desc": "产出 4.7k 字笔记 · 路径规划与到达时间预估  "
-    },
-    {
-      "time": "12:01",
-      "icon": "📚",
-      "title": "OTA 行业 - 市场竞争格局分析",
-      "desc": "产出 4.1k 字笔记 · 市场竞争格局分析  "
-    },
-    {
-      "time": "11:56",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与会员体系",
-      "desc": "产出 4.2k 字笔记 · 用户增长与会员体系  "
-    },
-    {
-      "time": "11:51",
-      "icon": "📚",
-      "title": "交通业务线 - Robotaxi 商业化落地",
-      "desc": "产出 5.9k 字笔记 · Robotaxi 商业化落地  "
-    },
-    {
-      "time": "11:46",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与运营",
-      "desc": "产出 4.8k 字笔记 · 用户增长与运营  "
     }
   ],
   "meta": {
-    "totalNotes": 956,
+    "totalNotes": 960,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T04:30:02.152Z",
+    "lastUpdated": "2026-03-20T05:00:01.921Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
