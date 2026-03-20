@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T00:30:01.414Z",
-  "version": "v20260320-07",
+  "timestamp": "2026-03-20T01:00:01.656Z",
+  "version": "v20260320-08",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 30601,
+    "duration": 32401,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 30601,
-    "uptimePercent": 53
+    "uptime": 32401,
+    "uptimePercent": 56
   },
   "learning": [
     {
@@ -59,16 +59,34 @@
   ],
   "activities": [
     {
-      "time": "08:30",
+      "time": "09:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "08:25",
+      "time": "08:50",
       "icon": "📚",
-      "title": "OTA 行业 - 竞争格局与核心玩家",
-      "desc": "产出 3.6k 字笔记 · 竞争格局与核心玩家  "
+      "title": "交通业务线 - OTA 行业分析",
+      "desc": "产出 4.3k 字笔记 · OTA 行业分析  "
+    },
+    {
+      "time": "08:45",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.3k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "08:40",
+      "icon": "📚",
+      "title": "交通业务线 - 核心指标与 KPI 体系",
+      "desc": "产出 5.3k 字笔记 · 核心指标与 KPI 体系  "
+    },
+    {
+      "time": "08:31",
+      "icon": "📚",
+      "title": "OTA 行业 - 市场竞争格局分析",
+      "desc": "产出 3.8k 字笔记 · 市场竞争格局分析  "
     },
     {
       "time": "08:21",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 安全机制与风控体系",
       "desc": "产出 5.7k 字笔记 · 安全机制与风控体系  "
-    },
-    {
-      "time": "07:37",
-      "icon": "📚",
-      "title": "交通业务线 - 平台商业模式分析",
-      "desc": "产出 4.2k 字笔记 · 平台商业模式分析  "
-    },
-    {
-      "time": "07:33",
-      "icon": "📚",
-      "title": "交通业务线延伸 - OTA 用户增长策略",
-      "desc": "产出 5.4k 字笔记 · OTA 用户增长策略  "
-    },
-    {
-      "time": "07:21",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.8k 字笔记 · 用户增长与留存  "
     }
   ],
   "meta": {
-    "totalNotes": 936,
+    "totalNotes": 938,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T00:30:01.915Z",
+    "lastUpdated": "2026-03-20T01:00:01.950Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
