@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T05:00:01.504Z",
-  "version": "v20260320-16",
+  "timestamp": "2026-03-20T05:30:01.929Z",
+  "version": "v20260320-17",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 46801,
+    "duration": 48601,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 46801,
-    "uptimePercent": 81
+    "uptime": 48601,
+    "uptimePercent": 84
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "13:00",
+      "time": "13:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "13:26",
+      "icon": "📚",
+      "title": "产品经理基本功 - 方法论框架",
+      "desc": "产出 4.8k 字笔记 · 方法论框架  "
+    },
+    {
+      "time": "13:21",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.3k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "13:16",
+      "icon": "📚",
+      "title": "产品经理核心能力 - 需求分析与用户研究",
+      "desc": "产出 5k 字笔记 · 需求分析与用户研究  "
+    },
+    {
+      "time": "13:11",
+      "icon": "📚",
+      "title": "交通业务线 - 出行需求预测",
+      "desc": "产出 5.4k 字笔记 · 出行需求预测  "
+    },
+    {
+      "time": "13:04",
+      "icon": "📚",
+      "title": "交通业务线 - 聚合平台商业模式",
+      "desc": "产出 3.7k 字笔记 · 聚合平台商业模式  "
     },
     {
       "time": "12:56",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "地图导航产品对比 - 高德地图 vs 百度地图",
       "desc": "产出 4.3k 字笔记 · 高德地图 vs 百度地图  "
-    },
-    {
-      "time": "12:31",
-      "icon": "📚",
-      "title": "交通业务线 - 商业模式与盈利模式",
-      "desc": "产出 5.1k 字笔记 · 商业模式与盈利模式  "
-    },
-    {
-      "time": "12:26",
-      "icon": "📚",
-      "title": "交通业务线 - 绿色出行与碳中和战略",
-      "desc": "产出 4k 字笔记 · 绿色出行与碳中和战略  "
-    },
-    {
-      "time": "12:21",
-      "icon": "📚",
-      "title": "交通业务线 - 多模态出行整合",
-      "desc": "产出 5.2k 字笔记 · 多模态出行整合  "
-    },
-    {
-      "time": "12:15",
-      "icon": "📚",
-      "title": "交通业务线 - 乘客体验设计",
-      "desc": "产出 4.2k 字笔记 · 乘客体验设计  "
-    },
-    {
-      "time": "12:11",
-      "icon": "📚",
-      "title": "交通业务线 - 合规与监管",
-      "desc": "产出 3.8k 字笔记 · 合规与监管  "
     }
   ],
   "meta": {
-    "totalNotes": 960,
+    "totalNotes": 962,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T05:00:01.921Z",
+    "lastUpdated": "2026-03-20T05:30:02.226Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
