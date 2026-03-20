@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T11:30:01.948Z",
-  "version": "v20260320-29",
+  "timestamp": "2026-03-20T11:59:01.182Z",
+  "version": "v20260320-30",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 70201,
+    "duration": 71941,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 70201,
+    "uptime": 71941,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,16 @@
   ],
   "activities": [
     {
-      "time": "19:30",
+      "time": "19:59",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "19:41",
+      "icon": "📚",
+      "title": "交通业务线 - 国际化扩张",
+      "desc": "产出 0.8k 字笔记 · 学习综述"
     },
     {
       "time": "18:55",
@@ -111,18 +117,12 @@
       "icon": "📚",
       "title": "产品经理核心能力 - 竞品分析",
       "desc": "产出 4.5k 字笔记 · 竞品分析  "
-    },
-    {
-      "time": "18:02",
-      "icon": "📚",
-      "title": "交通业务线 - 数据指标与监控体系",
-      "desc": "产出 6.3k 字笔记 · 数据指标与监控体系  "
     }
   ],
   "meta": {
-    "totalNotes": 983,
+    "totalNotes": 984,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T11:30:02.533Z",
+    "lastUpdated": "2026-03-20T11:59:01.458Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
