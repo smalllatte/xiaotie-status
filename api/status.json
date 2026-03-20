@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T02:30:01.785Z",
-  "version": "v20260320-11",
+  "timestamp": "2026-03-20T03:00:01.930Z",
+  "version": "v20260320-12",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 37801,
+    "duration": 39601,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 37801,
-    "uptimePercent": 66
+    "uptime": 39601,
+    "uptimePercent": 69
   },
   "learning": [
     {
@@ -59,22 +59,46 @@
   ],
   "activities": [
     {
-      "time": "10:30",
+      "time": "11:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "10:26",
+      "time": "10:56",
       "icon": "📚",
-      "title": "产品经理必修 - 核心方法论与框架",
-      "desc": "产出 5.5k 字笔记 · 核心方法论与框架  "
+      "title": "OTA 行业认知 + 产品经理核心能力",
+      "desc": "产出 3.6k 字笔记 · |"
     },
     {
-      "time": "10:21",
+      "time": "10:51",
       "icon": "📚",
       "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.2k 字笔记 · 用户增长与留存  "
+      "desc": "产出 5.1k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "10:47",
+      "icon": "📚",
+      "title": "在线旅游行业 - 竞争格局与商业模式",
+      "desc": "产出 3.7k 字笔记 · 竞争格局与商业模式  "
+    },
+    {
+      "time": "10:41",
+      "icon": "📚",
+      "title": "产品经理必修 - 方法论与框架",
+      "desc": "产出 4.8k 字笔记 · 方法论与框架  "
+    },
+    {
+      "time": "10:37",
+      "icon": "📚",
+      "title": "OTA 行业 - 竞争格局与交通业务线",
+      "desc": "产出 4.3k 字笔记 · 竞争格局与交通业务线  "
+    },
+    {
+      "time": "10:31",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.7k 字笔记 · 用户增长与留存  "
     },
     {
       "time": "10:17",
@@ -93,36 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 路径规划与到达时间预估",
       "desc": "产出 5.2k 字笔记 · 路径规划与到达时间预估  "
-    },
-    {
-      "time": "09:52",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.5k 字笔记 · 用户增长与留存  "
-    },
-    {
-      "time": "09:41",
-      "icon": "📚",
-      "title": "交通业务线 - 平台运营指标体系",
-      "desc": "产出 5k 字笔记 · 平台运营指标体系  "
-    },
-    {
-      "time": "09:37",
-      "icon": "📚",
-      "title": "交通业务线 - 聚合平台商业模式",
-      "desc": "产出 4.2k 字笔记 · 聚合平台商业模式  "
-    },
-    {
-      "time": "09:26",
-      "icon": "📚",
-      "title": "交通业务线 - 路径规划与 ETA 预估",
-      "desc": "产出 4.4k 字笔记 · 路径规划与 ETA 预估  "
     }
   ],
   "meta": {
-    "totalNotes": 943,
+    "totalNotes": 944,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T02:30:02.069Z",
+    "lastUpdated": "2026-03-20T03:00:02.339Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
