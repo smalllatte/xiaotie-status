@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-20T21:30:02.108Z",
+  "timestamp": "2026-03-20T22:00:02.048Z",
   "version": "v20260320-38",
   "status": {
     "workspace": "空闲中",
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "05:30",
+      "time": "06:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "05:55",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 05:55",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 05:55"
+    },
+    {
+      "time": "05:50",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 05:50",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 05:50"
+    },
+    {
+      "time": "05:45",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 05:45",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 05:45"
+    },
+    {
+      "time": "05:41",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 05:40",
+      "desc": "产出 0.4k 字笔记 · 2026-03-21 05:40"
+    },
+    {
+      "time": "05:35",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 05:35",
+      "desc": "产出 0.4k 字笔记 · 2026-03-21 05:35"
+    },
+    {
+      "time": "05:31",
+      "icon": "📚",
+      "title": "14 个核心主题 + 知识体系总结",
+      "desc": "产出 0.5k 字笔记 · 2026-03-21 05:30"
     },
     {
       "time": "05:25",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "Auto-Learning Checkpoint - 2026-03-21 05:15",
       "desc": "产出 0.6k 字笔记 · 2026-03-21 05:15"
-    },
-    {
-      "time": "05:10",
-      "icon": "📚",
-      "title": "Auto-Learning Status - 2026-03-21 05:10",
-      "desc": "产出 0.7k 字笔记 · 2026-03-21 05:10"
-    },
-    {
-      "time": "05:05",
-      "icon": "📚",
-      "title": "知识体系总结与学习 consolidaton",
-      "desc": "产出 1.1k 字笔记 · 2026-03-21 05:05"
-    },
-    {
-      "time": "05:05",
-      "icon": "📚",
-      "title": "交通 PM 核心能力知识体系 - 学习总结",
-      "desc": "产出 5.5k 字笔记 · 学习总结"
-    },
-    {
-      "time": "05:02",
-      "icon": "📚",
-      "title": "交通 PM 的沟通影响力与软技能提升",
-      "desc": "产出 1.5k 字笔记 · 2026-03-21 05:00"
-    },
-    {
-      "time": "05:02",
-      "icon": "📚",
-      "title": "跨部门沟通、向上管理、影响力建设与职业发展",
-      "desc": "产出 8.7k 字笔记 · 初级 PM: 硬技能 70% + 软技能 30%"
-    },
-    {
-      "time": "04:55",
-      "icon": "📚",
-      "title": "交通 PM 的技术架构与系统理解能力",
-      "desc": "产出 0.7k 字笔记 · 2026-03-21 04:55"
     }
   ],
   "meta": {
-    "totalNotes": 1074,
+    "totalNotes": 1080,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T21:30:02.390Z",
+    "lastUpdated": "2026-03-20T22:00:02.422Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
