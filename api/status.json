@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T03:30:01.961Z",
-  "version": "v20260320-13",
+  "timestamp": "2026-03-20T04:00:01.386Z",
+  "version": "v20260320-14",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 41401,
+    "duration": 43201,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 41401,
-    "uptimePercent": 72
+    "uptime": 43201,
+    "uptimePercent": 75
   },
   "learning": [
     {
@@ -59,10 +59,40 @@
   ],
   "activities": [
     {
-      "time": "11:30",
+      "time": "12:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "11:56",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与会员体系",
+      "desc": "产出 4.2k 字笔记 · 用户增长与会员体系  "
+    },
+    {
+      "time": "11:51",
+      "icon": "📚",
+      "title": "交通业务线 - Robotaxi 商业化落地",
+      "desc": "产出 5.9k 字笔记 · Robotaxi 商业化落地  "
+    },
+    {
+      "time": "11:46",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与运营",
+      "desc": "产出 4.8k 字笔记 · 用户增长与运营  "
+    },
+    {
+      "time": "11:41",
+      "icon": "📚",
+      "title": "交通业务线 - 数据产品与指标体系设计",
+      "desc": "产出 5.1k 字笔记 · 数据产品与指标体系设计  "
+    },
+    {
+      "time": "11:36",
+      "icon": "📚",
+      "title": "交通业务线 - 司机运营与留存",
+      "desc": "产出 5.1k 字笔记 · 司机运营与留存  "
     },
     {
       "time": "11:26",
@@ -87,42 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 核心业务指标与数据分析",
       "desc": "产出 5.3k 字笔记 · 核心业务指标与数据分析  "
-    },
-    {
-      "time": "11:06",
-      "icon": "📚",
-      "title": "交通业务线 - 司机侧产品策略",
-      "desc": "产出 5.4k 字笔记 · 司机侧产品策略  "
-    },
-    {
-      "time": "11:02",
-      "icon": "📚",
-      "title": "交通业务线 - 聚合平台模式分析",
-      "desc": "产出 4.6k 字笔记 · 聚合平台模式分析  "
-    },
-    {
-      "time": "10:56",
-      "icon": "📚",
-      "title": "OTA 行业认知 + 产品经理核心能力",
-      "desc": "产出 3.6k 字笔记 · |"
-    },
-    {
-      "time": "10:51",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 5.1k 字笔记 · 用户增长与留存  "
-    },
-    {
-      "time": "10:47",
-      "icon": "📚",
-      "title": "在线旅游行业 - 竞争格局与商业模式",
-      "desc": "产出 3.7k 字笔记 · 竞争格局与商业模式  "
     }
   ],
   "meta": {
-    "totalNotes": 948,
+    "totalNotes": 952,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T03:30:02.233Z",
+    "lastUpdated": "2026-03-20T04:00:01.704Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
