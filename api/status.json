@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T06:00:01.585Z",
-  "version": "v20260320-18",
+  "timestamp": "2026-03-20T06:30:01.861Z",
+  "version": "v20260320-19",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 50401,
+    "duration": 52201,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 50401,
-    "uptimePercent": 88
+    "uptime": 52201,
+    "uptimePercent": 91
   },
   "learning": [
     {
@@ -59,10 +59,34 @@
   ],
   "activities": [
     {
-      "time": "14:00",
+      "time": "14:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "14:26",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.8k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "14:12",
+      "icon": "📚",
+      "title": "OTA 行业全景分析",
+      "desc": "产出 6k 字笔记 · 佣金模式：向酒店/航司收取 10-25% 佣金"
+    },
+    {
+      "time": "14:07",
+      "icon": "📚",
+      "title": "交通业务线 - 聚合平台模式",
+      "desc": "产出 5k 字笔记 · 聚合平台模式  "
+    },
+    {
+      "time": "14:04",
+      "icon": "📚",
+      "title": "交通业务线 - 用户增长与留存",
+      "desc": "产出 4.9k 字笔记 · 用户增长与留存  "
     },
     {
       "time": "13:57",
@@ -93,36 +117,12 @@
       "icon": "📚",
       "title": "产品经理基本功 - 竞品分析方法论",
       "desc": "产出 6k 字笔记 · 竞品分析方法论  "
-    },
-    {
-      "time": "13:31",
-      "icon": "📚",
-      "title": "产品经理基本功 - 实验与验证",
-      "desc": "产出 5.5k 字笔记 · 实验与验证  "
-    },
-    {
-      "time": "13:26",
-      "icon": "📚",
-      "title": "产品经理基本功 - 方法论框架",
-      "desc": "产出 4.8k 字笔记 · 方法论框架  "
-    },
-    {
-      "time": "13:21",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.3k 字笔记 · 用户增长与留存  "
-    },
-    {
-      "time": "13:16",
-      "icon": "📚",
-      "title": "产品经理核心能力 - 需求分析与用户研究",
-      "desc": "产出 5k 字笔记 · 需求分析与用户研究  "
     }
   ],
   "meta": {
-    "totalNotes": 966,
+    "totalNotes": 967,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T06:00:01.970Z",
+    "lastUpdated": "2026-03-20T06:30:02.243Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
