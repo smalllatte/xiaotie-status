@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T00:00:01.889Z",
-  "version": "v20260320-06",
+  "timestamp": "2026-03-20T00:30:01.414Z",
+  "version": "v20260320-07",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 28801,
+    "duration": 30601,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 28801,
-    "uptimePercent": 50
+    "uptime": 30601,
+    "uptimePercent": 53
   },
   "learning": [
     {
@@ -59,10 +59,28 @@
   ],
   "activities": [
     {
-      "time": "08:00",
+      "time": "08:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "08:25",
+      "icon": "📚",
+      "title": "OTA 行业 - 竞争格局与核心玩家",
+      "desc": "产出 3.6k 字笔记 · 竞争格局与核心玩家  "
+    },
+    {
+      "time": "08:21",
+      "icon": "📚",
+      "title": "产品经理核心能力 - 竞品分析框架",
+      "desc": "产出 4.6k 字笔记 · 竞品分析框架  "
+    },
+    {
+      "time": "08:14",
+      "icon": "📚",
+      "title": "OTA 行业 - 交通出行业务线",
+      "desc": "产出 4k 字笔记 · 交通出行业务线  "
     },
     {
       "time": "07:56",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 用户增长与留存",
       "desc": "产出 4.8k 字笔记 · 用户增长与留存  "
-    },
-    {
-      "time": "07:16",
-      "icon": "📚",
-      "title": "交通业务线 - 聚合平台模式",
-      "desc": "产出 4.4k 字笔记 · 聚合平台模式  "
-    },
-    {
-      "time": "07:12",
-      "icon": "📚",
-      "title": "交通业务线 - 需求预测与运力规划",
-      "desc": "产出 6.6k 字笔记 · 需求预测与运力规划  "
-    },
-    {
-      "time": "07:04",
-      "icon": "📚",
-      "title": "交通业务线 - 安全监管与合规要求",
-      "desc": "产出 5.2k 字笔记 · 安全监管与合规要求  "
     }
   ],
   "meta": {
-    "totalNotes": 933,
+    "totalNotes": 936,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T00:00:02.260Z",
+    "lastUpdated": "2026-03-20T00:30:01.915Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
