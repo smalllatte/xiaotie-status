@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T10:30:02.090Z",
-  "version": "v20260320-27",
+  "timestamp": "2026-03-20T11:00:02.162Z",
+  "version": "v20260320-28",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 66602,
+    "duration": 68402,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 66602,
+    "uptime": 68402,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,28 @@
   ],
   "activities": [
     {
-      "time": "18:30",
+      "time": "19:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "18:55",
+      "icon": "📚",
+      "title": "交通业务线 - OTA 行业分析与出行生态",
+      "desc": "产出 3.5k 字笔记 · OTA 行业分析与出行生态  "
+    },
+    {
+      "time": "18:46",
+      "icon": "📚",
+      "title": "OTA 行业分析 + 交通业务线协同",
+      "desc": "产出 3k 字笔记 · 景点接驳 | 短途、灵活 | 快车、拼车 |"
+    },
+    {
+      "time": "18:31",
+      "icon": "📚",
+      "title": "交通业务线 - 行业竞争分析",
+      "desc": "产出 5k 字笔记 · 行业竞争分析  "
     },
     {
       "time": "18:25",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 数据指标与监控体系",
       "desc": "产出 6.3k 字笔记 · 数据指标与监控体系  "
-    },
-    {
-      "time": "17:56",
-      "icon": "📚",
-      "title": "OTA 行业分析 + 出行旅游生态融合",
-      "desc": "产出 4.1k 字笔记 · **携程**: 携程社区 + 直播 + 短视频（\"携程星球号\"）"
-    },
-    {
-      "time": "17:51",
-      "icon": "📚",
-      "title": "产品经理必修 - 需求分析与竞品分析",
-      "desc": "产出 5.6k 字笔记 · 需求分析与竞品分析  "
-    },
-    {
-      "time": "17:46",
-      "icon": "📚",
-      "title": "交通业务线 - 司机管理与激励",
-      "desc": "产出 4.7k 字笔记 · 司机管理与激励  "
     }
   ],
   "meta": {
-    "totalNotes": 981,
+    "totalNotes": 983,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T10:30:02.437Z",
+    "lastUpdated": "2026-03-20T11:00:02.565Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
