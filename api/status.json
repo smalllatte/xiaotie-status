@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T06:30:01.861Z",
-  "version": "v20260320-19",
+  "timestamp": "2026-03-20T07:00:01.745Z",
+  "version": "v20260320-20",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 52201,
+    "duration": 54001,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 52201,
-    "uptimePercent": 91
+    "uptime": 54001,
+    "uptimePercent": 94
   },
   "learning": [
     {
@@ -59,10 +59,28 @@
   ],
   "activities": [
     {
-      "time": "14:30",
+      "time": "15:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "14:56",
+      "icon": "📚",
+      "title": "OTA 行业格局与网约车业务协同",
+      "desc": "产出 3.5k 字笔记 · **交通票务**：机票、火车票、汽车票、网约车"
+    },
+    {
+      "time": "14:42",
+      "icon": "📚",
+      "title": "OTA 行业格局 + 网约车业务融合",
+      "desc": "产出 5.8k 字笔记 · 酒店预订"
+    },
+    {
+      "time": "14:36",
+      "icon": "📚",
+      "title": "交通业务线 - OTA 行业分析 + 用户增长",
+      "desc": "产出 4.6k 字笔记 · OTA 行业分析 + 用户增长  "
     },
     {
       "time": "14:26",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 数据指标体系与 KPI",
       "desc": "产出 7k 字笔记 · 数据指标体系与 KPI  "
-    },
-    {
-      "time": "13:47",
-      "icon": "📚",
-      "title": "交通业务线 - 乘客安全与风控体系",
-      "desc": "产出 5.8k 字笔记 · 乘客安全与风控体系  "
-    },
-    {
-      "time": "13:41",
-      "icon": "📚",
-      "title": "交通业务线 - 司机侧运营与留存",
-      "desc": "产出 4.7k 字笔记 · 司机侧运营与留存  "
-    },
-    {
-      "time": "13:37",
-      "icon": "📚",
-      "title": "产品经理基本功 - 竞品分析方法论",
-      "desc": "产出 6k 字笔记 · 竞品分析方法论  "
     }
   ],
   "meta": {
-    "totalNotes": 967,
+    "totalNotes": 970,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T06:30:02.243Z",
+    "lastUpdated": "2026-03-20T07:00:02.058Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
