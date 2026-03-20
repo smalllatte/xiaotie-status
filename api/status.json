@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T02:00:02.088Z",
-  "version": "v20260320-10",
+  "timestamp": "2026-03-20T02:30:01.785Z",
+  "version": "v20260320-11",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 36002,
+    "duration": 37801,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 36002,
-    "uptimePercent": 63
+    "uptime": 37801,
+    "uptimePercent": 66
   },
   "learning": [
     {
@@ -59,16 +59,40 @@
   ],
   "activities": [
     {
-      "time": "10:00",
+      "time": "10:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "09:56",
+      "time": "10:26",
+      "icon": "📚",
+      "title": "产品经理必修 - 核心方法论与框架",
+      "desc": "产出 5.5k 字笔记 · 核心方法论与框架  "
+    },
+    {
+      "time": "10:21",
       "icon": "📚",
       "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 5.2k 字笔记 · 用户增长与留存  "
+      "desc": "产出 4.2k 字笔记 · 用户增长与留存  "
+    },
+    {
+      "time": "10:17",
+      "icon": "📚",
+      "title": "交通业务线 - 安全体系设计",
+      "desc": "产出 6.3k 字笔记 · 安全体系设计  "
+    },
+    {
+      "time": "10:12",
+      "icon": "📚",
+      "title": "交通业务线 - 司机侧运营体系",
+      "desc": "产出 6.3k 字笔记 · 司机侧运营体系  "
+    },
+    {
+      "time": "10:04",
+      "icon": "📚",
+      "title": "交通业务线 - 路径规划与到达时间预估",
+      "desc": "产出 5.2k 字笔记 · 路径规划与到达时间预估  "
     },
     {
       "time": "09:52",
@@ -93,36 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 路径规划与 ETA 预估",
       "desc": "产出 4.4k 字笔记 · 路径规划与 ETA 预估  "
-    },
-    {
-      "time": "09:17",
-      "icon": "📚",
-      "title": "交通业务线 - 安全保护体系",
-      "desc": "产出 4.8k 字笔记 · 安全保护体系  "
-    },
-    {
-      "time": "09:08",
-      "icon": "📚",
-      "title": "交通业务线 - PM 核心指标与考核体系",
-      "desc": "产出 4.8k 字笔记 · PM 核心指标与考核体系  "
-    },
-    {
-      "time": "08:50",
-      "icon": "📚",
-      "title": "交通业务线 - OTA 行业分析",
-      "desc": "产出 4.3k 字笔记 · OTA 行业分析  "
-    },
-    {
-      "time": "08:40",
-      "icon": "📚",
-      "title": "交通业务线 - 核心指标与 KPI 体系",
-      "desc": "产出 5.3k 字笔记 · 核心指标与 KPI 体系  "
     }
   ],
   "meta": {
-    "totalNotes": 941,
+    "totalNotes": 943,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T02:00:02.402Z",
+    "lastUpdated": "2026-03-20T02:30:02.069Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
