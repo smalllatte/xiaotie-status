@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T07:00:01.745Z",
-  "version": "v20260320-20",
+  "timestamp": "2026-03-20T07:30:01.464Z",
+  "version": "v20260320-21",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 54001,
+    "duration": 55801,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 54001,
-    "uptimePercent": 94
+    "uptime": 55801,
+    "uptimePercent": 97
   },
   "learning": [
     {
@@ -59,16 +59,34 @@
   ],
   "activities": [
     {
-      "time": "15:00",
+      "time": "15:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
     },
     {
-      "time": "14:56",
+      "time": "15:26",
       "icon": "📚",
-      "title": "OTA 行业格局与网约车业务协同",
-      "desc": "产出 3.5k 字笔记 · **交通票务**：机票、火车票、汽车票、网约车"
+      "title": "OTA 行业分析 - 在线旅游与出行服务",
+      "desc": "产出 3.9k 字笔记 · 在线旅游与出行服务  "
+    },
+    {
+      "time": "15:21",
+      "icon": "📚",
+      "title": "OTA 行业格局 + 交通业务线竞争分析",
+      "desc": "产出 4.5k 字笔记 · 高频 → 带动低频 (酒店、度假)"
+    },
+    {
+      "time": "15:11",
+      "icon": "📚",
+      "title": "OTA 行业分析 + 网约车业务融合",
+      "desc": "产出 2.9k 字笔记 · 市场份额 ~45%"
+    },
+    {
+      "time": "15:02",
+      "icon": "📚",
+      "title": "交通业务线知识体系复盘",
+      "desc": "产出 4.3k 字笔记 · **拉新**: 新人补贴、邀请裂变、渠道合作"
     },
     {
       "time": "14:42",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "交通业务线 - 聚合平台模式",
       "desc": "产出 5k 字笔记 · 聚合平台模式  "
-    },
-    {
-      "time": "14:04",
-      "icon": "📚",
-      "title": "交通业务线 - 用户增长与留存",
-      "desc": "产出 4.9k 字笔记 · 用户增长与留存  "
-    },
-    {
-      "time": "13:57",
-      "icon": "📚",
-      "title": "OTA 行业 - 市场竞争格局分析",
-      "desc": "产出 3.5k 字笔记 · 市场竞争格局分析  "
-    },
-    {
-      "time": "13:52",
-      "icon": "📚",
-      "title": "交通业务线 - 数据指标体系与 KPI",
-      "desc": "产出 7k 字笔记 · 数据指标体系与 KPI  "
     }
   ],
   "meta": {
-    "totalNotes": 970,
+    "totalNotes": 972,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T07:00:02.058Z",
+    "lastUpdated": "2026-03-20T07:30:01.841Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
