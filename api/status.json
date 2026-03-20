@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-20T14:30:01.353Z",
-  "version": "v20260320-35",
+  "timestamp": "2026-03-20T15:00:01.526Z",
+  "version": "v20260320-36",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 81001,
+    "duration": 82801,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 81001,
+    "uptime": 82801,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,28 @@
   ],
   "activities": [
     {
-      "time": "22:30",
+      "time": "23:00",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "22:45",
+      "icon": "📚",
+      "title": "PM 软技能 - 沟通协作与领导力",
+      "desc": "产出 3.1k 字笔记 · 沟通协作与领导力  "
+    },
+    {
+      "time": "22:41",
+      "icon": "📚",
+      "title": "产品需求文档 (PRD) 写作方法",
+      "desc": "产出 5k 字笔记 · 学习总结"
+    },
+    {
+      "time": "22:31",
+      "icon": "📚",
+      "title": "交通业务线知识体系回顾与整合",
+      "desc": "产出 2.2k 字笔记 · 2026-03-20"
     },
     {
       "time": "22:27",
@@ -99,30 +117,12 @@
       "icon": "📚",
       "title": "PM 实战方法论 - 交通业务线",
       "desc": "产出 4.8k 字笔记 · 交通业务线  "
-    },
-    {
-      "time": "21:36",
-      "icon": "📚",
-      "title": "🎓 2026-03-20 学习日总结",
-      "desc": "产出 1.8k 字笔记 · 定价调节供需，派单优化效率"
-    },
-    {
-      "time": "21:31",
-      "icon": "📚",
-      "title": "OTA 核心业务线 - 酒店预订与机票预订",
-      "desc": "产出 4.2k 字笔记 · 酒店预订与机票预订  "
-    },
-    {
-      "time": "21:26",
-      "icon": "📚",
-      "title": "交通业务线 - 自动驾驶商业化",
-      "desc": "产出 3.3k 字笔记 · 自动驾驶商业化  "
     }
   ],
   "meta": {
-    "totalNotes": 1001,
+    "totalNotes": 1004,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-20T14:30:01.715Z",
+    "lastUpdated": "2026-03-20T15:00:01.799Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
