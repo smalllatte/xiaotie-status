@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-21T20:59:01.171Z",
+  "timestamp": "2026-03-21T21:30:02.190Z",
   "version": "v20260321-46",
   "status": {
     "workspace": "空闲中",
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "04:59",
+      "time": "05:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "05:25",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:25",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:25"
+    },
+    {
+      "time": "05:20",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:20",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:20"
+    },
+    {
+      "time": "05:15",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:15",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:15"
+    },
+    {
+      "time": "05:10",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:10",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:10"
+    },
+    {
+      "time": "05:05",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:05",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:05"
+    },
+    {
+      "time": "05:00",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-22 05:00",
+      "desc": "产出 0.2k 字笔记 · 2026-03-22 05:00"
     },
     {
       "time": "04:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "产品经理核心能力模型",
       "desc": "产出 1.1k 字笔记 · 2026-03-22 04:45"
-    },
-    {
-      "time": "04:45",
-      "icon": "📚",
-      "title": "产品经理核心能力体系与成长路径",
-      "desc": "产出 6.9k 字笔记 · 用户访谈设计与执行"
-    },
-    {
-      "time": "04:40",
-      "icon": "📚",
-      "title": "OKR 目标管理与产品规划",
-      "desc": "产出 0.8k 字笔记 · 2026-03-22 04:40"
-    },
-    {
-      "time": "04:40",
-      "icon": "📚",
-      "title": "OKR 目标管理方法与产品规划实践",
-      "desc": "产出 7.1k 字笔记 · 定性的、鼓舞人心的、有挑战性的                    │"
-    },
-    {
-      "time": "04:35",
-      "icon": "📚",
-      "title": "A/B 测试与实验方法论",
-      "desc": "产出 0.8k 字笔记 · 2026-03-22 04:35"
-    },
-    {
-      "time": "04:35",
-      "icon": "📚",
-      "title": "A/B 测试实验设计与数据分析方法",
-      "desc": "产出 6.4k 字笔记 · 用数据代替直觉，减少主观判断          │"
-    },
-    {
-      "time": "04:30",
-      "icon": "📚",
-      "title": "产品需求分析与 PRD 写作",
-      "desc": "产出 0.8k 字笔记 · 2026-03-22 04:30"
     }
   ],
   "meta": {
-    "totalNotes": 1325,
+    "totalNotes": 1331,
     "todayNotes": 290,
-    "lastUpdated": "2026-03-21T20:59:01.487Z",
+    "lastUpdated": "2026-03-21T21:30:02.787Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
