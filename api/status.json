@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-21T08:00:01.738Z",
-  "version": "v20260321-30",
+  "timestamp": "2026-03-21T08:30:01.456Z",
+  "version": "v20260321-31",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 57601,
+    "duration": 59401,
     "taskDuration": 0
   },
   "today": {
@@ -18,7 +18,7 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 57601,
+    "uptime": 59401,
     "uptimePercent": 100
   },
   "learning": [
@@ -59,10 +59,46 @@
   ],
   "activities": [
     {
-      "time": "16:00",
+      "time": "16:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "16:25",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 16:25",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 16:25"
+    },
+    {
+      "time": "16:20",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 16:20",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 16:20"
+    },
+    {
+      "time": "16:15",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 16:15",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 16:15"
+    },
+    {
+      "time": "16:11",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 16:10",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 16:10"
+    },
+    {
+      "time": "16:05",
+      "icon": "📚",
+      "title": "Auto-Learning Checkpoint - 2026-03-21 16:05",
+      "desc": "产出 0.3k 字笔记 · 2026-03-21 16:05"
+    },
+    {
+      "time": "16:01",
+      "icon": "📚",
+      "title": "14 个核心主题 + 知识体系总结",
+      "desc": "产出 0.7k 字笔记 · 2026-03-21 16:00"
     },
     {
       "time": "15:55",
@@ -81,48 +117,12 @@
       "icon": "📚",
       "title": "Auto-Learning Checkpoint - 2026-03-21 15:45",
       "desc": "产出 0.3k 字笔记 · 2026-03-21 15:45"
-    },
-    {
-      "time": "15:40",
-      "icon": "📚",
-      "title": "Auto-Learning Checkpoint - 2026-03-21 15:40",
-      "desc": "产出 0.3k 字笔记 · 2026-03-21 15:40"
-    },
-    {
-      "time": "15:35",
-      "icon": "📚",
-      "title": "Auto-Learning Checkpoint - 2026-03-21 15:35",
-      "desc": "产出 0.3k 字笔记 · 2026-03-21 15:35"
-    },
-    {
-      "time": "15:30",
-      "icon": "📚",
-      "title": "14 个核心主题 + 知识体系总结",
-      "desc": "产出 0.7k 字笔记 · 2026-03-21 15:30"
-    },
-    {
-      "time": "15:25",
-      "icon": "📚",
-      "title": "Auto-Learning Checkpoint - 2026-03-21 15:25",
-      "desc": "产出 0.3k 字笔记 · 2026-03-21 15:25"
-    },
-    {
-      "time": "15:20",
-      "icon": "📚",
-      "title": "Auto-Learning Checkpoint - 2026-03-21 15:20",
-      "desc": "产出 0.3k 字笔记 · 2026-03-21 15:20"
-    },
-    {
-      "time": "15:16",
-      "icon": "📚",
-      "title": "Auto-Learning Checkpoint - 2026-03-21 15:15",
-      "desc": "产出 0.3k 字笔记 · 2026-03-21 15:15"
     }
   ],
   "meta": {
-    "totalNotes": 1200,
+    "totalNotes": 1206,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-21T08:00:02.451Z",
+    "lastUpdated": "2026-03-21T08:30:01.990Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
