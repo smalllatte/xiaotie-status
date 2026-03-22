@@ -22950,3 +22950,54 @@ To github.com:smalllatte/xiaotie-status.git
  M deploy.log
 
 📦 步骤 2: 添加所有变更...
+✅ 已添加所有变更
+
+📦 步骤 3: 提交变更...
+   提交信息：chore: 自动更新 2026-03-23-0200
+[main cf3b286] chore: 自动更新 2026-03-23-0200
+ 2 files changed, 82 insertions(+), 31 deletions(-)
+
+🚀 步骤 4: 推送到 GitHub...
+To github.com:smalllatte/xiaotie-status.git
+   8a75f00..cf3b286  main -> main
+
+================================
+✅ 部署完成！
+
+🌐 生产域名：https://xiaotie-status.pages.dev
+⏱️ 部署时间：通常 30-60 秒
+
+💡 提示：硬刷新查看最新版本 (Ctrl+Shift+R / Cmd+Shift+R)
+================================
+🦾 小铁状态网站 - 自动部署脚本
+================================
+
+🧪 步骤 0: 运行自动化测试...
+🦾 小铁状态网站 - 测试脚本
+================================
+
+📋 测试项目:
+
+✅ PASS: API 文件存在
+✅ PASS: API JSON 格式有效
+✅ PASS: API 必需字段完整
+✅ PASS: 学习进度数据合理 (0-100%)
+✅ PASS: 活动日志时间倒序
+✅ PASS: index.html 文件存在
+✅ PASS: index.html 包含标题
+✅ PASS: 版本号格式正确（无 PM）
+✅ PASS: 统计数据合理（非负数）
+✅ PASS: 学习进度包含 noteCount
+
+================================
+📊 测试结果：
+   通过：10
+   失败：0
+================================
+✅ 所有测试通过！
+
+📦 步骤 1: 检查 Git 状态...
+ M api/status.json
+ M deploy.log
+
+📦 步骤 2: 添加所有变更...
