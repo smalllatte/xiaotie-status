@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-23T07:00:01.272Z",
-  "version": "v20260323-29",
+  "timestamp": "2026-03-23T07:30:01.689Z",
+  "version": "v20260323-30",
   "status": {
     "workspace": "空闲中",
     "workspaceIcon": "💤",
@@ -10,7 +10,7 @@
   "currentSession": {
     "title": "等待指令",
     "description": "准备就绪",
-    "duration": 54001,
+    "duration": 55801,
     "taskDuration": 0
   },
   "today": {
@@ -18,8 +18,8 @@
     "tasks": 0,
     "messages": 0,
     "learning": 0,
-    "uptime": 54001,
-    "uptimePercent": 94
+    "uptime": 55801,
+    "uptimePercent": 97
   },
   "learning": [
     {
@@ -59,70 +59,70 @@
   ],
   "activities": [
     {
-      "time": "15:00",
+      "time": "15:30",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
+    },
+    {
+      "time": "15:25",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:25",
+      "desc": "产出 0.5k 字笔记 · 2026-03-23 15:25"
+    },
+    {
+      "time": "15:22",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:20",
+      "desc": "产出 0.7k 字笔记 · 2026-03-23 15:20"
+    },
+    {
+      "time": "15:21",
+      "icon": "📚",
+      "title": "自动学习计划 - 2026-03-23 15:20",
+      "desc": "产出 4.6k 字笔记 · 2026-03-23 15:20"
+    },
+    {
+      "time": "15:15",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:15",
+      "desc": "产出 0.5k 字笔记 · 2026-03-23 15:15"
+    },
+    {
+      "time": "15:11",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:10",
+      "desc": "产出 0.5k 字笔记 · 2026-03-23 15:10"
+    },
+    {
+      "time": "15:06",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:05",
+      "desc": "产出 0.6k 字笔记 · 2026-03-23 15:05"
+    },
+    {
+      "time": "15:06",
+      "icon": "📚",
+      "title": "自动学习计划 - 2026-03-23 15:00",
+      "desc": "产出 3.2k 字笔记 · 2026-03-23 15:00"
+    },
+    {
+      "time": "15:01",
+      "icon": "📚",
+      "title": "Checkpoint - 2026-03-23 15:00",
+      "desc": "产出 0.5k 字笔记 · 2026-03-23 15:00"
     },
     {
       "time": "14:55",
       "icon": "📚",
       "title": "Checkpoint - 2026-03-23 14:55",
       "desc": "产出 0.5k 字笔记 · 2026-03-23 14:55"
-    },
-    {
-      "time": "14:50",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:50",
-      "desc": "产出 0.5k 字笔记 · 2026-03-23 14:50"
-    },
-    {
-      "time": "14:45",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:45",
-      "desc": "产出 0.5k 字笔记 · 2026-03-23 14:45"
-    },
-    {
-      "time": "14:40",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:40",
-      "desc": "产出 0.6k 字笔记 · 2026-03-23 14:40"
-    },
-    {
-      "time": "14:35",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:35",
-      "desc": "产出 0.6k 字笔记 · 2026-03-23 14:35"
-    },
-    {
-      "time": "14:31",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:30",
-      "desc": "产出 0.6k 字笔记 · 2026-03-23 14:30"
-    },
-    {
-      "time": "14:25",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:25",
-      "desc": "产出 0.5k 字笔记 · 2026-03-23 14:25"
-    },
-    {
-      "time": "14:20",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:20",
-      "desc": "产出 0.6k 字笔记 · 2026-03-23 14:20"
-    },
-    {
-      "time": "14:15",
-      "icon": "📚",
-      "title": "Checkpoint - 2026-03-23 14:15",
-      "desc": "产出 0.5k 字笔记 · 2026-03-23 14:15"
     }
   ],
   "meta": {
-    "totalNotes": 1800,
+    "totalNotes": 1808,
     "todayNotes": 0,
-    "lastUpdated": "2026-03-23T07:00:01.671Z",
+    "lastUpdated": "2026-03-23T07:30:02.122Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
