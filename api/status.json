@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T21:00:02.000Z",
+  "timestamp": "2026-04-08T21:29:01.216Z",
   "version": "v20260408-41",
   "status": {
     "workspace": "空闲中",
@@ -59,7 +59,7 @@
   ],
   "activities": [
     {
-      "time": "05:00",
+      "time": "05:29",
       "icon": "⚡",
       "title": "等待指令",
       "desc": "准备就绪"
@@ -122,7 +122,7 @@
   "meta": {
     "totalNotes": 2004,
     "todayNotes": 0,
-    "lastUpdated": "2026-04-08T21:00:02.726Z",
+    "lastUpdated": "2026-04-08T21:29:01.566Z",
     "dataSource": "本地 memory 文件 + learning 目录统计",
     "dataVerified": true
   }
